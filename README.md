@@ -9,7 +9,7 @@ Main contributors are as follows:
 
 **How to use this repo:**
 
-The contained files are the *uncompressed* version of the `permafrost-[VERSION NUMBER].zip` file in the root directory of each branch within the `pack` folder.
+The contained files are the *uncompressed* version of the `permafrost-[VERSION NUMBER].zip` file for that release, which will likely also be avalibe (starting with 1.1.5) as releases in the Releases tab.
 
 To update mod versions, use the Curseforge/GDLauncher programs to modify the `manifest.json` and `modlist.html` files **indirectly**, as modifying them by hand isn't intuitive, sadly.
 
