@@ -1,0 +1,1182 @@
+{
+  "name": "The Truth",
+  "quests": [
+    {
+      "uuid": "e9d633bd-39c1-4d75-ae91-4f19bbf6cda0",
+      "name": "The Past",
+      "description": "You can feel them, pulling your soul in countless directions as they call out to you.\n\nThere are more eyes out there... More information. Those eyes... they\u0027re the key to finding out what really happened. They have to be.",
+      "x": 81,
+      "y": 83,
+      "icon": {
+        "id": "druidcraft:bone_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "COMPLETION",
+          "description": "FIND THE EYES",
+          "longDescription": "FIND US WITHIN THE RUINS OF WHAT CAME BEFORE.",
+          "completed_quests": [
+            {
+              "quest_uuid": "2f2d5183-1ca8-4b10-b128-b82701a00cf4"
+            },
+            {
+              "quest_uuid": "d7e095f8-0cde-48fe-876f-969240d6672a"
+            },
+            {
+              "quest_uuid": "3c50252a-d610-4aa6-8473-d9f76a664527"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "betterendforge:bucket_end_fish",
+          "Count": 1
+        },
+        {
+          "id": "betterendforge:bucket_end_fish",
+          "Count": 1
+        },
+        {
+          "id": "betterendforge:bucket_end_fish",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "609c01dd-66aa-4a0d-ab44-b606835c6ef9",
+      "name": "The Truth",
+      "description": "No... No No No No No. This isn\u0027t right. The Eyes... their demands... they\u0027re using you. They\u0027re using you to reunite... and do something terrible. You\u0027re sure of it, now. But... but what?\n\n...\n\nThat\u0027s it. They caused the Permafrost. Whatever they power... it\u0027s the cause. You need to find it. You need to learn the truth.\n\nThere... there has to be something here. Some sort of explanation, for what the hell happened.",
+      "x": 206,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:writable_book",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "There has to be some kind of explanation for this. Something that could tell you how it happened...\n\nThere has to be something.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:written_book",
+                "Count": 1,
+                "tag": {
+                  "pages": [
+                    "{\"text\":\"I’m writing this right before leaving this damned castle. The King, Alex, everyone is dead.  I was one of the leaders of the program which experimented with the portal and now I’m the last member alive, as far as I know. This damned portal didn’t work as intended, not at all.\"}",
+                    "{\"text\":\" It was supposed to transport us to the other castles, but it didn’t. Three weeks ago, the first expedition went in, but never returned.Two weeks ago, tall, black monster with purple eyes started crawling out of the portal, and wreaking havoc in the castle.\"}",
+                    "{\"text\":\"We managed to stop these monstrosities, but we soon realized that they were in fact the members of the past expeditions, disfigured beyond recognition.Countless other attacks by these monsters rained on the castle, until I was the only human alive. \"}",
+                    "{\"text\":\"I managed to destroy the Powered Core and to rip all the damned eyes out of their socket. As far as I’m alive, my goal will always be to hide them, so no one can lay the same curse upon themselves.,\"}",
+                    "{\"text\":\"No mountain, no rainforest, no water temple shall stop me, for I’m the only one capable of preventing this mayhem from happening again. If you’re standing here, you’ve probably got them. Or not. I don’t care.\"}",
+                    "{\"text\":\"But beware, don’t go in the portal. It deceives you, promising glory and fame. It lies, for only death is beyond the portal. If you go in, demise will be your §l §   End.\"}"
+                  ],
+                  "title": "To Whomever It May Concern",
+                  "author": "A Selfless Adventurer",
+                  "resolved": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2feb109b-b3c4-412b-ad1f-170151b5d41f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "naturescompass:naturescompass",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a94f1425-d2b5-484e-8e0d-204a324c6538",
+      "name": "Something\u0027s Missing...",
+      "description": "...It\u0027s clear, now. The Eyes did this. They killed your people. They made the Endermen. They... that portal... it did everything. The ancient, molding book in your hands confirms it.\n\nThat portal... it was a portal to another dimension. The home of the Endermen. The Eye of the Storm. The End.\n\nThe Eyes were lying to you. They want nothing more than to open that stupid portal, and cleanse the world with this stupid storm.\n\nBut you\u0027re not gonna let them. Actually, you know what? Screw it. Screw the Eyes. Screw whatever\u0027s on the other side of the portal. In fact? You\u0027re gonna go in there, you\u0027re gonna find whatever caused this storm...\n\nAnd you\u0027re gonna kill it.\n\nBut first... you need to complete the portal. And you\u0027re gonna do it your own way. You\u0027ll make your own final piece, and stop the eyes from coming together again. You don\u0027t know whether or not it\u0027ll work... but that doesn\u0027t matter.\n\nIt\u0027s time to end this.",
+      "x": 254,
+      "y": 123,
+      "icon": {
+        "id": "endrem:end_crystal_fragment",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You\u0027ll need something to counteract the Cold Eye. Something... something from the Nether. You`ve felt that now-familiar pull that the eyes give off in the Basalt Deltas... there must be something there that you could use.",
+          "items": [
+            {
+              "item": {
+                "id": "endrem:end_crystal_fragment",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You know what you need to do, now. An unknown recipe. A final, eleventh eye, made by human hands... to counteract the rest, and stabilize their limitless magic. The Crystal Eye.\n\nPlace an eye of ender down in the center of a crafting table, and surround it with the four end crystal fragments, one on each side.\n\nWith this final piece... you won\u0027t repeat the mistakes of the past. You\u0027ll face the heart of the Permafrost head on, and avenge the world that it ravaged.",
+          "advancements": [
+            {
+              "name": "The Crystal Eye",
+              "icon": {
+                "id": "endrem:end_crystal_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/end_crystal_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "609c01dd-66aa-4a0d-ab44-b606835c6ef9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artifacts:crystal_heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "endrem:end_crystal_sword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "endrem:end_crystal_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "endrem:end_crystal_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "endrem:end_crystal_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "af84ddb2-f2e4-4753-b9a7-4419f122ef9b",
+      "name": "The Source",
+      "description": "This eye gives you an uneasy feeling. It feels like the storm itself is watching you...\n\nMaybe it is. Maybe this is one of the things that did it. Maybe the Cold Eye is the cause.\n\nIt\u0027s strange. It feels like this one is stronger than the rest. Like it has a stronger connection to wherever it came from.",
+      "x": 81,
+      "y": 186,
+      "icon": {
+        "id": "endrem:cold_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Cold Eye, a mysterious frozen eye that seems to resonate with the Permafrost.",
+          "advancements": [
+            {
+              "name": "The Cold Eye",
+              "icon": {
+                "id": "endrem:cold_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/cold_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "savageandravage:wand_of_freezing",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9bde3726-17f5-419c-9d5a-18c203b0215e",
+      "name": "Into the Breach",
+      "description": "At long last... everything is ready.\n\n You\u0027ve defied the Eyes. You\u0027ve powered the core. You\u0027ve created an Eye of your own, one that will hopefully counteract the effect of the other eyes. Now... all that\u0027s left is to activate that portal, and face down whatever the hell awaits you on the other side.\n\nIt\u0027s time to end this, and make sure the Permafrost never happens again.",
+      "x": 280,
+      "y": 97,
+      "icon": {
+        "id": "greater_eye:greater_eye_end",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Activate the Portal, and go through.\n\nPure cold practically emanates from the portal itself... You\u0027re getting the feeling that the tactics you\u0027ve used to warm yourself thus far won\u0027t be enough on the other side.",
+          "advancements": [
+            {
+              "name": "The End?",
+              "icon": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/enter_the_end"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a94f1425-d2b5-484e-8e0d-204a324c6538"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "survive:cold_resistance"
+          }
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ac75032f-59bb-4a02-878b-e3e9c28c6264",
+      "name": "Within the Fortress",
+      "description": "Ah, the Nether. A rather hostile place... but it\u0027s still the same, at least.\n\nEven if all of the portals leading to it were destroyed when the Permafrost struck, you managed to find your way back into the fiery dimension. And now... you found one of the eyes. It almost seems mundane, compared to the rest of them. It feels... surprisingly normal.",
+      "x": 47,
+      "y": 30,
+      "icon": {
+        "id": "endrem:nether_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Nether Eye in the depths of a Nether Fortress.",
+          "advancements": [
+            {
+              "name": "The Nether Eye",
+              "icon": {
+                "id": "endrem:nether_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/nether_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artifacts:obsidian_skull",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c50252a-d610-4aa6-8473-d9f76a664527",
+      "name": "Ancient Knowledge",
+      "description": "This eye... it speaks. When you hold it, you can hear whispers in the back of your mind. Whispers of... knowledge. Of technology.\n\nOf Redstone.\n\nRedstone has been integral to society for so long... even the first people had knowledge of Redstone. But... this feels older. Like it taught someone long before you.",
+      "x": 133,
+      "y": 65,
+      "icon": {
+        "id": "endrem:rogue_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Rogue Eye; an incredibly old eye that whispers of ancient secrets.",
+          "advancements": [
+            {
+              "name": "The Rogue Eye",
+              "icon": {
+                "id": "endrem:rogue_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/rogue_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:extendo_grip",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "777e6c92-39e8-4248-9b66-143a5d9786cc",
+      "name": "A Return to Normalcy",
+      "description": "This eye feels... pleasant. It feels like the past, before the storm. Those mineshafts felt so much more familiar than the surface. They were left untouched by the Permafrost, as was the rest of the underground...\n\nIt just goes to show... Even in the Permafrost, you can thrive. There\u0027s still life. There\u0027s still hope.\n\nHold onto it, and never let go.",
+      "x": 47,
+      "y": 167,
+      "icon": {
+        "id": "endrem:lost_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You can still rebuild. You can\u0027t reverse the storm, but you can adapt to it. You found the Lost Eye.",
+          "advancements": [
+            {
+              "name": "The Lost Eye",
+              "icon": {
+                "id": "endrem:lost_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/lost_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "quark:diamond_heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2feb109b-b3c4-412b-ad1f-170151b5d41f",
+      "name": "REUNITE US.",
+      "description": "You can hear them SCREAMING in the back of your head, now. You\u0027ve put them together. You\u0027ve powered the Core. And now, they\u0027re telling you where to go.\n\nA ruined castle, hidden away and left to decay for centuries. That... that must be where the Eyes want to be taken.\n\nYou can get there... but... you\u0027ll need to figure out how.",
+      "x": 180,
+      "y": 101,
+      "icon": {
+        "id": "endrem:powered_core",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "REUNITE US.\n\nMAKE US WHOLE AGAIN.\n\nWIPE THIS SLATE CLEAN.",
+          "advancements": [
+            {
+              "name": "FINISH.",
+              "icon": {
+                "id": "endrem:cold_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/find_end_castle"
+            },
+            {
+              "name": "THE.",
+              "icon": {
+                "id": "endrem:cold_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/find_end_castle"
+            },
+            {
+              "name": "JOB.",
+              "icon": {
+                "id": "endrem:cold_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/find_end_castle"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89312b82-70be-42d8-b74d-c2496edf9401"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "endrem:cold_pearl",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f2d5183-1ca8-4b10-b128-b82701a00cf4",
+      "name": "Long Before the Storm",
+      "description": "The Guardians have existed for eons, at this point. They were there at the rise of civilization... and now, you supposed, they were there at its end.\n\nHowever, one thing always confused you. The Guardians are artificial. They aren\u0027t living creatures. They\u0027re constructs, much like the golems. They were created to guard the temples, but the temples have been empty for... well... eons. Was there a civilization that came before yours? And... if so... where did they go, and why were their creations built with these eyes?",
+      "x": 81,
+      "y": 11,
+      "icon": {
+        "id": "endrem:guardian_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Guardian Eye; an eye used in the creation of ancient aquatic constructs.",
+          "advancements": [
+            {
+              "name": "The Guardian Eye",
+              "icon": {
+                "id": "endrem:guardian_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/guardian_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:trident",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "40566155-139e-4330-952a-ab58c8ea9db8",
+      "name": "The Sentinel, Slain",
+      "description": "You can still remember the first time you saw a Wither. The way it hovered vigilant in place, much like the loyal Iron Golem... but it was something more. The Wither was a testament of human persistence and dedication, a sentinel constructed of inherently hostile materials, made into a loyal guard and companion.\n\nNow, without anything to watch over, the man made construct simply went berserk, destroying everything in its path.\n\nWhen you killed it, something rolled out of the middle skull... something that wasn\u0027t usually there. The Wither Eye stares coldly at you, its magic and purpose long since dulled.\n\nYou can feel that same otherworldly presence watching you, now. Even the Withers, the pinnacle of human persistence, the living proof of the fact that humanity can find use in even the most dangerous of things... have been worn down. It\u0027s a sad sight.",
+      "x": 115,
+      "y": 167,
+      "icon": {
+        "id": "endrem:wither_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Wither Eye. A strange eye found within a sentinel that had long since lost its purpose.",
+          "advancements": [
+            {
+              "name": "The Wither Eye",
+              "icon": {
+                "id": "endrem:wither_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/wither_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "backpacker:netherpack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "badc7f23-3124-44ee-bbf3-c2af7ec8aa0f",
+      "name": "Hidden Away",
+      "description": "Someone left this here a long time ago. They buried it under the sand and sailed away, with the only map leading to it in their possession.\n\nThe Black Eye was never meant to be found... but, nonetheless, you found it. Whoever hid that eye there is long gone, now. They might\u0027ve died in the shipwreck where you found the treasure map. Who knows?\n\nCertainly not you. All that matters is that you\u0027ve managed to find it.",
+      "x": 27,
+      "y": 136,
+      "icon": {
+        "id": "endrem:black_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Black Eye in a buried treasure trove, hidden away by someone long dead.",
+          "advancements": [
+            {
+              "name": "The Black Eye",
+              "icon": {
+                "id": "endrem:black_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/black_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "scuba_gear:scuba_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89312b82-70be-42d8-b74d-c2496edf9401",
+      "name": "The Core Component",
+      "description": "Something\u0027s missing. You\u0027ve been collecting these eyes... but for what? All they\u0027ve given you are some context clues... some hints as to what\u0027s really going on... but there has to be something bigger going on...\n\n...\n\nThe eyes want to be reunited.\n\nThey want to become whole again.\n\n...\n\nThat\u0027s it. They\u0027re meant to power things. The eyes are incredibly magical, incredibly dangerous power sources. And... when they all come together... they power something massive. But... they need a core. Something to channel all of their power, to do something...\n\nSomething otherworldly. You don\u0027t know what. But you need to find out.",
+      "x": 141,
+      "y": 101,
+      "icon": {
+        "id": "endrem:core",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft something that could channel the magic of the eyes into some sort of contraption. You can... hear them, whispering instructions to you. Netherite and obsidian.",
+          "items": [
+            {
+              "item": {
+                "id": "endrem:core",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "The Core needs to be powered. It NEEDS to be powered. IT NEEDS TO BE POWERED. POWER THE CORE. I DEMAND IT.",
+          "items": [
+            {
+              "item": {
+                "id": "endrem:powered_core",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f9c2029a-f962-43a3-8621-f7753413690a",
+        "10c066ae-d6d4-435a-96de-17a94e4f8548",
+        "e9d633bd-39c1-4d75-ae91-4f19bbf6cda0",
+        "685c8600-060a-4fc0-96f8-3436e1e03865"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "betterendforge:tenanea_sapling",
+          "Count": 1
+        },
+        {
+          "id": "betterendforge:helix_tree_sapling",
+          "Count": 1
+        },
+        {
+          "id": "betterendforge:pythadendron_sapling",
+          "Count": 1
+        },
+        {
+          "id": "betterendforge:dragon_tree_sapling",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10c066ae-d6d4-435a-96de-17a94e4f8548",
+      "name": "The Storm",
+      "description": "You can feel them, pulling your soul in countless directions as they call out to you.\n\nThere are more eyes out there... More information. Those eyes... they\u0027re the key to finding out what really happened. They have to be.",
+      "x": 81,
+      "y": 118,
+      "icon": {
+        "id": "druidcraft:moonstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "COMPLETION",
+          "description": "FIND THE EYES",
+          "longDescription": "FIND US. WE WILL TELL YOU EVERYTHING.",
+          "completed_quests": [
+            {
+              "quest_uuid": "af84ddb2-f2e4-4753-b9a7-4419f122ef9b"
+            },
+            {
+              "quest_uuid": "777e6c92-39e8-4248-9b66-143a5d9786cc"
+            },
+            {
+              "quest_uuid": "badc7f23-3124-44ee-bbf3-c2af7ec8aa0f"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "betterendforge:terminite_anvil",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "betterendforge:end_stone_furnace",
+          "Count": 4
+        },
+        {
+          "id": "betterendforge:flavolite_furnace",
+          "Count": 4
+        },
+        {
+          "id": "betterendforge:violecite_furnace",
+          "Count": 4
+        },
+        {
+          "id": "betterendforge:sulphuric_rock_furnace",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4728f821-79ff-4813-b32e-429dd7636be4",
+      "name": "The Heart of the Storm",
+      "description": "This is it.\n\nThis is the Heart of the Storm.\n\nEverything you\u0027ve done has led up to this.\n\nYou can feel the frigid cold in your very soul. It disregards the fire, pierces through protection... chills you to your very core.\n\nBut you\u0027ve endured the cold for far too long now to give up. The thing that caused the Permafrost is here... and you\u0027re gonna kill it.\n\nThis is the End.",
+      "x": 277,
+      "y": 22,
+      "bigicon": true,
+      "icon": {
+        "id": "endrem:cold_pearl",
+        "Count": 1,
+        "tag": {
+          "RepairCost": 1,
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "lvl": 1,
+              "id": "corpsecomplex:soulbinding"
+            }
+          ]
+        }
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "description": "FACE THE STORM",
+          "longDescription": "Slay the Ender Dragon.",
+          "advancements": [
+            {
+              "name": "Kill the Cold",
+              "icon": {
+                "id": "endrem:lost_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "minecraft:end/kill_dragon"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9bde3726-17f5-419c-9d5a-18c203b0215e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:elytra",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "waystones:warp_stone",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "eidolon:top_hat",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35ecff97-1c28-4caa-b91b-fb98f883246b",
+      "name": "Something Otherworldly",
+      "description": "It\u0027s staring into your soul... The eye. There\u0027s something strange about it. Something powerful about it.\n\nSomething cataclysmic about it.\n\nYou need to find out what.",
+      "x": 19,
+      "y": 101,
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "One down. Nine to go.",
+          "advancements": [
+            {
+              "name": "FIND THE EYES.",
+              "icon": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "adv_name": "endrem:main/root"
+            },
+            {
+              "name": "LEARN THE TRUTH.",
+              "icon": {
+                "id": "minecraft:writable_book",
+                "Count": 1
+              }
+            },
+            {
+              "name": "FACE THE STORM.",
+              "icon": {
+                "id": "survive:ice_cube",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9c2029a-f962-43a3-8621-f7753413690a",
+      "name": "The Beyond",
+      "description": "You can feel them, pulling your soul in countless directions as they call out to you.\n\nThere are more eyes out there... More information. Those eyes... they\u0027re the key to finding out what really happened. They have to be.",
+      "x": 81,
+      "y": 151,
+      "icon": {
+        "id": "minecraft:netherite_scrap",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "COMPLETION",
+          "description": "FIND THE EYES",
+          "longDescription": "FIND US IN A LAND BEYOND THE STORM.",
+          "completed_quests": [
+            {
+              "quest_uuid": "ac75032f-59bb-4a02-878b-e3e9c28c6264"
+            },
+            {
+              "quest_uuid": "40566155-139e-4330-952a-ab58c8ea9db8"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:end_crystal",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7e095f8-0cde-48fe-876f-969240d6672a",
+      "name": "The Sands of Time",
+      "description": "Entering a desert temple felt... strange. You weren\u0027t supposed to go anywhere near them... much less delve directly into one.\n\nBut... that\u0027s beside the point. These ancient structures have been left alone since... practically the dawn of time. The dusty old eye that you had found within faintly pulsed with magic, far too weak to be used. Its power has been lost to the sands of time.",
+      "x": 113,
+      "y": 29,
+      "icon": {
+        "id": "endrem:old_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Old Eye, a relic whose magic has been dulled over the centuries.",
+          "advancements": [
+            {
+              "name": "The Old Eye",
+              "icon": {
+                "id": "endrem:old_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/old_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dannys_expansion:antique_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "dannys_expansion:antique_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "dannys_expansion:antique_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "dannys_expansion:antique_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:deathworm_gauntlet_yellow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:deathworm_gauntlet_white",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:deathworm_gauntlet_red",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c943672f-5891-4d71-90f9-bb9461d29dee",
+      "name": "Not of This World",
+      "description": "The Evoker... one of the pillagers... they were channeling the magic of this eye directly. You watched as the Vex, those strange flying creatures, appeared before your very eyes.\n\nThat wasn\u0027t normal. Those things came from... somewhere else. Somewhere far beyond your world, beyond even the Nether.\n\n...Is there another world, out there?",
+      "x": 28,
+      "y": 63,
+      "icon": {
+        "id": "endrem:magical_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Magical Eye, a strange eye used by the Evokers to summon things... not of this world.",
+          "advancements": [
+            {
+              "name": "The Magical Eye",
+              "icon": {
+                "id": "endrem:magical_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/magical_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "backpacker:endersack",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "685c8600-060a-4fc0-96f8-3436e1e03865",
+      "name": "The Survivors",
+      "description": "You can feel them, pulling your soul in countless directions as they call out to you.\n\nThere are more eyes out there... More information. Those eyes... they\u0027re the key to finding out what really happened. They have to be.",
+      "x": 81,
+      "y": 50,
+      "icon": {
+        "id": "artifacts:villager_hat",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "COMPLETION",
+          "description": "FIND THE EYES",
+          "longDescription": "FIND US WITH THE ONES WHO STILL WANDER THIS DOOMED WORLD.",
+          "completed_quests": [
+            {
+              "quest_uuid": "0660c241-b596-4c9e-91bb-4e391398d2ee"
+            },
+            {
+              "quest_uuid": "c943672f-5891-4d71-90f9-bb9461d29dee"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:ender_air_bottle",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:dragon_breath",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0660c241-b596-4c9e-91bb-4e391398d2ee",
+      "name": "Survival of the Fittest",
+      "description": "Before you found this eye, it was a mystery to you how the Pillagers managed to survive the storm for this long.\n\nNow, you can see why. They used the Eyes. You don\u0027t know how they were used... but they were. And now, you have one. Maybe... just maybe... you could use one, too.",
+      "x": 133,
+      "y": 136,
+      "icon": {
+        "id": "endrem:corrupted_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "The Corrupted Eye",
+              "icon": {
+                "id": "endrem:corrupted_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/corrupted_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "savageandravage:cleaver_of_beheading",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "???"
+}

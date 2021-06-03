@@ -1,0 +1,83 @@
+
+[fatigue]
+	#Fatigue is decreased by this number while you sleep (every tick)
+	fatigueReplenishRate = 0.00833
+	#The required amount of fatigue to sleep
+	minimumFatigueToSleep = 20
+	#Fatigue is incremented by this number every tick
+	fatigueRate = 0.00208
+	#Enables fatigue side effects
+	fatigueSideEffects = false
+
+#Fatigue levels to enter each side effect stage, their potion IDs, amplifiers and duration (ticks)
+[fatigueSideEffects]
+	#Effect duration of the third stage
+	sideEffectStage3Duration = 200
+	#Potion effect ID of the second stage
+	sideEffectStage2Potion = 2
+	#Potion effect ID of the third stage
+	sideEffectStage3Potion = 19
+	#Potion effect amplifier of the first stage
+	sideEffectStage1Amplifier = 0
+	#Effect duration of the first stage
+	sideEffectStage1Duration = 150
+	#Amount of fatigue required to enter the fourth side effect stage
+	sideEffectStage4 = 95
+	#Potion effect ID of the first stage
+	sideEffectStage1Potion = 9
+	#Amount of fatigue required to enter the second side effect stage
+	sideEffectStage2 = 80
+	#Amount of fatigue required to enter the third side effect stage
+	sideEffectStage3 = 90
+	#Potion effect ID of the fourth stage
+	sideEffectStage4Potion = 2
+	#Amount of fatigue required to enter the first side effect stage
+	sideEffectStage1 = 70
+	#Potion effect amplifier of the second stage
+	sideEffectStage2Amplifier = 2
+	#Potion effect amplifier of the third stage
+	sideEffectStage3Amplifier = 1
+	#Effect duration of the second stage
+	sideEffectStage2Duration = 300
+	#Potion effect amplifier of the fourth stage
+	sideEffectStage4Amplifier = 3
+
+[logic]
+	#Maximum tick speed multiplier, activated during sleep
+	multiplierCap = 100.0
+	#If the time difference (mc) between multiplied ticking is greater than this, the simulation multiplier is lowered. Otherwise, it's increased. Lowering this number might slow down simulation and improve performance. Don't mess around with it if you don't know what you're doing.
+	#Range: 1.0 ~ 50.0
+	delta = 50.0
+	#Minimum tick speed multiplier, activated during sleep
+	baseMultiplier = 1.0
+
+[options]
+	#the item used to select wake time
+	wakeTimeSelectItem = "minecraft:clock"
+	#Allows you to sleep with armor equipped
+	sleepWithArmor = true
+	#Let the player sleep even when there are monsters nearby
+	ignoreMonsters = false
+	#Deafens you while you're asleep. Mob sounds are confusing with the world sped up
+	muteSoundWhenSleeping = false
+	#Slightly slower sleep start/end
+	fading = false
+
+[performance]
+	#Disables mob spawning while you sleep
+	disableCreatureSpawning = false
+
+[timings]
+	#Specifies the start of the valid sleep period
+	#Range: 0 ~ 24000
+	validSleepStart = 0
+	#Specifies the end of the period in which the player can enter sleep
+	#Range: 0 ~ 24000
+	enterSleepEnd = 24000
+	#Specifies the start of the period in which the player can enter sleep
+	#Range: 0 ~ 24000
+	enterSleepStart = 0
+	#Specifies the end of the valid sleep period
+	#Range: 0 ~ 24000
+	validSleepEnd = 24000
+

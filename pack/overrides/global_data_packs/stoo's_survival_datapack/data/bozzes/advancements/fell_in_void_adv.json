@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{id:\"minecraft:nether_star\"}]}"
+            }
+          }
+        ],
+        "location": {
+          "position": {
+            "y": {
+              "min": -256,
+              "max": -60
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bozzes:nether_star_voidsave"
+  }
+}

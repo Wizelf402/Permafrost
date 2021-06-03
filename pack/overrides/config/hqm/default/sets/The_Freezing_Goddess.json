@@ -1,0 +1,981 @@
+{
+  "name": "The Freezing Goddess",
+  "quests": [
+    {
+      "uuid": "9087de2c-9702-4818-a890-06b3ec290e7a",
+      "name": "Rambling On",
+      "description": "\"The Nether is such an awful place... So what if it\u0027s another dimension, it\u0027s far too inhospitable to... well... most anything, really. I often wonder why anyone would ever try to live there.\n\nYou know, when this dreadful storm started, I saw a fair few of your kin retreat into the Nether before the portals broke down. I wonder what happened to them... Nothing good, most likely.\n\n...\n\nEr... sorry. I\u0027m rambling. Anyways, with this apothecary stand, you won\u0027t need to worry about going to the Nether to retrieve blaze rods for your potions, anymore. These brews won\u0027t be quite as potent as those made with blaze rods... but I much prefer them.\"",
+      "x": 77,
+      "y": 113,
+      "icon": {
+        "id": "eidolon:wooden_brewing_stand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain an Apothecary Stand; A variant of the brewing stand that doesn\u0027t need blaze rods, but can\u0027t upgrade potions.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:wooden_brewing_stand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9edf6ad0-984c-4ab8-bec2-82da0e2d1beb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_wart",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:glass_bottle",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6cd75690-7a34-43fd-85be-a6a8c72cd376",
+      "name": "Eidolon",
+      "description": "\"I am Eidolon. Goddess of the Soul and the Spirit.\n\nWhen one is taken out of this world, I make sure that they pass into the spirit world successfully.\n\nIt\u0027s an honorable job, in my opinion. Rest assured, all those who you have slain in my name, both undead and living, have found peace in the beyond. I made sure of it.\n\nThank you.\n\nI suppose we should continue going, now. Why don\u0027t you try to create a shadow gem?\"",
+      "x": 233,
+      "y": 103,
+      "bigicon": true,
+      "icon": {
+        "id": "eidolon:shadow_gem",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Using the crucible, create a Shadow Gem.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:shadow_gem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "282c7f0e-f5d8-44de-bddc-c890e3435e34"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:shadow_gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "692121f0-9d30-4531-b686-d21e0ff85d53",
+      "name": "Blood Sacrifice",
+      "description": "\"You\u0027re doing well to help me. I\u0027m no longer constantly fighting for survival... and I am quite thankful for it. However, er... I\u0027m still not doing all too well. I believe that I will require some proper sacrifices to make up for the lack of people giving worship. If that\u0027s... erm... fine with you, of course.\"",
+      "x": 77,
+      "y": 185,
+      "icon": {
+        "id": "eidolon:goblet",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire a goblet, which can hold all sorts of blood to be used in sacrifices.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:goblet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a6a8cd0-90dd-4785-a623-d8f75c230da3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:pig_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9edf6ad0-984c-4ab8-bec2-82da0e2d1beb",
+      "name": "The Crucible",
+      "description": "\"You\u0027ve dabbled in alchemy a bit, yes? Well, if you have, I think you\u0027ll get the hang of using a crucible rather  quickly.\n\n Theurgical alchemy is a wonderful little thing, that will let you make all sorts of reagents. Try it out!\"",
+      "x": 112,
+      "y": 113,
+      "icon": {
+        "id": "eidolon:crucible",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Crucible; a big pot that can be used in advanced alchemy.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:crucible",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8363d0fa-aa99-4656-a1e6-f02c4fb8f092"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:zombie_heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "781dc337-eaf3-4b8b-a7a8-f873e41d4671",
+      "name": "The Strength of the Soul",
+      "description": "\"...We\u0027ve come a long way together, haven\u0027t we?\n\nHad you not showed up... I would have perished in the cold. However... you worked with me, and brought me up to this point.\n\n...Thank you.\n\nFor everything.\n\nI... believe that it is time I share with you what the soul can truly achieve.\"",
+      "x": 233,
+      "y": 15,
+      "bigicon": true,
+      "icon": {
+        "id": "eidolon:soul_enchanter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "\"The Soul Enchanter. The most powerful enchanting apparatus there is. I believe it is time you created one.\n\nWhile it is expensive... it will be worth it. It\u0027s time I truly upheld my half of our deal.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:soul_enchanter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fe3ef25e-dcd1-48d1-bc4f-7e31ec227d4a",
+        "44409a4e-515c-4c61-8e29-91c055132830"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:writable_book",
+          "Count": 1,
+          "tag": {
+            "pages": [
+              "Thank you."
+            ],
+            "RepairCost": 0,
+            "display": {
+              "Name": "{\"text\":\"A Note\"}"
+            }
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f08b6e76-bc67-4e0a-a0dd-247b002687b7",
+      "name": "Introductions",
+      "description": "\"Hey! Can you hear me? Am I getting through to you?\n\n...\n\nFinally! You have NO idea how long I was trying to contact you. It took me... a while.\n\nI\u0027m gonna try and keep this nice and short, for you. Basically, I\u0027m a goddess. Not one of those prissy light goddesses, though. Moreso... er... a dark god, I suppose. I don\u0027t like the connotations of that, but whatever.\n\n...Right. Back on topic. I\u0027m, uh, kinda sorta freezing to death. I rely on worship to sustain myself... and, well, with most of the people down there being dead... I\u0027ve been seriously starved of worship. So, uh, I wanna make a deal with you. Mutually beneficial. Basically... I can help you survive, in exchange for some worship. Just, like... enough worship to keep me alive. Sound good? Good.\"",
+      "x": 77,
+      "y": 44,
+      "icon": {
+        "id": "eidolon:straw_effigy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "\"Alrighty, first thing\u0027s first, I\u0027m gonna need an altar. Just make six altar blocks and slap a straw effigy on top, that should work. Probably.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:wooden_altar",
+                "Count": 6
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "eidolon:straw_effigy",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc0cfb14-2320-48d7-bb70-a31cd0811dc4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lantern",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:skeleton_skull",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6333d5e6-d17e-44a9-aeb4-446abd39a057",
+      "name": "The Hard Part",
+      "description": "\"Oh... we\u0027re nearing that point, now. I... I always hate this part. Having to ask this question.\n\nBut... I must. Before I explain what comes next, I must tell you that it is perfectly fine to stop here. I\u0027m no longer at death\u0027s door, thanks to you. You\u0027ve saved my life, and I am so very grateful.\n\nBut... if you do wish to go forward, despite the frankly barbaric action you must take next... I promise that I\u0027ll make it worth your while.\n\nTo fuel my power further, and to allow me to grant you a bit of innate magic... I\u0027m going to need a sacrifice.\n\nA human sacrifice. In a world with so few humans left... it feels so wrong to ask this of you. But, I promise, if you do this... just once... I will be able to do so much more for you.\"",
+      "x": 233,
+      "y": 182,
+      "bigicon": true,
+      "icon": {
+        "id": "eidolon:unholy_symbol",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "\"If we go continue, you will be able to use your chants to transmute pewter into an extremely powerful sigil. If you can form that sigil... we will go so very far together. I promise.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:unholy_symbol",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "692121f0-9d30-4531-b686-d21e0ff85d53"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "eidolon:warded_mail",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:gravity_belt",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:mind_shielding_plate",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:void_amulet",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a0e732c-2ef9-4606-a807-063a1060fb32",
+      "name": "You Still Use That?",
+      "description": "\"Wait... Don\u0027t tell me you\u0027re still using a regular old crafting table... right?\n\nOh my. That\u0027s sad. Er... no offense... but that sorry hunk of wood isn\u0027t gonna cut it. You\u0027ll need an upgrade if you wanna get to the really cool stuff you can do with my help.\"",
+      "x": 20,
+      "y": 135,
+      "icon": {
+        "id": "eidolon:worktable",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Magic Workbench; a variant of the crafting table that allows you to combine magical reagents with the normal crafting grid to make theurgically enhanced items.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:worktable",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "061f77c0-e3bd-4808-ad64-0a5ef916a079"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:death_essence",
+          "Count": 2
+        },
+        {
+          "id": "eidolon:crimson_essence",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "74853544-89bf-49f6-a83c-e7803434bf33",
+      "name": "Basic Baubles",
+      "description": "\"Arcane Gold is quite beautiful, is it not? Well, it\u0027s a rather malleable metal, and it\u0027s also quite useful in creating some wonderful little magic baubles for you to wear. Why don\u0027t you try making some?\"",
+      "x": 132,
+      "y": 148,
+      "icon": {
+        "id": "eidolon:basic_ring",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a set of basic baubles.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:basic_ring",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:basic_amulet",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:basic_belt",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a6a8cd0-90dd-4785-a623-d8f75c230da3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:gold_inlay",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8363d0fa-aa99-4656-a1e6-f02c4fb8f092",
+      "name": "Far From Useless",
+      "description": "\"Okay, so... you\u0027re probably wondering what the deal with the lead is.\"\n\nI swear, it\u0027s important. Have you ever heard of pewter?\n\nbasically, it\u0027s a really theurgically important alloy... but you can only really make it by combining lead and iron ingots. If we\u0027re going to get anywhere together, you\u0027re going to need to make some pewter. Alright?\"",
+      "x": 77,
+      "y": 78,
+      "icon": {
+        "id": "eidolon:pewter_blend",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Create eight pewter ingots.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:pewter_ingot",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f08b6e76-bc67-4e0a-a0dd-247b002687b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lead_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a6a8cd0-90dd-4785-a623-d8f75c230da3",
+      "name": "An Arcane Rush",
+      "description": "\"Gold is quite magical, you know. It\u0027s practically the perfect material for holding magic and enchantments. But... It can most certainly be made better.\n\nWith a little bit of alchemy, and a couple soul gems, you can make that gold into something truly magical. Arcane Gold. Isn\u0027t that exciting?\"",
+      "x": 77,
+      "y": 148,
+      "icon": {
+        "id": "eidolon:arcane_gold_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Create two ingots of arcane gold in a crucible.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:arcane_gold_ingot",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "061f77c0-e3bd-4808-ad64-0a5ef916a079",
+        "9edf6ad0-984c-4ab8-bec2-82da0e2d1beb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:pewter_inlay",
+          "Count": 2
+        },
+        {
+          "id": "eidolon:soul_shard",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe3ef25e-dcd1-48d1-bc4f-7e31ec227d4a",
+      "name": "Cold Feet",
+      "description": "\"The world is... awfully chilly, you know.\n\nYou\u0027ve been bundling up alright, but... I believe I may have something that will suit you quite well.\n\nTry and use that shadow gem to make some magical weaves. If you do things right, you\u0027ll be able to create some rather cozy clothes, that also infer a few useful magical boons.\"",
+      "x": 280,
+      "y": 62,
+      "icon": {
+        "id": "eidolon:warlock_boots",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Using Wicked Weave, craft all three pieces of Warlock\u0027s attire. While only about half as warm as wool, these pieces provide much more defense and are much more durable, in addition to their innate magical properties.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:warlock_hat",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "eidolon:warlock_cloak",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "eidolon:warlock_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd75690-7a34-43fd-85be-a6a8c72cd376"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "corpsecomplex:soulbinding"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "minecraft:mending"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "allurement:reforming"
+              }
+            ]
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3008345c-9a9e-4e05-a341-f102b01e7a64",
+      "name": "Transmutation",
+      "description": "\"Hm. I believe I should begin... erm... bestowing some of my power upon you.\n\nIf you were to crush a few soul shards and recite a simple incantation, transmuting the resulting dust into various metals and crystals should be quite easy.\"",
+      "x": 186,
+      "y": 135,
+      "icon": {
+        "id": "eidolon:soul_shard",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\"Go on, then. Try it out. You\u0027ll need to use your symbol in order to do it, but as long as you have it on your person, you should be perfectly fine.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:unholy_symbol",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:soul_shard",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6333d5e6-d17e-44a9-aeb4-446abd39a057"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:unholy_symbol",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "druidcraft:moonstone",
+          "Count": 1
+        },
+        {
+          "id": "druidcraft:amber",
+          "Count": 1
+        },
+        {
+          "id": "iceandfire:silver_ingot",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:arcane_gold_ingot",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8b2766c-fd23-485f-b217-90988d6453be",
+      "name": "Fiery Summoning",
+      "description": "\"Oh, this is all so very exciting! Now that we\u0027ve come this far, I have so many more ways to assist you!\n\nWhy don\u0027t we attempt some summoning? Those fiery foes of yours very much hate the Chilled... arguably much more than they hate you.\n\nWith that symbol of yours, and the right resources, you could create a few entities that you could perhaps turn against the Chilled.\"",
+      "x": 286,
+      "y": 135,
+      "icon": {
+        "id": "eidolon:lesser_soul_gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "\"Alright... I shall need naught but a small soul gem and some blaze powder in order for us to do this.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:unholy_symbol",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:lesser_soul_gem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:blaze_powder",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6333d5e6-d17e-44a9-aeb4-446abd39a057"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:unholy_symbol",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "lava_monster:lava_monster_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:blaze_spawn_egg",
+          "Count": 3
+        },
+        {
+          "id": "infernalexp:voline_spawn_egg",
+          "Count": 9
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44409a4e-515c-4c61-8e29-91c055132830",
+      "name": "Skull Seeking",
+      "description": "\"Hm. I knew there was something that I was forgetting about.\n\nMy apologies, I should have told you about the axe of cleaving much, much earlier.\n\nErm... well... Let us keep this short. It can, well, cleave an undead\u0027s head right off its body. If you\u0027re looking for skulls, it would undoubtedly be useful.\"",
+      "x": 192,
+      "y": 62,
+      "icon": {
+        "id": "eidolon:cleaving_axe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft an Axe of Cleaving.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:cleaving_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd75690-7a34-43fd-85be-a6a8c72cd376"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:skeleton_skull",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "41d1e0e2-b853-4b99-a77d-c10b3cb76e42",
+      "name": "Alchemical Reagents",
+      "description": "\"Hm. Looking at what you have access to at the moment... I\u0027m not seeing all too much.\n\nYou\u0027re going to need some proper reagents to start brewing.\"",
+      "x": 139,
+      "y": 86,
+      "icon": {
+        "id": "eidolon:crimson_essence",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Create four different reagents in the crucible.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:sulfur",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:ender_calx",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:crimson_essence",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "eidolon:death_essence",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9edf6ad0-984c-4ab8-bec2-82da0e2d1beb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:wraith_heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "089b5f1d-340f-4e55-be7e-fa5a27c72e24",
+      "name": "A Chilling Ward",
+      "description": "\"Those Chilled are awfully relentless. They seem to travel great distances in search of warmth to snuff out... in search of you.\n\nI fear that they may arrive in hordes too large to fight, and I fear that you will not have a means of keeping them away.\n\nI believe you require enchanted ash in order to stay safe. They will not be able to cross any lines of enchanted ash that you draw.\"",
+      "x": 42,
+      "y": 44,
+      "icon": {
+        "id": "eidolon:enchanted_ash",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain four enchanted ash; powerful dust that prevents undead from crossing it.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:enchanted_ash",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "061f77c0-e3bd-4808-ad64-0a5ef916a079"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:enchanted_ash",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "282c7f0e-f5d8-44de-bddc-c890e3435e34",
+      "name": "The Big Reveal",
+      "description": "\"Something has just occured to me.\n\nAfter all you\u0027ve done for me... you still don\u0027t know who I am. I never once thought to give you my name.\n\nI believe I should change that.\"",
+      "x": 236,
+      "y": 148,
+      "icon": {
+        "id": "eidolon:reaper_scythe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "\"Use the symbol, and create my scythe. I will explain then.\"",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:reaper_scythe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6333d5e6-d17e-44a9-aeb4-446abd39a057"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:lesser_soul_gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "061f77c0-e3bd-4808-ad64-0a5ef916a079",
+      "name": "Shining Souls",
+      "description": "\"Okay. So, now that you\u0027ve got pewter, there\u0027s something else that you\u0027ll need if you wanna move forward with this.\n\nYou\u0027re gonna need to get your hands on some soul shards. Luckily for you, you\u0027re able to craft a brazier with that pewter of yours. The Ars Ecclesia will tell you where to go from there.\"",
+      "x": 42,
+      "y": 113,
+      "icon": {
+        "id": "eidolon:brazier",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire some soul shards; the crystallized souls of slain undead.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:soul_shard",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8363d0fa-aa99-4656-a1e6-f02c4fb8f092"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:stone_hand",
+          "Count": 2
+        },
+        {
+          "id": "eidolon:plinth",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8439fe82-83bc-47fe-8bee-7f093c37d016",
+      "name": "A Major Error",
+      "description": "\"Alright! That should be good. Now you just have to perform the proper chants-\n\nWait. Do you... know the chants?\n\n...Whoops. I may have forgotten the single most important step. And, I can\u0027t even teach you the chants, with how weak I am right now. Greeeaaaat.\n\nOkay, here\u0027s the deal. You\u0027re gonna need to find a witch. Either that, or a potion of some sort, so I can summon a witch for you. It\u0027ll take a lot outta me... so you better keep your half of the deal, got it?\"",
+      "x": 77,
+      "y": 11,
+      "icon": {
+        "id": "minecraft:witch_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 8
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "\"Alright. Just send me a potion and I can summon something in for you. Once she\u0027s there, just toss her the Ars Ecclesia and she`ll fill it out for you, okay?\"",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "minecraft:healing"
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f08b6e76-bc67-4e0a-a0dd-247b002687b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:witch_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "When you made that book... you heard a voice. You could only barely make it out... but it was offering something. A deal, of sorts."
+}

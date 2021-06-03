@@ -1,0 +1,20 @@
+{
+  "footsteps": {
+    "cavesandcliffs:cave_vines_body": "#vine",
+    "cavesandcliffs:cave_vines_head": "#vine",
+    "cavesandcliffs:moss_block": "cavesandcliffs:block.moss.step",
+    "cavesandcliffs:moss_carpet": "cavesandcliffs:block.moss.step",
+    "cavesandcliffs:azalea": "cavesandcliffs:block.azalea.step",
+    "cavesandcliffs:amethyst_block": "cavesandcliffs:block.amethyst.step",
+    "cavesandcliffs:budding_amethyst": "cavesandcliffs:block.amethyst.step",
+    "cavesandcliffs:dripstone_block": "cavesandcliffs:block.dripstone.step",
+    "cavesandcliffs:pointed_dripstone": "cavesandcliffs:block.dripstone.step",
+
+    "cavesandcliffs:big_dripleaf": "cavesandcliffs:block.big_dripleaf.step",
+
+    "cavesandcliffs:deepslate_bricks": "cavesandcliffs:block.deepslate_bricks.step",
+
+    "cavesandcliffs:deepslate": "cavesandcliffs:block.deepslate.step",
+    "cavesandcliffs:cobbled_deepslate": "cavesandcliffs:block.dripstone.step"
+  }
+}

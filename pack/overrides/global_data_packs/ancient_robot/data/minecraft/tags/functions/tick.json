@@ -1,0 +1,7 @@
+{
+	"replace":false,
+	"values": [
+		"wither:ticking",
+		"elemental:ticking"
+	]
+}

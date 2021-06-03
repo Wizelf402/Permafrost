@@ -1,0 +1,5 @@
+#:^)
+tehnutMode = false
+#When enabled, written signs on a golem's head will play text to speech audio
+tts = true
+

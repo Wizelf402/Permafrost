@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "bozzes:wither/wither_fight_start"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  }
+}

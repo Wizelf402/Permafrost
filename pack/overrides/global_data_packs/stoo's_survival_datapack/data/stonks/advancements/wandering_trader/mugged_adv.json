@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "stonks:wandering_trader/mugged/phase_0"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  }
+}
+

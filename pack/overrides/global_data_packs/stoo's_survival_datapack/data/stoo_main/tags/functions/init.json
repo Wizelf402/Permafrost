@@ -1,0 +1,13 @@
+{
+    "values": [
+        "stoo_main:init",
+        "animoles:animals_init",
+        "artefax:artefacts_init",
+        "bozzes:bosses_init",
+        "combet:combat_init",
+        "hardness:difficulty_init",
+        "helth:health_init",
+        "stonks:stonks_init",
+        "math:math_init"
+    ]
+}

@@ -1,0 +1,497 @@
+{
+  "name": "Discovering the Truth",
+  "quests": [
+    {
+      "uuid": "a94f1425-d2b5-484e-8e0d-204a324c6538",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 143,
+      "y": 100,
+      "icon": {
+        "id": "endrem:end_crystal_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [
+        "89312b82-70be-42d8-b74d-c2496edf9401",
+        "0660c241-b596-4c9e-91bb-4e391398d2ee",
+        "3c50252a-d610-4aa6-8473-d9f76a664527",
+        "d7e095f8-0cde-48fe-876f-969240d6672a",
+        "2f2d5183-1ca8-4b10-b128-b82701a00cf4",
+        "ac75032f-59bb-4a02-878b-e3e9c28c6264",
+        "c943672f-5891-4d71-90f9-bb9461d29dee",
+        "badc7f23-3124-44ee-bbf3-c2af7ec8aa0f",
+        "777e6c92-39e8-4248-9b66-143a5d9786cc",
+        "af84ddb2-f2e4-4753-b9a7-4419f122ef9b",
+        "40566155-139e-4330-952a-ab58c8ea9db8"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "af84ddb2-f2e4-4753-b9a7-4419f122ef9b",
+      "name": "The Source",
+      "description": "This eye gives you an uneasy feeling. It feels like the storm itself is watching you...\n\nMaybe it is. Maybe this is one of the things that did it. Maybe the Cold Eye is the cause.\n\nIt\u0027s strange. It feels like this one is stronger than the rest. Like it has a stronger connection to wherever it came from.",
+      "x": 79,
+      "y": 190,
+      "icon": {
+        "id": "endrem:cold_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Cold Eye, a mysterious frozen eye that seems to resonate with the Permafrost.",
+          "advancements": [
+            {
+              "name": "The Cold Eye",
+              "icon": {
+                "id": "endrem:cold_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/cold_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "savageandravage:wand_of_freezing",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c50252a-d610-4aa6-8473-d9f76a664527",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 134,
+      "y": 60,
+      "icon": {
+        "id": "endrem:rogue_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ac75032f-59bb-4a02-878b-e3e9c28c6264",
+      "name": "Within the Fortress",
+      "description": "Unnamed quest",
+      "x": 49,
+      "y": 26,
+      "icon": {
+        "id": "endrem:nether_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "777e6c92-39e8-4248-9b66-143a5d9786cc",
+      "name": "A Return to Normalcy",
+      "description": "This eye feels... pleasant. It feels like the past, before the storm. Those mineshafts felt so much more familiar than the surface. They were left untouched by the Permafrost, as was the rest of the underground...\n\nIt just goes to show... Even in the Permafrost, you can thrive. There\u0027s still life. There\u0027s still hope.\n\nHold onto it, and never let go.",
+      "x": 46,
+      "y": 172,
+      "icon": {
+        "id": "endrem:lost_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You can still rebuild. You can\u0027t reverse the storm, but you can adapt to it.",
+          "advancements": [
+            {
+              "name": "The Lost Eye",
+              "icon": {
+                "id": "endrem:lost_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/lost_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "quark:pickarang",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f2d5183-1ca8-4b10-b128-b82701a00cf4",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 81,
+      "y": 11,
+      "icon": {
+        "id": "endrem:guardian_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "40566155-139e-4330-952a-ab58c8ea9db8",
+      "name": "The Sentinel, Slain",
+      "description": "You can still remember the first time you saw a Wither. The way it hovered vigilant in place, much like the loyal Iron Golem... but it was something more. The Wither was a testament of human persistence and dedication, a sentinel constructed of inherently hostile materials, made into a loyal guard and companion.\n\nNow, without anything to watch over, the man made construct simply went berserk, destroying everything in its path.\n\nWhen you killed it, something rolled out of the middle skull... something that wasn\u0027t usually there. The Wither Eye stares coldly at you, its magic long since dulled. This must be why it went berserk.\n\nYou can feel that same otherworldly presence watching you, now. Even the Withers, the pinnacle of human persistence, the living proof of the fact that humanity can find use in even the most dangerous of things... have been worn down. It\u0027s a sad sight.",
+      "x": 113,
+      "y": 175,
+      "icon": {
+        "id": "endrem:wither_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You\u0027ve defeated a Wither; a man-made sentinel that has long since lost its purpose.",
+          "advancements": [
+            {
+              "name": "The Wither Eye",
+              "icon": {
+                "id": "endrem:wither_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/wither_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_star",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "badc7f23-3124-44ee-bbf3-c2af7ec8aa0f",
+      "name": "Hidden Away",
+      "description": "Someone left this here a long time ago. They buried it under the sand and sailed away, with the only map leading to it in their position...\n\nThe Black Eye was never meant to be found... but, nonetheless, you found it. Whoever hid that eye there is long gone, now. They might\u0027ve died in the shipwreck where you found the treasure map. Who knows?\n\nCertainly not you. All that matters is that you\u0027ve managed to find it.",
+      "x": 27,
+      "y": 136,
+      "icon": {
+        "id": "endrem:black_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Black Eye in a buried treasure trove, hidden away by someone long dead.",
+          "advancements": [
+            {
+              "name": "The Black Eye",
+              "icon": {
+                "id": "endrem:black_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/black_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "scuba_gear:scuba_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "scuba_gear:scuba_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89312b82-70be-42d8-b74d-c2496edf9401",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 80,
+      "y": 100,
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "35ecff97-1c28-4caa-b91b-fb98f883246b",
+      "name": "Something Otherworldly",
+      "description": "It\u0027s staring into your soul... The eye. There\u0027s something strange about it. Something powerful about it.\n\nSomething cataclysmic about it.\n\nYou need to find out what.",
+      "x": 20,
+      "y": 100,
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "One down. Nine to go.",
+          "advancements": [
+            {
+              "name": "Find the Eyes.",
+              "icon": {
+                "id": "minecraft:ender_eye",
+                "Count": 1
+              },
+              "adv_name": "endrem:main/root"
+            },
+            {
+              "name": "Learn the Truth.",
+              "icon": {
+                "id": "minecraft:writable_book",
+                "Count": 1
+              }
+            },
+            {
+              "name": "Face the Storm.",
+              "icon": {
+                "id": "survive:ice_cube",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7e095f8-0cde-48fe-876f-969240d6672a",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 112,
+      "y": 27,
+      "icon": {
+        "id": "endrem:old_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c943672f-5891-4d71-90f9-bb9461d29dee",
+      "name": "Not of This World",
+      "description": "The Evoker... one of the pillagers... they were channeling the magic of this eye directly. You watched as the Vex, those strange flying creatures, appeared before your very eyes.\n\nThat wasn\u0027t normal. Those things came from... somewhere else. Somewhere far beyond your world, beyond even the Nether.\n\n...Is there another world, out there?",
+      "x": 28,
+      "y": 59,
+      "icon": {
+        "id": "endrem:magical_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "You found the Magical Eye, a strange eye used by the Evokers to summon things... not of this world.",
+          "advancements": [
+            {
+              "name": "The Magical Eye",
+              "icon": {
+                "id": "endrem:magical_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/magical_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:warp_stone",
+          "Count": 3,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0660c241-b596-4c9e-91bb-4e391398d2ee",
+      "name": "Survival of the Fittest",
+      "description": "Before you found this eye, it was a mystery to you how the Pillagers managed to survive the storm for this long.\n\nNow, you can see why. They used the Eyes. You don\u0027t know how they were used... but they were. And now, you have one. Maybe... just maybe... you could use one, too.",
+      "x": 134,
+      "y": 144,
+      "icon": {
+        "id": "endrem:corrupted_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "The Corrupted Eye",
+              "icon": {
+                "id": "endrem:corrupted_pearl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "adv_name": "endrem:main/corrupted_pearl"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "savageandravage:cleaver_of_beheading",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

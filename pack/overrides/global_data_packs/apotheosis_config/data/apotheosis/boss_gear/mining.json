@@ -1,0 +1,80 @@
+{
+	"weight": 8,
+	"mainhands": [
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:diamond_shovel"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:shield"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:lantern"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "coldsgrappler:grappler_item"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:iron_boots"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:leather_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "alexsmobs:centipede_leggings"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:leather_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:iron_chestplate"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:leather_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "mining_helmet:mining_helmet"
+		}
+	}],
+	"tags": [
+		"standard", "wraith"
+	]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "mob": "dannys_expansion:ice_elemental",
+        "item": "survive:ice_cube",
+        "itemcount": "1-3/2-4/3-5"
+    },
+    {
+        "mob": "dannys_expansion:ice_elemental",
+        "random": 0.25,
+        "item": "minecraft:ender_eye"
+    },
+    {
+        "mob": "minecraft:creeper",
+        "item": "cavesandcliffs:moss_block",
+        "itemcount": "1-2/1-4/2-5"
+    },
+    {
+        "mob": "minecraft:iron_golem",
+        "remove": "minecraft:iron_ingot",
+        "item": "minecraft:carved_pumpkin"
+    },
+    {
+        "mob": "minecraft:wither",
+        "item": "iceandfire:witherbone",
+        "itemcount": "12-24/24-48/32-64"
+    }
+]

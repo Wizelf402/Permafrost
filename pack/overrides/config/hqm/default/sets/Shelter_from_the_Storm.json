@@ -1,0 +1,1338 @@
+{
+  "name": "Shelter from the Storm",
+  "quests": [
+    {
+      "uuid": "fedcda5b-1a9e-47eb-b0bf-81abcc28988f",
+      "name": "Glittering Gear",
+      "description": "The world outside is hostile... but you can take it. You just need some proper armor, first. Ice elementals will puncture right through iron or steel... you need something stronger. You need diamond.",
+      "x": 187,
+      "y": 178,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain some Diamond Armor.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fab6c9c6-68b0-4de8-bcc1-6dd3ccf58d5f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c4487b9-4841-4922-bde1-561444afb786",
+      "name": "A Meal of Bones",
+      "description": "With the power of bone meal and some shears,  along with your newfound technique of creating plant life, you could theoretically create tall grass for use in future endeavors.\n\nGrass is a unique material, and a rather powerful one at that. It has plenty of uses in botanical magic, which will undoubtedly come in handy.",
+      "x": 240,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:bone_meal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:grass",
+                "Count": 16
+              },
+              "required": 16,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "065bd67b-4173-49ff-b4e8-e4377ec9c687"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:chilloo_spawn_egg",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16",
+      "name": "Weary Woes",
+      "description": "Your eyes are getting tired... You need somewhere to sleep... and something to sleep on... Problem is, you can\u0027t exactly craft a bed in these conditions...",
+      "x": 82,
+      "y": 75,
+      "icon": {
+        "id": "druidcraft:red_bedroll",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Due to all of the sheep being very much dead, you\u0027ll need to find alternative ways to get wool.\n\nLuckily for you, Wraiths just so happen to drop tattered cloth when they\u0027re killed, which can be crafted into wool.\n\nCraft some wool out of tattered cloth.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gray_wool",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Using the wool that you made from tattered cloth, craft a bed to sleep on.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gray_bed",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fa4ab970-d343-4a7a-857d-8b882f3e0eb1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "druidcraft:green_bedroll",
+          "Count": 1
+        },
+        {
+          "id": "druidcraft:gray_bedroll",
+          "Count": 1
+        },
+        {
+          "id": "druidcraft:brown_bedroll",
+          "Count": 1
+        },
+        {
+          "id": "druidcraft:red_bedroll",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7245cac9-d855-470d-84a6-e284545208e1",
+      "name": "Positively Parched",
+      "description": "Food and heat aren\u0027t the only things you\u0027ll need to manage if you\u0027re to survive in this frigid wasteland.\nYou\u0027ll also need water. While it\u0027s rather easy to just crack through the ice of a nearby pond and drink from there, you won\u0027t always have a lake nearby. You\u0027ll need portable storage. Go get some water bottles.",
+      "x": 53,
+      "y": 94,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "minecraft:water"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Get a bottle of water.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "minecraft:water"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fa4ab970-d343-4a7a-857d-8b882f3e0eb1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bucket",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a30c46d-3e83-4750-96dd-45545d487b88",
+      "name": "Crunching on Ice",
+      "description": "Water bottles are... a little hard to carry around. You can only take so many of them with you.\n\nHowever, ice cubes are a lot less hard to carry. While they restore very little thirst, in addition to being rather unclean and cold... they can be stacked, which is nice.",
+      "x": 83,
+      "y": 124,
+      "icon": {
+        "id": "survive:ice_cube",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain sixteen ice cubes to crunch on later.",
+          "items": [
+            {
+              "item": {
+                "id": "survive:ice_cube",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7245cac9-d855-470d-84a6-e284545208e1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:water_bucket",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f89362a-80dd-4912-b689-09f4789d6585",
+      "name": "A Chocolatey Delight",
+      "description": "With these truffles that you acquired, you can create a mug of truffle hot chocolate, a wonderful item that both warms you up and quenches your thirst.",
+      "x": 289,
+      "y": 68,
+      "icon": {
+        "id": "frozenup:mug_of_truffle_hot_chocolate",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 20,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Submit a mug of truffle hot chocolate.",
+          "items": [
+            {
+              "item": {
+                "id": "frozenup:mug_of_truffle_hot_chocolate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c373e75e-2c98-4fc3-93e2-d95cb47141e7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:empty_mug",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:cocoa_beans",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:jungle_sapling",
+          "Count": 1
+        },
+        {
+          "id": "frozenup:frozen_truffle",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc239ec3-cd04-4365-9f23-5c72adcf7956",
+      "name": "The Big Scoop",
+      "description": "Have you ever tried to beat up a skeleton with a shovel?\n\nIt\u0027s surprisingly effective.\n\nWhen dealing a critical hit with a shovel, you can knock your target into the air, just enough to follow up with another hit from a different weapon.\n\nSeveral other tools also have unique properties in combat, as well:\nAxes are slow attacking, powerful weapons that can disable shields.\nHoes are surprisingly effective at chaining hits together, essentially functioning as a light, fast weapon.\nLastly, pickaxes deal heavy damage to an opponent\u0027s chest armor, being able to break even the toughest of chestplates.",
+      "x": 255,
+      "y": 151,
+      "icon": {
+        "id": "minecraft:diamond_shovel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a diamond shovel, axe, hoe, and pickaxe; Four tools that can also serve unique roles in a fight.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_shovel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_hoe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cb1cf0f8-9fc8-4541-b0db-eeba2f619e0f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:moonstone_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4381b5ca-45ec-49ed-82cd-ba21d0eec785",
+      "name": "A Proper Meal",
+      "description": "Those frozen pork chops are definitely not edible... You\u0027ll need to thaw them out. After doing that, if you pop them in a furnace again, you may actually have some decent food.",
+      "x": 132,
+      "y": 151,
+      "icon": {
+        "id": "minecraft:cooked_porkchop",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Cook up a few frozen porkchops.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cooked_porkchop",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "70e07651-68a6-410f-bf43-33b2fb2646e1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:fishing_rod",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fab6c9c6-68b0-4de8-bcc1-6dd3ccf58d5f",
+      "name": "The Spice of Life",
+      "description": "You\u0027ve been rather sluggish, lately... eating the same meals over and over again has been getting exhausting, and you\u0027re probably not in the best shape that you can be.\n\nYou need to change that. And changing that requires hunting down some new sources of food.",
+      "x": 190,
+      "y": 135,
+      "icon": {
+        "id": "solpotato:food_book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Seek out some new food sources to diversify your diet.",
+          "items": [
+            {
+              "item": {
+                "id": "upgrade_aquatic:mulberry",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:potato",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:carrot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1da3bdeb-a25e-495c-b9a6-7f8bfa4f9cce"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "solpotato:food_book",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "101dfb6f-60c5-486d-ac60-c614c303307c",
+      "name": "Seeds of Survival",
+      "description": "If you want to... not just survive, but thrive in this frigid wasteland, you\u0027re going to need to find a way to farm. The food in the outside world is limited, and the only way to ensure that you don\u0027t starve to death is to have a constant source of food. Some wheat seeds should do well... if you can even find any.\n\nEven then, you\u0027d need to find a way to grow it...",
+      "x": 132,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:wheat_seeds",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1ba0c75-6b31-4855-af70-a966e54b10a9",
+        "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wheat",
+          "Count": 18
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ce34fc15-49f7-4d02-8931-023446d30150",
+      "name": "A Bastion of Heat",
+      "description": "Magma. Located deep underground, beyond the grasp of the Permafrost... and hot enough to stave off the brutal cold of the storm... \n\n It\u0027s dangerous if used unwisely, but in the right hands it could do incredible things. If you manage to find some, it could be the start of something incredible. Just... handle with care, so you don\u0027t burn to death.",
+      "x": 115,
+      "y": 178,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:lava_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a bucket of lava, preferably without burning to death.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lava_bucket",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fcf26f1f-d20c-49b3-8ebe-990d86e2c827"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:writable_book",
+          "Count": 1,
+          "tag": {
+            "RepairCost": 1,
+            "Enchantments": [
+              {
+                "lvl": 1,
+                "id": "corpsecomplex:soulbinding"
+              }
+            ]
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1073ccb6-87ed-4f63-9413-16b98f4676bb",
+      "name": "Charcoal Purification!",
+      "description": "While hucking your water in a furnace works, you may want a more efficient and more handheld way of purifying it. That\u0027s where charcoal filters come in.\n Made with charcoal and paper, you can craft these with unpurified sources of water in order to purify them.",
+      "x": 100,
+      "y": 152,
+      "icon": {
+        "id": "survive:charcoal_filter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain eight charcoal purifiers; items that can be crafted with water to purify it.",
+          "items": [
+            {
+              "item": {
+                "id": "survive:charcoal_filter",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f8075c78-23ec-4e54-b28a-6a6fd5762d74"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "survive:canteen",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c373e75e-2c98-4fc3-93e2-d95cb47141e7",
+      "name": "The Snowy Scavengers",
+      "description": "The Chilloo, with their thick fur, were lucky to be so well-suited to the frigid storms of the Permafrost.\nScavengers, who dig up meals for themselves in the frozen dirt, such as frozen truffles.\n\nHowever, with the scarcity of treats in the frozen ground, everything that the Chilloo digs up is eaten immediately.\n\nIf you were to give them a field of thawed out dirt or grass, they would probably leave some extras for you to pick up, notably frozen truffles. These frozen truffles can be thawed out of the ice to make regular truffles, wonderful food items that can be turned into a variety of meals that\u0027ll warm you right up.",
+      "x": 289,
+      "y": 17,
+      "icon": {
+        "id": "frozenup:frozen_truffle",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a frozen truffle by collecting the extra food dug up by a Chilloo.",
+          "items": [
+            {
+              "item": {
+                "id": "frozenup:frozen_truffle",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Throw a frozen truffle into a furnace to thaw it out, recieving a regular truffle.",
+          "items": [
+            {
+              "item": {
+                "id": "frozenup:truffle",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0c4487b9-4841-4922-bde1-561444afb786"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:empty_mug",
+          "Count": 3
+        },
+        {
+          "id": "quark:cocoa_beans_sack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1ba0c75-6b31-4855-af70-a966e54b10a9",
+      "name": "Packing for Travel",
+      "description": "You need to find... not just a shelter. But somewhere that you can turn into a bastion. A veritable fortress against the cold. And, to do that, you\u0027ll need to travel. And to travel, you need a pack.",
+      "x": 132,
+      "y": 17,
+      "icon": {
+        "id": "backpacked:backpack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Use rotten flesh to create combined flesh, and smelt that combined flesh in a smoker, or lay it out on a campfire, to obtain normal leather.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:leather",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Using that leather, along with a chest, craft a backpack.",
+          "items": [
+            {
+              "item": {
+                "id": "backpacked:backpack",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a9606fe4-7de2-4356-ad4f-03e7f383537d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "backpacker:rucksack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8075c78-23ec-4e54-b28a-6a6fd5762d74",
+      "name": "Purification!",
+      "description": "While lake-water is all well and good... it isn\u0027t exactly the cleanest thing.\n\nMaybe you should try and heat the water up to purify it?",
+      "x": 53,
+      "y": 152,
+      "icon": {
+        "id": "survive:purified_water_bottle",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire three bottles of purified water.",
+          "items": [
+            {
+              "item": {
+                "id": "survive:purified_water_bottle",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7245cac9-d855-470d-84a6-e284545208e1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:sugar_cane",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c0ab624e-e9bb-4386-90d4-d243a4342f9a",
+      "name": "Companionship",
+      "description": "You may have developed an attachment to your Chilloo at this point. It\u0027s perfectly fair, considering your complete lack of proper companionship in this frigid land...\n\nWell, Chilloo aren\u0027t just scavengers. They can also be rather loyal pets. If fed frozen truffles, a Chilloo will become your companion, following you through the frozen wastes and occasionally shedding its feathers, which can be used in the creation of some lovely lamps that can be turned on and off by hand.",
+      "x": 255,
+      "y": 51,
+      "icon": {
+        "id": "frozenup:chilloo_feather",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "TAME",
+          "longDescription": "Feed a Chilloo a frozen truffle to tame it.",
+          "tame": [
+            {
+              "name": "Chilloo",
+              "icon": {
+                "id": "frozenup:chilloo_spawn_egg",
+                "Count": 1
+              },
+              "tame": "frozenup:chilloo",
+              "tames": 1
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "longDescription": "Obtain a Chilloo feather from one of your tamed Chilloo, and turn it in.",
+          "items": [
+            {
+              "item": {
+                "id": "frozenup:chilloo_feather",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c373e75e-2c98-4fc3-93e2-d95cb47141e7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:chilloo_feather_lamp",
+          "Count": 2
+        },
+        {
+          "id": "frozenup:chilloo_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb1cf0f8-9fc8-4541-b0db-eeba2f619e0f",
+      "name": "Alternative Heating",
+      "description": "Lanterns are surprisingly hot, compared to torches... you may even be able to call them burning hot, even if they don\u0027t really come near the warmth of a campfire or a pool of lava. \n\nNonetheless, it\u0027s a nice, quick, and most importantly portable source of heat in this frigid wasteland.",
+      "x": 222,
+      "y": 118,
+      "icon": {
+        "id": "minecraft:lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft four lanterns to warm yourself up with.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lantern",
+                "Count": 4
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1da3bdeb-a25e-495c-b9a6-7f8bfa4f9cce"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f58458c0-d1d0-4acf-ba38-8c604e274900",
+      "name": "Setting up Camp",
+      "description": "The cold is relentless. You can feel it in your bones. The stormy winds chill you to your very core.\n\nYou need to make a fire, NOW.",
+      "x": 21,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:campfire",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Make a campfire; an item which warms up an area around itself, and can be used to slowly cook several food items at once, in addition to lighting torches and making charcoal.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:campfire",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "eidolon:tattered_cloth",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:rotten_flesh",
+          "Count": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fcf26f1f-d20c-49b3-8ebe-990d86e2c827",
+      "name": "The Caverns",
+      "description": "Not everything is dead just yet... while the caves are dangerous, they\u0027re also much more vibrant and diverse than the snowy wasteland up above. The underground was spared from the brunt of the Permafrost.\n\n The roots growing on the walls of these caves are rather nutritious, and make for a nice snack.",
+      "x": 24,
+      "y": 181,
+      "icon": {
+        "id": "quark:root_item",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Obtain four cave roots, plants that grow in deep caverns, and turn them in to the book.",
+          "items": [
+            {
+              "item": {
+                "id": "quark:root_item",
+                "Count": 4
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f58458c0-d1d0-4acf-ba38-8c604e274900"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "quark:root",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "efb9b44b-3cd8-4fe5-b101-e8e51281588f",
+      "name": "Grappling Hook!",
+      "description": "Cliffs are dangerous. They\u0027re especially dangerous when you need to climb up or down them. However, with rope, it\u0027s possible to circumvent that danger by creating a Grappler, which can attach lengths of climbable rope to various surfaces.",
+      "x": 289,
+      "y": 182,
+      "icon": {
+        "id": "coldsgrappler:grappler_item",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Attach several pieces of hempen rope together to make a coil of extra long rope.",
+          "items": [
+            {
+              "item": {
+                "id": "coldsgrappler:extra_rope_item",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Using this rope, create a grappler.",
+          "items": [
+            {
+              "item": {
+                "id": "coldsgrappler:grappler_item",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4a5ff05c-3774-47ff-9f1e-5f665dda0183"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "coldsgrappler:extra_rope_item",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1da3bdeb-a25e-495c-b9a6-7f8bfa4f9cce",
+      "name": "Thawing Things Out",
+      "description": "You\u0027re gonna need a lot of dirt if you wanna make an oasis... better start working on that.",
+      "x": 190,
+      "y": 86,
+      "icon": {
+        "id": "minecraft:dirt",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a stack of dirt.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "065bd67b-4173-49ff-b4e8-e4377ec9c687"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:acacia_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:dark_oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "upgrade_aquatic:river_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:jungle_sapling",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a9606fe4-7de2-4356-ad4f-03e7f383537d",
+      "name": "Consecration",
+      "description": "The Chilled. The frozen terrors of the surface. Highly resistant to traditional damage, and only weak to one thing...\n\nFire.\n\nIf you\u0027re to survive these frigid foes, you\u0027re going to need to burn them. Otherwise, they\u0027re nearly invulnerable.",
+      "x": 71,
+      "y": 17,
+      "icon": {
+        "id": "consecration:fire_stick",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Frozen, Stray, Wraiths, Ice Elementals, and all other undead have a special property. They take much less damage from all sources, and regenerate health... but this feature can be countered through the use of fire. You only need to deal a single bit of fire damage to them or let them burn for about a second, and they\u0027ll be vulnerable for the next ten seconds.\n\nA good early game source of fire is the fire stick, a fragile melee weapon that deals fire damage to anything it hits.",
+          "items": [
+            {
+              "item": {
+                "id": "consecration:fire_stick",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f58458c0-d1d0-4acf-ba38-8c604e274900"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a5ff05c-3774-47ff-9f1e-5f665dda0183",
+      "name": "Woven Weeds",
+      "description": "Now that you can grow grass, you can break that tall grass to get some extra seeds. And, well, among those seeds you\u0027ll most likely find hemp seeds. These hemp seeds can be planted in the ground to grow hemp, which is a valuable woven material that can be used to make string and rope.",
+      "x": 289,
+      "y": 118,
+      "icon": {
+        "id": "druidcraft:hemp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Plant some hemp seeds in the ground and grow them into hemp plants.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:hemp",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Weave hemp leaves together into rope.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:rope",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cb1cf0f8-9fc8-4541-b0db-eeba2f619e0f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:rope",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0ee4c97d-21a1-44c4-9903-284a7d5f03c0",
+      "name": "Insulated Armor",
+      "description": "The Permafrost\u0027s cold is unforgiving, to say the least. Someone unprotected can freeze to death in mere minutes.\n\nSetting down campfires all over the place is... a bit of an unrefined solution to this problem... you\u0027ll need something that works for longer expeditions into the frozen wasteland.\n\n That means you need wool. More specifically, you need wool armor.",
+      "x": 255,
+      "y": 85,
+      "icon": {
+        "id": "survive:wool_hat",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Wool Jacket: one piece of an armor set that, while having low durability and defense, keeps you warm.",
+          "items": [
+            {
+              "item": {
+                "id": "survive:wool_jacket",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cb1cf0f8-9fc8-4541-b0db-eeba2f619e0f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:white_wool",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "70e07651-68a6-410f-bf43-33b2fb2646e1",
+      "name": "Little Bits of \"Life\"",
+      "description": "They\u0027re... strange things. Those frozen pigs should, by all means, be dead. They probably are, actually.\n\nNonetheless, the Permafrost does strange things, and these things can sometimes be seen dotting the frozen landscape.\n\n Their frozen flesh sure doesn\u0027t look appetizing, but you really need food...",
+      "x": 132,
+      "y": 111,
+      "icon": {
+        "id": "snowpig:frozen_porkchop",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a Snow Pig.",
+          "mobs": [
+            {
+              "name": "Snow Pig",
+              "icon": {
+                "id": "snowpig:frozen_porkchop",
+                "Count": 1
+              },
+              "mob": "snowpig:snow_pig",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "101dfb6f-60c5-486d-ac60-c614c303307c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cfc17e3a-c973-4306-ab80-c2bdfc39e8f9",
+      "name": "Dynamic Lighting",
+      "description": "Torches are great and all... but they can be a bit of a hassle when it comes to lighting up a cave. However, with the power of ingenuity... along with a lantern... you can create a solution! An iron helmet... but with a light strapped to it!",
+      "x": 222,
+      "y": 182,
+      "icon": {
+        "id": "mining_helmet:mining_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire a mining helmet.",
+          "items": [
+            {
+              "item": {
+                "id": "mining_helmet:mining_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cb1cf0f8-9fc8-4541-b0db-eeba2f619e0f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lantern",
+          "Count": 24
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fa4ab970-d343-4a7a-857d-8b882f3e0eb1",
+      "name": "Gone Fishing",
+      "description": "Some strange survivors of the Permafrost are fish. In fact, fish are somewhat thriving, under the icy sheets that cover the ocean. \n\n That also means that they\u0027re a good food source. You should probably go and catch some.",
+      "x": 53,
+      "y": 46,
+      "icon": {
+        "id": "minecraft:cod",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Catch some fish!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:salmon",
+                "Count": 3
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:cod",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f58458c0-d1d0-4acf-ba38-8c604e274900"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:pufferfish_bucket",
+          "Count": 1
+        },
+        {
+          "id": "upgrade_aquatic:pike_bucket",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "065bd67b-4173-49ff-b4e8-e4377ec9c687",
+      "name": "Hope",
+      "description": "Wait... What? That... that shouldn\u0027t be possible. Seeds aren\u0027t supposed to be magical... \n\n But your eyes don\u0027t lie. Simply by planting some wheat seeds in thawed soil, you can sprout honest to god grass. This... this is huge.\n\n You\u0027ve brought a tiny bit of life back to this frigid wasteland... it makes you wonder if you can maybe, just maybe, restore a small chunk of the world to how it was before the Permafrost.",
+      "x": 187,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:grass_block",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "COMPLETION",
+          "completed_quests": [
+            {
+              "quest_uuid": "101dfb6f-60c5-486d-ac60-c614c303307c"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "101dfb6f-60c5-486d-ac60-c614c303307c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:grass_block",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:pig_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The world is dead. Most, if not all life has been taken by the Storm.\n Yet... here you are. With nothing but a torch, some coal, and the will to live. You\u0027re alive, for now... but the storm isn\u0027t letting up. You\u0027ll need to act fast if you don\u0027t want to freeze to death."
+}

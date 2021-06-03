@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{OnGround:0b}",
+          "equipment": {
+            "mainhand": {
+              "tag": "combet:shovels"
+            }
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "combet:attacking/extra_upwards_knockback_start"
+  }
+}

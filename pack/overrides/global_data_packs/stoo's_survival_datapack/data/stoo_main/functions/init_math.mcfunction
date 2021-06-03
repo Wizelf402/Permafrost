@@ -1,0 +1,1 @@
+schedule function math:math_init 1t

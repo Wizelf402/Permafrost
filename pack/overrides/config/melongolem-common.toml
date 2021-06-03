@@ -1,0 +1,27 @@
+#
+#Range: 0.5 ~ 3.4028234663852886E38
+health = 8.0
+#
+#Range: 1.0 ~ 3.4028234663852886E38
+damage = 2.0
+#Enables the placement of blocks on golems' heads
+hats = true
+#If disabled, shearing a golem destroys the block
+shear = true
+#If enabled, golems will hunt for nearby melon slices to replensih health
+eats = true
+#The amount a golem will heal for after consuming a melon slice
+#Range: 0.5 ~ 3.4028234663852886E38
+heal = 3.0
+#The item used to spawn a melon golem
+#
+#[domain:name] domain will default to `minecraft`
+stabby = "stick"
+
+#Donator Settings
+["Donator Settings"]
+	#Sets the mini-golem color for yourself (0xRRGGBB)
+	color = "0xFFFFFF"
+	#Enables donator settings for yourself
+	enable = true
+

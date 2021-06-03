@@ -1,0 +1,9 @@
+
+#Common configuration settings
+[common]
+	#Determines whether or not the backpack should be dropped on death
+	keepBackpackOnDeath = true
+	#The amount of rows the backpack has. Each row is nine slots of storage.
+	#Range: 1 ~ 6
+	backpackInventorySize = 1
+

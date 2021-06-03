@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/pumpkin_pie"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 101}, "model": "minecraft:item/pumpkin_pie/chocolate" },
+    { "predicate": { "custom_model_data": 202}, "model": "minecraft:item/pumpkin_pie/sweet_berry" },
+    { "predicate": { "custom_model_data": 303}, "model": "minecraft:item/pumpkin_pie/apple" }
+  ]
+}

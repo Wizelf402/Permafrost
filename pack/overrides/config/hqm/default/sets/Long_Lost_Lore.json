@@ -1,0 +1,36 @@
+{
+  "name": "Long Lost Lore",
+  "quests": [
+    {
+      "uuid": "de9c83ed-705f-495f-b903-6c9c106f4488",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 174,
+      "y": 96,
+      "bigicon": true,
+      "prerequisites": [
+        "aa3e7352-7cd1-413c-aed2-82983f871014"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e4ba1613-c3c7-4cfa-835b-c00c4ddd54f5",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 135,
+      "y": 96,
+      "bigicon": true,
+      "prerequisites": [
+        "aa3e7352-7cd1-413c-aed2-82983f871014"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

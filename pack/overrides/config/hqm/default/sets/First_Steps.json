@@ -1,0 +1,41 @@
+{
+  "name": "First Steps",
+  "quests": [
+    {
+      "uuid": "ffa8f09c-27ea-4d00-8f02-e67e6de8d5be",
+      "name": "Shelter from the Storm",
+      "description": "Before you do anything else, you\u0027ll probably need a crafting table... \n\n In Permafrost, you\u0027re able to access the crafting grid as long as you have a crafting table in your inventory.",
+      "x": 76,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:crafting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The world is dead. Most, if not all life has been taken by the Storm.\n Yet... here you are. With nothing but a Flint and Steel and the will to live. You\u0027re alive, for now... but the storm isn\u0027t letting up. It may never let up.\n\n For now, there\u0027s nothing you can do but survive it."
+}

@@ -1,0 +1,169 @@
+
+{
+  "parent": "minecraft:adventure/trade",
+    "display": {
+        "title": {
+            "text": "Connoiseur"
+        },
+        "description": {
+            "text": "Buy a painting (in the hopes of reselling it)"
+        },
+        "icon": {
+            "item": "minecraft:painting"
+        },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "painting1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eThe Persistent Memory\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Salvador Dali (1932)\\\"}\",\"{\\\"text\\\":\\\"§7Authentic!\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eWanderer above the Mist\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Caspar David Friedrich (1818)\\\"}\",\"{\\\"text\\\":\\\"§7Romantic, exciting, haunting, daunting.\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eLa Gioconda\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Leonard da Vinci (1603)\\\"}\",\"{\\\"text\\\":\\\"§7An original! Garanteed.\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eThe Flour Carrier\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Diego Riviera (1938)\\\"}\",\"{\\\"text\\\":\\\"§7Genuine!\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eWater Lily\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Claude Monét (1925...ish)\\\"}\",\"{\\\"text\\\":\\\"§7One of a kind!\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eLa Rencontre\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Monsieur Courbet (1754)\\\"}\",\"{\\\"text\\\":\\\"§7Three hikers meeting.\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eSkull on Fire\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Kristoffer Zetterstrand (1935)\\\"}\",\"{\\\"text\\\":\\\"§7The title says it all.\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eThe Persistence of Memory\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Salvador Dalí (1931)\\\"}\",\"{\\\"text\\\":\\\"§7Authentic!\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eLa Gioconda\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Leonardo da Vinci (1503)\\\"}\",\"{\\\"text\\\":\\\"§7An original! Garanteed.\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eThe Flower Carrier\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Diego Rivera (1935)\\\"}\",\"{\\\"text\\\":\\\"§7Genuine!\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eWater Lilies\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Claude Monet (1889...ish)\\\"}\",\"{\\\"text\\\":\\\"§7One of a kind...\\\"}\"]}}"
+          }
+        ]
+      }
+    },
+    "painting12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "painting",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§eLa Rencontre\\\"}\",Lore:[\"{\\\"text\\\":\\\"§7Gustave Courbet (1854)\\\"}\",\"{\\\"text\\\":\\\"§7Two hikers meeting.\\\"}\"]}}"
+          }
+        ]
+      }
+    }
+  },
+    "requirements": [
+        [
+            "painting1",
+            "painting2",
+            "painting3",
+            "painting4",
+            "painting5",
+            "painting6",
+            "painting7",
+            "painting8",
+            "painting9",
+            "painting10",
+            "painting11",
+            "painting12"
+        ]
+    ]
+}

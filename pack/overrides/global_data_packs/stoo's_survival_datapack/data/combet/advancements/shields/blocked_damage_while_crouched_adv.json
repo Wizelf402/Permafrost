@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 4,
+            "max": 256
+          },
+          "blocked": true,
+          "type": {
+            "is_magic": false,
+            "is_projectile": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "combet:shields/blocked_damage_while_crouched"
+  }
+}

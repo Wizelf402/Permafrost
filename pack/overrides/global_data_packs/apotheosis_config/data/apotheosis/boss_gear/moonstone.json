@@ -1,0 +1,55 @@
+{
+	"weight": 1,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "druidcraft:moonstone_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:moonstone_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "druidcraft:moonstone_pickaxe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:moonstone_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:moonstone_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:moonstone_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:moonstone_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:moonstone_helmet"
+		}
+	}],
+	"tags": [
+		"enderman"
+	]
+}

@@ -1,0 +1,31 @@
+
+{
+  "parent": "minecraft:adventure/trade",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "It Takes Two"
+    },
+    "description": {
+      "text": "Drink a wandering trader's Friendship Potion"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "potion",          
+	  "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§fPotion of Friendship\\\"}\",Lore:[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"§5When applied:\\\"}\",\"{\\\"text\\\":\\\"§9Teleports you to another player.\\\"}\"]},CustomPotionColor:4432484,HideFlags:35,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}],CustomPotionEffects:[{Id:9,Amplifier:127,Duration:140,ShowIcon:0b}],Tags:[\"pot_friendship:1b\"]}"
+        }
+      }
+    }
+  }
+}
+

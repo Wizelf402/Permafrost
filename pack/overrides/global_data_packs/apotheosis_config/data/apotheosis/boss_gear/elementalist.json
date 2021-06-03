@@ -1,0 +1,67 @@
+{
+	"weight": 3,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "botania:elementium_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "botania:elementium_axe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:mana_tablet"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "botania:flower_bag"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "botania:livingwood_bow"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "botaniaadditions:regen_ivy"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:elementium_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:elementium_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:elementium_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:elementium_helmet"
+		}
+	}],
+	"tags": [
+		"standard", "mage"
+	]
+}

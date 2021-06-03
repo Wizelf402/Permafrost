@@ -1,0 +1,56 @@
+{
+	"weight": 3,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "iceandfire:copper_sword"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "create:extendo_grip"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "create:wrench"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "create:handheld_blockzapper"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_copper_metal_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_copper_metal_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_copper_metal_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "create:goggles"
+		}
+	}],
+	"tags": [
+		"standard"
+	]
+}

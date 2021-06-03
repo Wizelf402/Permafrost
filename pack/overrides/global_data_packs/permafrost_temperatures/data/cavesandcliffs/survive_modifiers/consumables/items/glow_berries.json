@@ -1,0 +1,12 @@
+{
+	"hunger": 1,
+	"saturation": 0,
+	"hunger_chance": 0.9,
+	"energy": 0,
+	"thirst": 0,
+	"hydration": 0,
+	"thirst_chance": 0.5,
+	"gives_chilled_effect": false,
+	"gives_heated_effect": false,
+	"gives_energizing_effect": false
+}

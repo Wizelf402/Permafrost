@@ -1,0 +1,21 @@
+{
+  "name": "The Freezing Goddess1",
+  "quests": [
+    {
+      "uuid": "f08b6e76-bc67-4e0a-a0dd-247b002687b7",
+      "name": "An Effigy",
+      "description": "Unnamed quest",
+      "x": 31,
+      "y": 97,
+      "prerequisites": [
+        "bc0cfb14-2320-48d7-bb70-a31cd0811dc4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "When you made that book... you heard a voice. You could only barely make it out... but it was offering something. A deal, of sorts."
+}

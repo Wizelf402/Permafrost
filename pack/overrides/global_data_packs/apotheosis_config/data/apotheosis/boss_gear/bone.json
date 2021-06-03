@@ -1,0 +1,70 @@
+{
+	"weight": 8,
+	"mainhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_shovel"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_hoe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_axe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "druidcraft:bone_shield"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:bone_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "alexsmobs:centipede_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:bone_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "druidcraft:bone_helmet"
+		}
+	}],
+	"tags": [
+		"standard", "wraith"
+	]
+}

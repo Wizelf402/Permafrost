@@ -1,0 +1,19 @@
+
+[endrem]
+	#Enable/Disable usage of Ender Eyes
+	enable_ender_eyes = false
+	#Enable/Disable the End Castle
+	enable_end_castle = true
+	#Enable/Disable the End Gate
+	enable_end_gate = false
+	#Distance in chunks between End Castles
+	castle_distance = 250
+	#Distance in chunks between End Gates
+	end_gate_distance = 380
+	#Size of the End Gates
+	end_gate_size = 20
+	#Sets the Behavior of the Custom Eyes (0 for disabled, 1 to locate Castle and 2 to locate End Gate)
+	eye_behavior = 1
+	#Sets the Behavior of the Custom Map (0 for disabled, 1 to locate Castle and 2 to locate End Gate)
+	map_behavior = 1
+

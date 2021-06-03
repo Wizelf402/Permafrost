@@ -1,0 +1,34 @@
+
+If you have a version of that installed, you might be confused
+when it doesn't work...
+
+That's intentional! I'm not really sorry, either :P
+
+Even though it works progression-wise, leather from rotten flesh isn't an
+elegant solution to the lack of leather.
+
+Also, with experience, it breaks some of the balance of the game 
+past the first few nights;
+
+	- Leather is straight up abundant, which cuts the challenge
+          of small farms or exploration trips;
+
+	- Rotten flesh is no longer junk! That may not seem like a bad
+	  thing, but everything having value isn't always a good thing
+	  in a videogame about ressources. Being trash is part of its
+	  identity, that's why you can find it everywhere. It's like
+	  the original diamond hoe; it's meant to teach inv managment.
+
+My solution: 
+1.Rotten flesh is cookable to brown dye, which is gross, and something
+  barely useful, but means no need to find a jungle just for dye.
+
+2.Zombies sometimes drop leather itself, and leather armor can be 
+  recrafted into a few pieces of leather as well. Hunting mobs at night is
+  now a viable way to get *some* leather, without deflating its value.
+
+
+If you still prefer rotten flesh to leather though, no prob. Here's how to reinstate it:
+You could remove the zombie loot table in the Minecraft folder, as well as the
+rotten flesh to brown dye recipe in the utilitee/recipes folder. And bam! Bob's your uncle!
+And Sally's your aunt.

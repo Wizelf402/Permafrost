@@ -1,0 +1,14 @@
+{
+  "rewards": {
+    "function": "bozzes:dragon/discovered_the_end"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    }
+  }
+}

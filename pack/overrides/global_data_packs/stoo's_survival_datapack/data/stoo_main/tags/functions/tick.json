@@ -1,0 +1,8 @@
+{
+    "values": [
+        "stonks:stonks_tick",
+        "animoles:animals_tick",
+        "hardness:mob_clock_tick",
+        "combet:combat_tick"
+    ]
+}

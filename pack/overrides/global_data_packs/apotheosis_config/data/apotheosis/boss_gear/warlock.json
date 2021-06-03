@@ -1,0 +1,56 @@
+{
+	"weight": 10,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:bonechill_wand"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "savageandravage:wand_of_freezing"
+			}
+		}
+	],
+	"offhands": [{
+			"weight": 3,
+			"stack": {
+			"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+			"item": "eidolon:codex"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "eidolon:warlock_boots"
+		}
+	}],
+	"leggings": [],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "eidolon:warlock_cloak"
+		}
+	}],
+	"helmets": [{
+		"weight": 20,
+		"stack": {
+			"item": "eidolon:warlock_hat"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:top_hat"
+		}
+	}],
+	"tags": [
+		"mage"
+	]
+}

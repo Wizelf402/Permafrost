@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "bozzes:wither/wither_attacked"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither",
+          "nbt": "{Tags:[\"newWither\"]}"
+        }
+      }
+    }
+  }
+}

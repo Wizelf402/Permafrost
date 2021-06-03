@@ -1,0 +1,1228 @@
+{
+  "name": "Watch the World Burn",
+  "quests": [
+    {
+      "uuid": "91952b6b-f68f-4ed5-8d66-f58145e04621",
+      "name": "Untapped Potential",
+      "description": "Most magic is methodical. Enchanting requires a complex setup, and has very rigid rules set in place. Botany and other forms of druidic magic tap into the magic of plants and nature to generate mana. Theurgists must rely on higher powers to utilize their abilities.\n\nHowever, there is one exception. Raw, unfiltered, elemental magic. While elementalism itself is complex, the elements themselves are not. The elements are magic in its purest form, able to perform spells that are simple, yet effective... if you can properly harness the elements, of course.\n\n If you do things right, you\u0027ll be able to harness the raw power of fire, a deadly weapon against the Chilled,",
+      "x": 72,
+      "y": 61,
+      "icon": {
+        "id": "elementalcraft:inertcrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Delve into the underground, and find an inert crystal embedded in the stone. These inert crystals are the key to harnessing raw magic.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:inertcrystal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a9606fe4-7de2-4356-ad4f-03e7f383537d",
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bc9b6bb1-c332-449b-9ae9-4b6ec29a7558",
+      "name": "Cold Steel",
+      "description": "As wrong as it feels... to unlock the true potential of fire magic, you\u0027re going to have to delve into the frigid nature of water magic, first.\n\nMost contraptions built to control elemental magic require the use of Drenched Iron, iron that has been infused with the magic of Water... You\u0027ll need to use it to progress.",
+      "x": 175,
+      "y": 16,
+      "icon": {
+        "id": "elementalcraft:watercrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Seek out a Water Source, and use it to create an ingot of drenched iron.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:drenched_iron_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a80ca46-2b37-4fef-a951-24695124413a",
+        "4672f296-fcb0-41fc-8dcf-06296c1e787a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:watercrystal",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "297796f5-04cd-497d-85bf-d2c7787686fb",
+      "name": "Finding Fire",
+      "description": "The cold has taken the world... but the fire is far from gone. Sprinkled throughout the world are areas of concentrated elemental magic, far too much of a part of the world to be overwhelmed by the storm.\n\nAmong these, you may find a source of fire magic... by far, the most valuable of the four. Once you find a fire source, you\u0027ll be able to harness the raw fire magic in the surrounding area, and use it to your advantage.",
+      "x": 175,
+      "y": 106,
+      "icon": {
+        "id": "elementalcraft:firecrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Use a fire source, along with the contraptions that you built, to infuse an inert crystal with fire magic.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:firecrystal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a80ca46-2b37-4fef-a951-24695124413a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:fire_shard",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "089b502d-7e68-4574-a1e2-3549b043af09",
+      "name": "Making Magma",
+      "description": "Lava is limited. Not... VERY limited... but limited enough for the ability to create lava to be well worth your while.\n\nThe lava shrine, a marvel of pyromancy, generates so much heat that it can melt basalt placed above it into pure magma, allowing for a near infinite supply of the stuff.",
+      "x": 277,
+      "y": 148,
+      "icon": {
+        "id": "elementalcraft:lavashrine",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Set up a lava shrine to start creating your own lava.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:lavashrine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "811588a2-3a6f-4667-9e27-f51758b1b9a4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:basalt",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aba3a4c3-8ca8-4141-a948-668871b296e9",
+      "name": "A Fiery Barrage",
+      "description": "Fire sticks aren\u0027t the only source of fire that you can craft. In addition to the short-lasting melee weapons that are fire sticks, one can craft flaming arrows with coal and torches, to burn your frigid foes from afar.",
+      "x": 24,
+      "y": 18,
+      "icon": {
+        "id": "consecration:fire_arrow",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft eight fire arrows, which are able to set your foes ablaze.",
+          "items": [
+            {
+              "item": {
+                "id": "consecration:fire_arrow",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a9606fe4-7de2-4356-ad4f-03e7f383537d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:crossbow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd816429-758e-4040-817d-6d6ec18a87ac",
+      "name": "Cooking with Fire",
+      "description": "Fire magic can be harnessed for a great many things. One of the more useful methods of using fire magic is, unsurprisingly, in smelting. The pure element of fire, when properly contained, is more than capable of smelting ore and cooking food. It doesn\u0027t even need coal to function... although, it doesn\u0027t generate local heat like a furnace would.",
+      "x": 216,
+      "y": 106,
+      "icon": {
+        "id": "minecraft:cooked_beef",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Fire Furnace.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:firefurnace",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "297796f5-04cd-497d-85bf-d2c7787686fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:fire_charge",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:beef",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a17a9a16-6a1d-4661-9a62-79d740c4fef5",
+      "name": "Standing Stones",
+      "description": "A rather powerful way to use elemental magic is through shrines: powerful stationary structures that consume elements, using them to do various things with magic.\n\n With these shrines, There\u0027s practically no limit to what you could do with elemental magic!\n\n...Okay, there are limits, but that\u0027s not important. What\u0027s important is being able to make cool shrines.",
+      "x": 277,
+      "y": 61,
+      "icon": {
+        "id": "elementalcraft:shrinebase",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a mundane shrine: The foundation upon which all magical shrines are built.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:shrinebase",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4672f296-fcb0-41fc-8dcf-06296c1e787a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:shrinebase",
+          "Count": 1
+        },
+        {
+          "id": "elementalcraft:firecrystal",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b7d4859f-b096-4927-ae00-19ed884e9c0e",
+      "name": "Holy Fire",
+      "description": "While the field you\u0027re delving into is primarily elemental magic, that doesn\u0027t mean that other fields can\u0027t come into play.\n\nFor example, theurgists specialize in communicating with higher beings, and, due to this, they have access to consecrating mixtures, also known as holy fire.\n\nThese potions are incredibly effective against the undead, and even more effective versus the Chilled themselves.",
+      "x": 24,
+      "y": 108,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "consecration:strong_holy"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Take a dip into the art of theurgy, and brew a splash potion of consecration: a mixture of valuable holy flame that can be used to damage and smite the undead.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:splash_potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "consecration:holy"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ad22bb09-0e7c-48f8-b38d-d51d45b73c36",
+        "b5854446-0e3d-4d31-b29d-0433944f0ceb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c87460bb-0d4f-4dd4-ad7d-da7da3fd53b0",
+      "name": "Papercraft",
+      "description": "In order to make spell scrolls, you\u0027re going to need to make air crystals. You probably know the drill by now, so go out and find a source of the air element.",
+      "x": 175,
+      "y": 76,
+      "icon": {
+        "id": "elementalcraft:aircrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Find an Air Source, and use your elemental instruments to extract air magic from it. Infuse an inert crystal with that wind to obtain an air crystal.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:aircrystal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a80ca46-2b37-4fef-a951-24695124413a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c827d04-5ea3-4bea-b674-01f8ec114308",
+      "name": "Crystallization",
+      "description": "Diamonds are powerful little things. Incredibly durable, and with some rather impressive magical conductivity, these crystals are oft used in both simple and complex forms of magic.\n\nElementalists, for example, use diamonds in the creation of all sorts of elemental crystals through the use of a crystallizer, an instrument that infuses diamonds with elemental magic.",
+      "x": 130,
+      "y": 188,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a crystallizer: a device used to make various elemental gemstones... of varying quality.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:crystallizer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "83eae9ac-59de-4477-9e22-b2256277d7f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "811588a2-3a6f-4667-9e27-f51758b1b9a4",
+      "name": "Serious Firepower",
+      "description": "The Chilled are relentless. They\u0027ve plagued you since the first moments of the storm, and they\u0027ll plague you until the bitter end. It sure would be nice if you could make something to defend your base against them...\n\nAs always, the solution is fire magic. More specifically, a fire pylon. With a few of these pylons, you\u0027ll be able to completely ward an area against the Chilled, as well as anything else that attempts to break into your home.",
+      "x": 277,
+      "y": 106,
+      "icon": {
+        "id": "minecraft:fire_charge",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Set up two Fire Pylons: Shrines that set foes ablaze in a radius around themselves.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:firepylon",
+                "Count": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a17a9a16-6a1d-4661-9a62-79d740c4fef5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:elementpipe_improved",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:vacuumshrine",
+          "Count": 1
+        },
+        {
+          "id": "elementalcraft:enderlockshrine",
+          "Count": 1
+        },
+        {
+          "id": "elementalcraft:firepylon",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d0a87f37-d984-4458-98be-498b8d730d9b",
+      "name": "Pure Power",
+      "description": "The elements may be strong separately... but they\u0027re even stronger together. Nowhere is this more evident than in the process of pure infusion, an extremely powerful ritual that channels the power of all four elements into a single item.\n\nThe process that one must go through to make a working (and safe) pure infusion setup is lengthy... but it\u0027s most certainly worth it.\n\nFirst, you\u0027ll need the Pure Infuser itself, and then you\u0027ll need to place four elemental pedestals around the pure infuser,each supplied their respective element through improved pipes. Then, and only then, will you be able to perform pure infusion.",
+      "x": 87,
+      "y": 188,
+      "icon": {
+        "id": "elementalcraft:purecrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "First, craft the pure infuser itself.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:pureinfuser",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "After that, craft all of the required components. You\u0027ll need to supply each of these components with their respective elements, so it would be wise to use evaporators to make up for the elements that aren\u0027t very close by.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:pedestal_fire",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:pedestal_water",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:pedestal_earth",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:pedestal_air",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:elementpipe_improved",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "With your pure infusing setup, create a pure crystal: a crystal infused with the raw power of all four elements.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:purecrystal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2c827d04-5ea3-4bea-b674-01f8ec114308"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:purecrystal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:speed"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:heal"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:flame_cleave"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:silk_vein"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8cf26b05-645d-42b9-9aa7-5604fdcae4a5",
+      "name": "Carrying the Torch",
+      "description": "While finding a fire source is great, and all... you can\u0027t exactly move it around yet. Making the trek to a usable source every time you want to harness the elements is probably going to get exhausting...\n\nTo circumvent this problem, and use the power of fire in the comfort of your home, you\u0027ll need fire shards. However, you probably already have some.\n\nIf so, then you\u0027ll need an evaporator: a magical contraption that breaks down elemental shards into pure elements.",
+      "x": 216,
+      "y": 147,
+      "icon": {
+        "id": "elementalcraft:fire_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft yourself an evaporator so you don\u0027t have to make the trek out to those sources nearly as often.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:evaporator",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "297796f5-04cd-497d-85bf-d2c7787686fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:water_shard",
+          "Count": 4
+        },
+        {
+          "id": "elementalcraft:earth_shard",
+          "Count": 4
+        },
+        {
+          "id": "elementalcraft:air_shard",
+          "Count": 4
+        },
+        {
+          "id": "elementalcraft:fire_shard",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2e57cf13-e3ac-4966-a971-bb99cf966112",
+      "name": "Pyromancy",
+      "description": "Finally. You finally have everything you need to perform pyromancy. Only one step left... and that\u0027s to actually imbue a scroll with magical properties. You\u0027re going to need more fire crystals for this.",
+      "x": 220,
+      "y": 16,
+      "icon": {
+        "id": "elementalcraft:scroll",
+        "Count": 1,
+        "tag": {
+          "elementalcraft": {
+            "spell": "elementalcraft:inferno"
+          }
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain scrolls for all three major fire spells.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:scroll",
+                "Count": 1,
+                "tag": {
+                  "elementalcraft": {
+                    "spell": "elementalcraft:fireball"
+                  }
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:scroll",
+                "Count": 1,
+                "tag": {
+                  "elementalcraft": {
+                    "spell": "elementalcraft:flame_cleave"
+                  }
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:scroll",
+                "Count": 1,
+                "tag": {
+                  "elementalcraft": {
+                    "spell": "elementalcraft:inferno"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4672f296-fcb0-41fc-8dcf-06296c1e787a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:powerful_fire_shard",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9f2e5ed1-3fe8-448e-a40a-6820cbe965f3",
+      "name": "Hellfire",
+      "description": "With pure crystals, you can make a powerful metal: Fyrite, an ingot that burns hotter than the Nether itself. Used in only the most advanced of elemental instruments, Fyrite is the ultimate culmination of raw elemental power.\n\nSadly, it\u0027s far too unstable to make into any sort of tools... however, hitting an undead with an ingot of fyrite immediately consecrates it due to the pure heat that it exudes.",
+      "x": 46,
+      "y": 147,
+      "icon": {
+        "id": "elementalcraft:fireite_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Get your hands on a Fyrite Ingot: the culmination of elemental magic.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:fireite_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d0a87f37-d984-4458-98be-498b8d730d9b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:fireite_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:inferno"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:ender_strike"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:purification"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:stonewall"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4672f296-fcb0-41fc-8dcf-06296c1e787a",
+      "name": "Spellcraft",
+      "description": "At long last, you have what you need. With white rock, fire crystals, and drenched iron, you can make both a spell desk and some scroll papers, along with a fire element holder.\n\nYou\u0027re so close to harnessing the raw power of fire.",
+      "x": 217,
+      "y": 58,
+      "bigicon": true,
+      "icon": {
+        "id": "elementalcraft:scroll_paper",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire the tools needed to finally perform pyromancy.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:spell_desk",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:scroll_paper",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:element_holder_fire",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "14744f92-82f7-438c-a0ab-a06d0c1e65eb",
+        "297796f5-04cd-497d-85bf-d2c7787686fb",
+        "c87460bb-0d4f-4dd4-ad7d-da7da3fd53b0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:firecrystal",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "83eae9ac-59de-4477-9e22-b2256277d7f4",
+      "name": "Binding Magic",
+      "description": "Binding is one of the first forms of advanced elemental magic that an elementalist learns. The practice of fusing multiple magical items together into a single, more potent magical item is an important aspect in creating more and more complex elemental instruments.\n\nTo delve into this craft, you\u0027ll need to create a binder.",
+      "x": 130,
+      "y": 147,
+      "icon": {
+        "id": "elementalcraft:binder",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a binder, an elemental instrument that utilizes the magic stored within containers to fuse things together.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:binder",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15c5df6e-df2d-45f0-ae05-27a1ad91e338"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:swift_alloy_ingot",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "14744f92-82f7-438c-a0ab-a06d0c1e65eb",
+      "name": "A Strong Foundation",
+      "description": "Elemental magic, on its own, is extremely unstable. However, with the power of earth, you can make a material designed explicitly to hold and stabilize these unstable magicks: White Rock.\n\n Without this earth-infused stone, powerful elemental magic is nigh impossible.",
+      "x": 175,
+      "y": 46,
+      "icon": {
+        "id": "elementalcraft:earthcrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Seek out an Earth Source, and harness its power to infuse normal stone with the structure that Earth provides, creating white rock.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:whiterock",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a80ca46-2b37-4fef-a951-24695124413a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:whiterock",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a35bb534-f0d8-4499-8057-8e18df2b937c",
+      "name": "The Guidebook",
+      "description": "You\u0027re not exactly experienced in the art of elemental magic. If you wanna get anywhere close to harnessing fire, you\u0027ll need a guidebook.",
+      "x": 114,
+      "y": 19,
+      "icon": {
+        "id": "patchouli:guide_book",
+        "Count": 1,
+        "tag": {
+          "patchouli:book": "elementalcraft:element_book"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft an Elementopedia by combining an inert crystal with a mundane book.",
+          "items": [
+            {
+              "item": {
+                "id": "patchouli:guide_book",
+                "Count": 1,
+                "tag": {
+                  "patchouli:book": "elementalcraft:element_book"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "91952b6b-f68f-4ed5-8d66-f58145e04621"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:inertcrystal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "695030d7-a332-4c1e-9b02-9cbd069820fa",
+      "name": "Try This at Home!",
+      "description": "With the power of a pure crystal, you can finally craft something strong enough to transport an elemental source without being destroyed.\n\nThe Source Receptacle is able to collect and move sources of elemental magic, and is actually able to do this several times before breaking.",
+      "x": 46,
+      "y": 188,
+      "icon": {
+        "id": "elementalcraft:receptacle",
+        "Count": 1,
+        "tag": {
+          "Damage": 0,
+          "element_type": "fire"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Source Receptacle in order to start carrying your elemental sources around.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:receptacle_empty",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d0a87f37-d984-4458-98be-498b8d730d9b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:receptacle",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "element_type": "water"
+          }
+        },
+        {
+          "id": "elementalcraft:receptacle",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "element_type": "fire"
+          }
+        },
+        {
+          "id": "elementalcraft:receptacle",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "element_type": "earth"
+          }
+        },
+        {
+          "id": "elementalcraft:receptacle",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "element_type": "air"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a80ca46-2b37-4fef-a951-24695124413a",
+      "name": "An Elementalist\u0027s Arsenal",
+      "description": "Before you start harnessing any elemental magic, you\u0027ll need a set of basic tools in order to extract raw elements from their sources.",
+      "x": 130,
+      "y": 61,
+      "icon": {
+        "id": "elementalcraft:tank_small",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft some basic elementalist items, which are required to begin performing elemental magic.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:elementpipe_impaired",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "elementalcraft:extractor",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "elementalcraft:tank_small",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "91952b6b-f68f-4ed5-8d66-f58145e04621"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:tank_small",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c7a7440-3108-4032-b95a-dc9235a6df94",
+      "name": "An Elementalist\u0027s Wand",
+      "description": "Scrolls are all well and good... but they do take up a fair bit of inventory space. It\u0027d be much more efficient if you had a way to store all of those spells.\n\nThat\u0027s where an elementalist focus comes in. A focus can store up to five separate spells, and switch between them at a moment\u0027s notice.",
+      "x": 277,
+      "y": 16,
+      "icon": {
+        "id": "elementalcraft:focus",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a spellcasting focus, a wonderful item that stores multiple spells within.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:focus",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2e57cf13-e3ac-4966-a971-bb99cf966112"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:item_pull"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:tree_fall"
+            }
+          }
+        },
+        {
+          "id": "elementalcraft:scroll",
+          "Count": 1,
+          "tag": {
+            "elementalcraft": {
+              "spell": "elementalcraft:animal_growth"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "15c5df6e-df2d-45f0-ae05-27a1ad91e338",
+      "name": "Secure Containment",
+      "description": "Your containers are far from sturdy enough to power anything more than basic contraptions. As it stands, you\u0027re stuck with using the elements in... rather simple ways.\n\nHowever, you can change that. With the right materials and some good old-fashioned elbow grease, you can create containers that will allow you to use even the most powerful of elemental instruments.",
+      "x": 130,
+      "y": 108,
+      "icon": {
+        "id": "elementalcraft:containedcrystal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a normal element container, along with some regular element pipes.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "elementalcraft:elementpipe",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7a80ca46-2b37-4fef-a951-24695124413a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:elementpipe",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad22bb09-0e7c-48f8-b38d-d51d45b73c36",
+      "name": "Banging Rocks Together",
+      "description": "Who knew that smacking a shard of flint and an iron ingot together would be such a good method of creating fire? Much better than a fire stick, that\u0027s for sure.",
+      "x": 24,
+      "y": 60,
+      "icon": {
+        "id": "minecraft:flint_and_steel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire a flint and steel... by combining flint with some steel.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flint_and_steel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aba3a4c3-8ca8-4141-a948-668871b296e9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "survive:long_cold_resistance"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Fire. Fire is the key to survival. It\u0027s... the key to everything, in this frigid wasteland. If you wish to survive, you\u0027re going to need to harness its raw elemental power, and use it to your advantage."
+}

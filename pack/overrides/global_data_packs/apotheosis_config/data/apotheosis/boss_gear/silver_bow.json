@@ -1,0 +1,56 @@
+{
+	"weight": 6,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "iceandfire:silver_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:bow"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "oreganized:silver_mirror"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "consecration:fire_arrow"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_silver_metal_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_silver_metal_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_silver_metal_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "iceandfire:armor_silver_metal_helmet"
+		}
+	}],
+	"tags": [
+		"skeleton"
+	]
+}

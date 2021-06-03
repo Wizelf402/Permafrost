@@ -1,0 +1,1354 @@
+{
+  "name": "Reclaiming the World",
+  "quests": [
+    {
+      "uuid": "e197add9-8fbd-451e-95f3-eeb748b36758",
+      "name": "Mobile Meals",
+      "description": "Lunchbags are a perfectly fine means of holding a variety of food items... but you can hold more. By surrounding a lunchbag with iron, you can make a lunchbox, which can hold much more. By surrounding that lunchbox with gold ingots, you can upgrade it into a golden lunchbox, an incredibly efficient way to store a variety of meals to keep that variety in your diet.",
+      "x": 27,
+      "y": 57,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 14,
+            "Items": []
+          }
+        },
+        "id": "solpotato:golden_lunchbox",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Go through all of the steps needed to make a golden lunchbox.",
+          "items": [
+            {
+              "item": {
+                "ForgeCaps": {
+                  "Parent": {
+                    "Size": 14,
+                    "Items": []
+                  }
+                },
+                "id": "solpotato:golden_lunchbox",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4c08da0d-ab70-449a-b43d-1ae49e0afccc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ea70c0e9-2f44-4765-978e-fda76e69ce7c",
+      "name": "Straw Constructs",
+      "description": "Harvesting materials by hand can get a bit tedious. However, with the power of golemancy, you can make a construct that will do the work for you: a Straw Golem.\n\nWhile straw golems have limited lifespans, equivalent to about three days, they\u0027re extremely useful. Straw golems will automatically harvest and replant crops around them for as long as they live, and bring them to a nearby chest for storage.",
+      "x": 93,
+      "y": 57,
+      "icon": {
+        "id": "minecraft:wheat",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Create a straw golem by placing a carved pumpkin on top of a hay bale.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:hay_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:carved_pumpkin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6e72b3bb-ede1-4fed-895b-5025b39b3e82"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b5854446-0e3d-4d31-b29d-0433944f0ceb",
+      "name": "Holy Metal",
+      "description": "Heat isn\u0027t the only new problem you\u0027ll face in the Nether. Another threat that comes with the fiery dimension is the presence of fire-resistant undead, who have adapted to the heat of the Nether.\n\nWhile setting the undead ablaze works wonders in the overworld, those in the Nether require a different method of consecration, rooted in Theurgy.\n\nThis method comes in the form of silver, a metal renowned for its consecrating properties. With silver tools, you\u0027ll be able to properly counter the undead of the Nether.",
+      "x": 216,
+      "y": 81,
+      "icon": {
+        "id": "iceandfire:silver_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a silver ingot, used in the construction of various tools that can consecrate fire-resistant undead.",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:silver_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca",
+        "ad22bb09-0e7c-48f8-b38d-d51d45b73c36"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:silver_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:silver_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:silver_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:silver_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2bb23a06-b352-4c48-8737-a13317388597",
+      "name": "Hidden in the Depths",
+      "description": "Deep within the Netherrack lies an incredibly durable metal: Netherite. This powerful metal can be used to upgrade diamond tools and armor into their Netherite variants, which are stronger, more durable, and give knockback resistance... in addition to being fire-resistant.",
+      "x": 247,
+      "y": 156,
+      "icon": {
+        "id": "minecraft:netherite_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Netherite Ingot.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherite_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e1bbe626-49b6-45cd-a65a-115caa9460eb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_scrap",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85dc6312-1746-4c61-b561-54d95f5456c2",
+      "name": "Something Out There",
+      "description": "You couldn\u0027t have been the only survivor, right? Other people have definitely lasted this long...\n\nProblem is... you have no idea where they are, or where they even could be.\n\nMaybe they\u0027re holed up in the villages that dot the landscape? It\u0027s... possible, you suppose.",
+      "x": 134,
+      "y": 106,
+      "icon": {
+        "id": "artifacts:villager_hat",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Attempt to find some other survivors.",
+          "advancements": [
+            {
+              "name": "Long Gone",
+              "icon": {
+                "id": "artifacts:villager_hat",
+                "Count": 1
+              },
+              "adv_name": "minecraft:long_gone"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "065bd67b-4173-49ff-b4e8-e4377ec9c687"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "34052329-e66b-4aa9-ae6a-64ed6df446d5",
+      "name": "Honeyed Snacks",
+      "description": "Armor isn\u0027t the only thing that honey\u0027s good for. There are also a few very useful food items that can be made with honey and honeycombs. These foods actually give minor helpful effects, in addition to being extremely filling.",
+      "x": 257,
+      "y": 53,
+      "icon": {
+        "id": "extrafood:sweet_berries_and_honey",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Assemble a variety of tasty meals with honey and honeycomb.",
+          "items": [
+            {
+              "item": {
+                "id": "extrafood:pancake",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "extrafood:cupcake",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "extrafood:sweet_berries_and_honey",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9bcfff48-0dda-45f8-9687-15220fd20663"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:honeycomb",
+          "Count": 32
+        },
+        {
+          "id": "survive:stiffened_honey",
+          "Count": 9
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9220c28b-933d-4838-ba4d-2ef68311654b",
+      "name": "The Greenhouse Effect",
+      "description": "In case you, er... haven\u0027t already noticed... crops don\u0027t grow on the surface. At all.\n\nThat\u0027s... well... it\u0027s a problem. However, you have a solution. A greenhouse! By placing any type of glass above a crop, you can spare it from the storm\u0027s wrath. The crop will be able to grow normally inside of a greenhouse, when it would otherwise be unable to grow at all. In addition, crops can be grown underground, under y-level 48.",
+      "x": 131,
+      "y": 16,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:glass_pane",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Get your hands on some glass to start construction of a greenhouse. Any glass will do.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass",
+                "Count": 32
+              },
+              "required": 32,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "065bd67b-4173-49ff-b4e8-e4377ec9c687"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:blueberries",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:beetroot",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d67b65f-6884-43d9-85da-8a101a01a5fe",
+      "name": "Tough Stuff",
+      "description": "Obsidian. One of the toughest materials known to man. Only able to be broken by tools crafted of pure diamond.\n\nAnd... well... it\u0027s rather powerful. Obsidian has often been associated with interdimensional travel, due to its common usage in the creation of Nether Portals.\n\nMaybe the Nether will be... a bit more hospitable than the overworld? It\u0027s certainly possible... though not likely.",
+      "x": 177,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:obsidian",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "longDescription": "Break a block of obsidian.",
+          "blocks": [
+            {
+              "item": {
+                "id": "minecraft:obsidian",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9220c28b-933d-4838-ba4d-2ef68311654b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7db2c63d-6e31-4e4b-bd8d-30ad64a266a5",
+      "name": "Lost no Longer",
+      "description": "You\u0027ve wandered aimlessly in the cold for far too long... and frankly, you\u0027re sick of it.\n\nYou\u0027re sick of being lost in this accursed storm, sick of losing your way.\n\nIt\u0027s time to change things.",
+      "x": 134,
+      "y": 57,
+      "icon": {
+        "id": "antiqueatlas:empty_antique_atlas",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft an Antique Atlas; a magical, infinite map that can be used to find your way in the frozen wastes.",
+          "items": [
+            {
+              "item": {
+                "id": "antiqueatlas:empty_antique_atlas",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9220c28b-933d-4838-ba4d-2ef68311654b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "corpsecomplex:soulbinding"
+              }
+            ]
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd84c488-8e18-45ee-98c2-4e770d29c63c",
+      "name": "Iceology",
+      "description": "The Illagers are in a constant battle for survival... much like you.\n\nSo, if a certain illager were to find out how to harness the terrifying might of the Permafrost to ensure their survival, they most likely wouldn\u0027t hesitate to use that magic.\n\nThe Iceologers have learned to harness the magic of the Permafrost, to terrifying effect. Appearing more commonly near igloos and wielding a rod of freezing, these storm mages are a force to be reckoned with.",
+      "x": 45,
+      "y": 114,
+      "icon": {
+        "id": "savageandravage:wand_of_freezing",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Defeat an Iceologer; A magic user who has embraced the storm in order to survive.",
+          "mobs": [
+            {
+              "name": "Iceologer",
+              "icon": {
+                "id": "savageandravage:wand_of_freezing",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "mob": "savageandravage:iceologer",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "365d6aeb-32c5-4dd4-b623-aa0348d9832b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:packed_ice",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:carved_pumpkin",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc587c70-5f2e-47b3-85bb-ce2df1b7c58e",
+      "name": "Lukewarm Lights",
+      "description": "Sometimes, you just want a nice aesthetic touch for your base... but it may be that lanterns are too hot, and soul lanterns are too cold.\n\nThere\u0027s a solution to this, however.\n\nGlowcoke; a fire that produces no temperature. Perfect for lighting up an area without burning or freezing to death.",
+      "x": 177,
+      "y": 112,
+      "icon": {
+        "id": "infernalexp:glowcoal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain some Glowcoke.",
+          "items": [
+            {
+              "item": {
+                "id": "infernalexp:glowcoal",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "20098864-19aa-4583-8279-39b41e45efb0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "infernalexp:lantern_glow",
+          "Count": 4
+        },
+        {
+          "id": "infernalexp:torch_glow",
+          "Count": 16
+        },
+        {
+          "id": "infernalexp:campfire_glow",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4562ee67-4ed8-44a8-a277-20db7c9a7998",
+      "name": "All Out War",
+      "description": "The Illagers are just gonna keep on coming after you if you don\u0027t do something about it.\n\nYou\u0027ll need to take the fight to them.\n\nBurn one of their banners, and prepare yourself for a fight.",
+      "x": 45,
+      "y": 180,
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Survive an Illager Raid.",
+          "advancements": [
+            {
+              "name": "Hero of the Village",
+              "adv_name": "minecraft:adventure/hero_of_the_village"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "01e40869-428c-44e0-a2b4-9221655d1d17",
+        "365d6aeb-32c5-4dd4-b623-aa0348d9832b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "savageandravage:cleaver_of_beheading",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "savageandravage:wand_of_freezing",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b61d02b8-0ed1-493e-9ad8-108f0feb08a8",
+      "name": "The Art of Alchemy",
+      "description": "The heat of the Nether and the cold of the Overworld have been your mortal enemies for a while.\n\nBut no longer. Not with alchemy.\n\nWith the magic of the blaze rod, you can now brew potions, incredible magical concoctions that can temporarily instill beneficial effects. Among those effects are resistance to the heat... and resistance to the cold.",
+      "x": 291,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:brewing_stand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Using a blaze rod, create a brewing stand; a station that allows you to brew all sorts of powerful potions.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brewing_stand",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e1bbe626-49b6-45cd-a65a-115caa9460eb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glass_bottle",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e1bbe626-49b6-45cd-a65a-115caa9460eb",
+      "name": "A Fiery Fortress",
+      "description": "Nobody knows who created the Nether Fortresses. The only thing that\u0027s for certain is the fact that they were created a long time ago. While they\u0027re rather hostile places... they\u0027re usually full of all sorts of interesting treasures to take, so it may be worth delving into the Nether to find them.",
+      "x": 247,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:blaze_powder",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Find a Nether Fortress",
+          "advancements": [
+            {
+              "name": "A Terrible Fortress",
+              "icon": {
+                "id": "minecraft:nether_wart",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b5854446-0e3d-4d31-b29d-0433944f0ceb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_wart",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:blaze_rod",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6e72b3bb-ede1-4fed-895b-5025b39b3e82",
+      "name": "Sugar, Sugar",
+      "description": "Sugarcane, as you may have already noticed, is not suited to the Permafrost\u0027s winds in the slightest. They have a tendency to suddenly fall apart in the snowy conditions of the storm.\n\nHowever, despite its fragility, sugarcane is extremely useful. You\u0027re going to want to get some for crafting sugar and paper. Make sure to keep it in your greenhouse at all times, and it probably won\u0027t be destroyed by the storm.",
+      "x": 93,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:sugar_cane",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Using sugarcane that you\u0027ve grown, craft both paper and sugar.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sugar",
+                "Count": 16
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:paper",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9220c28b-933d-4838-ba4d-2ef68311654b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:writable_book",
+          "Count": 1,
+          "tag": {
+            "pages": [
+              "Day... uh... 13, I believe?\n\nThis is exhausting. It\u0027s only been, like, two weeks, and I think I might already be going insane in this storm.\n\nMy iron golems have all been broken, at this point, and while snow golems are... er... an option, they are, at ",
+              "best, only a way to freeze the Chilled in place.\n\n...I\u0027ve taken to improvising, at this point.\n\nJust this morning, I created a MELON golem. Do you know what a melon golem is? \nOf course you don\u0027t. ",
+              "You\u0027re just a book. Or someone reading this book, somehow. Whatever.\n\nThe point is, I made a new golem today, and it seems... alright at keeping the hordes at bay. I\u0027ll detail the instructions on how to create one in here.",
+              "HOW TO MAKE A \nMELON GOLEM\n\n-----------------\n\n- Find or grow three melons.\n-Stack all three on top of one another.\n- Take a stick in each hand.\n- Place them, at the SAME TIME, into the middle melon.\n"
+            ],
+            "RepairCost": 0,
+            "display": {
+              "Name": "{\"text\":\"A Villager\u0027s Diary\"}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:melon_slice",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2122f7d2-3909-4d50-8522-27b0052caab3",
+      "name": "An Ancient Defender",
+      "description": "While the villagers may be dead, their technology is far from gone. The villagers excelled in Golemancy; the practice of breathing life into inanimate objects and turning them into servants, specifically iron golems.\n\nThe Villagers used Iron golems to protect their homes. Maybe you could do something similar?",
+      "x": 93,
+      "y": 106,
+      "icon": {
+        "id": "minecraft:poppy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Summon an Iron golem.",
+          "advancements": [
+            {
+              "name": "Hired Help",
+              "icon": {
+                "id": "minecraft:carved_pumpkin",
+                "Count": 1
+              },
+              "adv_name": "minecraft:adventure/summon_iron_golem"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9a695f38-1420-4622-af75-b2bc958ae9a5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:name_tag",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "91b678af-c5bf-4423-b449-2b0eaadad070",
+      "name": "Evocation",
+      "description": "Evocation Magic may be simple, but it\u0027s rather powerful. Most evocation magic centers around conjuring living things. From totems of undying being able to immediately restore your body and consciousness upon death, to the mysterious magic of the spawner... it\u0027s all rather effective.\n\nOf course, the Illagers would use it. Evokers practice evocation magic for combative purposes, utilizing it in order to do... er... strange things. Things that you don\u0027t exactly understand.",
+      "x": 27,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:totem_of_undying",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill an Evoker; a powerful magician who specializes in deadly evocation magic.",
+          "mobs": [
+            {
+              "name": "Evoker",
+              "icon": {
+                "id": "minecraft:totem_of_undying",
+                "Count": 1
+              },
+              "mob": "minecraft:pig",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "365d6aeb-32c5-4dd4-b623-aa0348d9832b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:totem_of_undying",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3b68d063-3104-439c-8952-1f3aadde878e",
+      "name": "Silver Shots",
+      "description": "Swords aren\u0027t the only things that can be infused with the consecrating power of silver.\n\nFor undead that fly out of reach, one may find a lot of use in arrows of consecration. Crafted by imbuing arrows with silver, these special arrows immediately consecrate anything that they hit.",
+      "x": 274,
+      "y": 81,
+      "icon": {
+        "id": "minecraft:tipped_arrow",
+        "Count": 1,
+        "tag": {
+          "Potion": "consecration:holy"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain 64 arrows of consecration; potent weapons against undead who fight from a distance, in addition to piercing fire resistance.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:tipped_arrow",
+                "Count": 64,
+                "tag": {
+                  "Potion": "consecration:holy"
+                }
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b5854446-0e3d-4d31-b29d-0433944f0ceb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:crossbow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "Enchantments": [
+              {
+                "lvl": 1,
+                "id": "minecraft:piercing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 32,
+          "tag": {
+            "Potion": "consecration:holy"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "887fd1eb-e392-45e9-95b9-b535d8311f7d",
+      "name": "Soul Searching",
+      "description": "You may have noticed, at this point, that you don\u0027t just drop all your stuff when you fall in battle.\n\nInstead, it\u0027s all stored in a fragile little totem holding your items, which breaks upon a second death. With that, it\u0027s imperative that you find your totem before you fall a second time.\n\nHowever, there\u0027s an item that can help with that. The Soul Compass. Crafted with soul beads, this handy little device points towards the location of your last death, allowing you to find your totem easily.",
+      "x": 109,
+      "y": 82,
+      "icon": {
+        "id": "quark:soul_compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Soul Compass.",
+          "items": [
+            {
+              "item": {
+                "id": "quark:soul_compass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7db2c63d-6e31-4e4b-bd8d-30ad64a266a5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "quark:soul_bead",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c08da0d-ab70-449a-b43d-1ae49e0afccc",
+      "name": "Snack Break",
+      "description": "Variety may be the spice of life... but that variety is altogether quite pointless if you have to use your entire inventory to carry a variety of foods to buff yourself up.\n\nWell, luckily for you, you can use all that paper you just got to make a lunch bag, an item that, when shift-right-clicked with, opens up to reveal five slots of inventory space that foods can be put into and taken out of. This makes storing a variety of good foods much easier.",
+      "x": 27,
+      "y": 19,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {
+            "Size": 5,
+            "Items": []
+          }
+        },
+        "id": "solpotato:lunchbag",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Using five pieces of paper, craft a lunch bag.",
+          "items": [
+            {
+              "item": {
+                "ForgeCaps": {
+                  "Parent": {
+                    "Size": 5,
+                    "Items": []
+                  }
+                },
+                "id": "solpotato:lunchbag",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6e72b3bb-ede1-4fed-895b-5025b39b3e82",
+        "fab6c9c6-68b0-4de8-bcc1-6dd3ccf58d5f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "extrafood:apple_juice",
+          "Count": 4
+        },
+        {
+          "id": "extrafood:vegetable_soup",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e89b7ad-f9f8-448f-9924-b420ef6da7ca",
+      "name": "Going Deeper",
+      "description": "The Nether is a hostile place. A heated hellscape, filled to the brim with lava that could burn you to a crisp if you went anywhere NEAR it.\n\nHowever, much like this world\u0027s underground, life finds ways to thrive in the Nether, through a strange ecosystem of its own.\n\nYou haven\u0027t seen it since the Permafrost destroyed all of the portals... but maybe you could check it out. Maybe it\u0027ll be a little bit colder this time, a little more livable.",
+      "x": 216,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:netherrack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Create a nether portal out of obsidian, light it with a flint and steel, and descend into the Nether.",
+          "advancements": [
+            {
+              "name": "We Need to go Deeper",
+              "icon": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/enter_the_nether"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2d67b65f-6884-43d9-85da-8a101a01a5fe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bee_spawn_egg",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:campfire",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "upgrade_aquatic:river_beehive",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:beehive",
+          "Count": 1
+        },
+        {
+          "id": "upgrade_aquatic:driftwood_beehive",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9bcfff48-0dda-45f8-9687-15220fd20663",
+      "name": "Beekeeping",
+      "description": "Conditions in the Nether have not improved in the slightest. It\u0027s still burning hot in that dimension... and that means that you\u0027ll need to make some things that can cool you down.\n\nTo do that, you\u0027ll need to utilize the power of bees... more specifically, the power of their honey.\n\nBees are neutral mobs that stay in beehives, but come out to pollinate nearby flowers and plants. This generates honey, which can be collected to make both honey bottles and honeycombs... at the cost of angering the bees if you don\u0027t have a campfire placed under the hive.",
+      "x": 257,
+      "y": 19,
+      "icon": {
+        "id": "minecraft:honeycomb",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Become a bee farmer, and use beehives to gather a bottle of honey.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:honey_bottle",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:poppy",
+          "Count": 6
+        },
+        {
+          "id": "minecraft:glass_bottle",
+          "Count": 9
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a695f38-1420-4622-af75-b2bc958ae9a5",
+      "name": "Nothing Out There",
+      "description": "The village you stumbled upon... it\u0027s already been taken by the storm. All that\u0027s left of the residents are their undead remains.\n\nAs far as you know... every single villager is dead.",
+      "x": 134,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:rotten_flesh",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a zombie villager; the sorry remains of a villager who perished in the storm.",
+          "mobs": [
+            {
+              "name": "Zombie Villager",
+              "icon": {
+                "id": "minecraft:zombie_villager_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:pig",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "85dc6312-1746-4c61-b561-54d95f5456c2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 16
+        },
+        {
+          "id": "extrafood:cupcake",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "365d6aeb-32c5-4dd4-b623-aa0348d9832b",
+      "name": "The Survivors",
+      "description": "Turns out, some people really did survive the Permafrost. Problem is... the Illager\u0027s aren\u0027t exactly friendly.\n\nTo them, it\u0027s survival of the fittest... and you\u0027ve definitely got some stuff that they want.",
+      "x": 78,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:crossbow",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Take down a pillager; a roving illager who carries a crossbow.",
+          "mobs": [
+            {
+              "name": "Pillager",
+              "icon": {
+                "id": "minecraft:crossbow",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "mob": "minecraft:pillager",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9a695f38-1420-4622-af75-b2bc958ae9a5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:crossbow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39bfd267-3142-4aae-b634-18576f26804a",
+      "name": "Frostbite Back",
+      "description": "Temperature has been the bane of your existence ever since the Permafrost struck. Now, you don\u0027t just need to fight the cold... you can IGNORE the cold.\n\nWith the power of heat and cold resistance, the temperature will have very little sway over you.",
+      "x": 291,
+      "y": 180,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "survive:cold_resistance"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Using the brewing stand, brew a potion of heat resistance and a potion of cold resistance.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "survive:cold_resistance"
+                }
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "survive:heat_resistance"
+                }
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b61d02b8-0ed1-493e-9ad8-108f0feb08a8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:magma_cream",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:ice",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20098864-19aa-4583-8279-39b41e45efb0",
+      "name": "Frigid Fire",
+      "description": "The Nether\u0027s heat is just as oppressive as it was before. It was completely spared by the Permafrost.\n\n This means, if you want to explore the Nether and collect the materials that lie within, you\u0027ll need to get to work on a way to cool down.\n\nHowever, there\u0027s actually a nice means of cooling off located within the Nether itself: soul fire.\n\nSoul fire is essentially a form of fire that\u0027s cold, instead of hot. This soul fire can be used as a quick way to cool down in the fiery dimension, if crafted.",
+      "x": 177,
+      "y": 58,
+      "icon": {
+        "id": "minecraft:soul_lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Assemble an array of items made with soul fire to help combat the Nether\u0027s blistering heat.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_lantern",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:soul_campfire",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:soul_soil",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01e40869-428c-44e0-a2b4-9221655d1d17",
+      "name": "A Common Cure",
+      "description": "Before the Permafrost, zombification was nothing more than an inconvenience. With the widespread availability of cures to direct zombification, a bite from a zombie was very far from the end of one\u0027s life.\n\nBut now... Now, that isn\u0027t the case. Golden apples and potions of weakness are much harder to come by... but you can\u0027t let that stop you. If you cure a villager of their affliction, they could be a valuable ally.",
+      "x": 101,
+      "y": 180,
+      "icon": {
+        "id": "minecraft:golden_apple",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Cure a zombie villager.",
+          "advancements": [
+            {
+              "name": "The Cure",
+              "icon": {
+                "id": "minecraft:golden_apple",
+                "Count": 1
+              },
+              "adv_name": "minecraft:story/cure_zombie_villager"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9a695f38-1420-4622-af75-b2bc958ae9a5",
+        "39bfd267-3142-4aae-b634-18576f26804a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 6,
+          "tag": {
+            "Potion": "minecraft:long_weakness"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36ee7fcf-2544-4c35-882d-7cb88fea1ad0",
+      "name": "Keeping it Cool",
+      "description": "By combining ice with honey, you can create stiffened honey, a malleable, ice cold material that can be melded into armor that keeps you cool, even in the oppressive heat of the Nether.",
+      "x": 291,
+      "y": 53,
+      "icon": {
+        "id": "survive:stiffened_honey_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Using stiffened honey, create a full set of stiffened honey armor.",
+          "items": [
+            {
+              "item": {
+                "id": "survive:stiffened_honey_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "survive:stiffened_honey_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "survive:stiffened_honey_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "survive:stiffened_honey_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9bcfff48-0dda-45f8-9687-15220fd20663"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:honey_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "You\u0027ve wandered, alone in the cold, for weeks. But... with this new discovery... something tells you that there may be some hope.\n\nYou can rebuild a little piece of the world. Make it livable... make it into a home. You can pry a piece of the world from the storm\u0027s grasp, and turn it into a veritable fortress."
+}

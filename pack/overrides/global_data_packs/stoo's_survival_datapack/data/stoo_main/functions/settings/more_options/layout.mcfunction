@@ -1,0 +1,16 @@
+gamerule sendCommandFeedback false
+schedule function stoo_main:settings/reenable_command_feedback 5s
+
+tellraw @s ["",{"text":"\n\n"}]
+
+# INTRO
+tellraw @s ["",{"text":"Datapack Folder Layout","bold":true,"color":"#729DD3"},{"text":"\n"},{"text":"You should be able to customize every detail of the pack with this guide. Make sure you know what you're doing! Hover over the folder you want to know more about, or click","color":"gray"},{"text":" here ","bold":true,"color":"#C7C7C7","clickEvent":{"action":"open_url","value":"https://www.reddit.com/r/minecraftcommands/wiki/resources"},"hoverEvent":{"action":"show_text","contents":"\u25ba Writing and modifying datapacks"}},{"text":"for ressources and guides on datapacks.","color":"gray"}]
+
+tellraw @s ["",{"text":"\n"}]
+
+# LAYOUT
+tellraw @s ["",{"text":"> Stoos_Survival\n \u0020 > data","color":"gray"},{"text":"\n"},{"text":" \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"bozzes\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Bosses: Small folder dealing with custom drops, events and music discs dropped by bosses. Like the rest of the pack, most functions are triggered by in-game advancements."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"utilitee\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Small miscellaneous changes, like music discs pausing ambient music, or recipe additions."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"minecraft\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Everything the pack replaces from vanilla; loot tables from entities, chests, blocks or fishing, as well as small recipe tweaks."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"animoles\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Animals. Deals with everything animal-related, like animals fleeing away from aggressive players, or naming pets."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"hardness\"","color":"gold","hoverEvent":{"action":"show_text","contents":"HUGE folder related to difficulty, mobs, hardcore mode, etc! Most functions are triggered by advancements. This is also the heaviest section performance-wise, so if you want to tweak something, it's worth taking a look at."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"helth\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Everything related to food and health. Includes sections on regeneration, on food value overhauls, and on custom suspicious stews (which have both recipes and advancements)."}},{"text":"\n \u0020 \u0020 \u0020> ","color":"gold"},{"text":"\"stonks\"","color":"gold","hoverEvent":{"action":"show_text","contents":"Complicated mess of a folder related to everything Wandering Trader! Huge, huge props to Xisumavoid's Vanilla Tweaks, without which this feature wouldn't have been possible."}}]
+
+
+# RETURN
+tellraw @s ["",{"text":"\n"},{"text":"\u25c0 Main menu","color":"#A0BEC8","clickEvent":{"action":"run_command","value":"/function stoo_main:configure"}}]

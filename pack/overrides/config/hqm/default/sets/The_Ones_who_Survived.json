@@ -1,0 +1,1268 @@
+{
+  "name": "The Ones who Survived",
+  "quests": [
+    {
+      "uuid": "f1302b99-6a8b-4b4a-8329-42fbba1b13eb",
+      "name": "The Great Thrasher",
+      "description": "Surprisingly, most thrashers are actually juveniles. It takes over fifty years for a thrasher to become fully grown... but fully grown, or Greater Thrashers, are massive beasts.\n\nOver twice the size of a normal thrasher, the great thrashers are uncommon, but deadly predators. Not even the most powerful armor can save you if one catches you in its bite.",
+      "x": 24,
+      "y": 53,
+      "icon": {
+        "id": "minecraft:heart_of_the_sea",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a Great Thrasher.",
+          "mobs": [
+            {
+              "name": "Great Thrasher",
+              "icon": {
+                "id": "upgrade_aquatic:great_thrasher_spawn_egg",
+                "Count": 1
+              },
+              "mob": "upgrade_aquatic:great_thrasher",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "85118da5-4952-4897-8988-f8f2cae0d682"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:heart_of_the_sea",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b7da7cb3-7ca7-4d04-a2a7-94e13e593f5a",
+      "name": "The Foxhound",
+      "description": "Foxhounds are curious little beasts. Highly territorial, and willing to fight most outsiders who dare to enter their territory... it\u0027s a bit of a surprise that these nether-wolves make good pets.\n\nHowever, convincing them that you\u0027re a friend is an ordeal in itself. You\u0027ll need a fire resistance potion, along with plenty of coal.",
+      "x": 186,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:coal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "TAME",
+          "longDescription": "Tame a foxhound; a territorial wolf-like animal native to the Nether.",
+          "tame": [
+            {
+              "name": "Foxhound",
+              "icon": {
+                "id": "minecraft:coal",
+                "Count": 1
+              },
+              "tame": "quark:foxhound",
+              "tames": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:name_tag",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:furnace",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "befc9450-df84-47b0-ad69-8a0caa4192b3",
+      "name": "The Phantom",
+      "description": "Phantoms are strange things. Flying monsters that can only be seen by those with insomnia, the phantoms used to be nothing more than cryptids. Scary stories told by parents to their children to get them to go to sleep...\n\nBut now, in the Storm, they\u0027ve come out in force. While they share some properties with the undead, the phantoms seem to be much more of a spectral force than anything that used to be alive. Strange.\n\nPhantoms have adopted a sort of ambush tactic to take down those who have gone without sleep. They utilize the storm, diving towards their prey through the thick fog and retreating back into it after taking a chunk out of them. This, in addition to their undying properties, make them rather hard to kill... And they travel in packs.",
+      "x": 24,
+      "y": 182,
+      "icon": {
+        "id": "minecraft:phantom_membrane",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a Phantom, a spirit that feeds on insomnia.",
+          "mobs": [
+            {
+              "name": "Phantom",
+              "icon": {
+                "id": "minecraft:phantom_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:phantom",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:phantom_membrane",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "upgrade_aquatic:restfulness"
+          }
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "upgrade_aquatic:insomnia"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ee4de92-a41b-4489-878f-8f17ceeaba99",
+      "name": "The Creeper",
+      "description": "Creepers. It\u0027s a wonder how these living plants manage to thrive in this frozen wasteland. By all means, they should have been completely wiped out, by now. Somehow, they weren\u0027t.\n\nCreepers are animate plants, whose forms are loaded to the brim with explosive spores and a strange substance that had been dubbed \"gunpowder\". Creepers reproduce by literally exploding, spreading their spores... which give birth to infant creepers. However, these \"creepies\" lack self preservation instincts... and if the creeper\u0027s target survived the explosion, the creepies will often just blow themselves up on them.",
+      "x": 136,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:gunpowder",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill at least 8 Creepies, which spawn from the spores of Creepers.",
+          "mobs": [
+            {
+              "name": "Creepies",
+              "icon": {
+                "id": "savageandravage:creeper_spores",
+                "Count": 1
+              },
+              "mob": "savageandravage:creepie",
+              "kills": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4381b5ca-45ec-49ed-82cd-ba21d0eec785"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gunpowder",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "25c4f430-7af5-4d73-9b41-703dcb505fcd",
+      "name": "The Lava Monster",
+      "description": "The world isn\u0027t simply going to submit to the Permafrost. From the nature and heat still holding on in this eternal storm, to the existence of the Creeper, that much is obvious.\n\nHowever, you had never expected the world to give birth to anything like the Lava Monsters.\n\nNatural constructs assembled out of magma by the dying world, lava monsters are INCREDIBLY hostile to anything cold... including you, to a lesser extent.\n\nThese elementals spawn exclusively in pits of lava that are at least two blocks deep, and usually stay in their pools. However, those who leave their pools are followed by a trail of fire.\n\nMuch like lava itself, these entities can be utilized... even if they\u0027re extremely dangerous.",
+      "x": 61,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:fire_charge",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a lava monster, and reap the rewards.",
+          "mobs": [
+            {
+              "name": "Lava Monster",
+              "icon": {
+                "id": "lava_monster:lava_monster_spawn_egg",
+                "Count": 1
+              },
+              "mob": "lava_monster:lava_monster",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lava_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "elementalcraft:powerful_fire_shard",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd63ecb8-7bde-4df3-a777-425526cfb20e",
+      "name": "The Stray",
+      "description": "It\u0027s hard not to feel sorry for them. You know that these icy skeletons were once like you, before the cold took them... but they aren\u0027t, anymore. ",
+      "x": 186,
+      "y": 184,
+      "icon": {
+        "id": "minecraft:tipped_arrow",
+        "Count": 1,
+        "tag": {
+          "Potion": "minecraft:slowness"
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Take down sixteen Stray.",
+          "mobs": [
+            {
+              "name": "Stray",
+              "icon": {
+                "id": "minecraft:stray_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:stray",
+              "kills": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b98398c-3cd5-465f-8c43-10c6354baa26"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:crossbow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 32,
+          "tag": {
+            "Potion": "minecraft:long_slowness"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aa3e7352-7cd1-413c-aed2-82983f871014",
+      "name": "Forgotten Fragments",
+      "description": "So much has been lost to the Storm.\n\nThe mythical beasts that used to roam this land have nearly been wiped out... and with their disappearance, the world lost so much knowledge.\n\nHowever, some of this knowledge still remains, in scraps of old history books. Long outdated secrets, ancient knowledge, forgotten fragments. While many of the practices and beasts detailed in these texts have been lost to time, you may still be able to get some use out of them.",
+      "x": 77,
+      "y": 96,
+      "bigicon": true,
+      "icon": {
+        "id": "iceandfire:manuscript",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Locate a manuscript; a scrap of a ruined history book or journal.",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:manuscript",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Using manuscripts, craft an empty bestiary.",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:bestiary",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "befc9450-df84-47b0-ad69-8a0caa4192b3",
+        "85118da5-4952-4897-8988-f8f2cae0d682",
+        "4ee4de92-a41b-4489-878f-8f17ceeaba99",
+        "628355b8-086d-4130-9f59-2b2c285fd226"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:manuscript",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abcfbe8e-f7e1-4f2b-8f49-c1520e912b19",
+      "name": "The Frozen",
+      "description": "It\u0027s no surprise that the Permafrost was able to freeze these poor souls solid.\n\n The Frozen are zombies that have been chilled to their very cores. While not much stronger than regular zombies in terms of raw power, these frigid beasts are much more threatening.\n\nFrozen zombies regularly emit blasts of cold air from their bodies, which can freeze you in your tracks. That, along with their chilling bites, make them terrifying foes.",
+      "x": 186,
+      "y": 133,
+      "icon": {
+        "id": "betterdefaultbiomes:frozen_flesh",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Seek out and kill at least 16 Frozen Zombies. ",
+          "mobs": [
+            {
+              "name": "Frozen",
+              "icon": {
+                "id": "betterdefaultbiomes:frozen_zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "betterdefaultbiomes:frozen_zombie",
+              "kills": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b98398c-3cd5-465f-8c43-10c6354baa26"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:truffle_cake",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc817a8d-150b-41ae-98fc-8de0dbf7ba9d",
+      "name": "The Ice Elemental",
+      "description": "The ice elemental. The terror of the storm. Destroyer of worlds. You\u0027d have to be either very well prepared or completely insane to try and take down just one... and they tend to come in groups.\n\nThese horrors, sculpted of ice, began to manifest when the Permafrost struck. It\u0027s unknown whether the Permafrost made them, or if they caused the Permafrost. What\u0027s stranger is that they share properties with the undead, despite being very much not undead.\n\nThe ice elementals are extremely hostile to most forms of life. It\u0027s not uncommon to see them attacking anything that isn\u0027t either frozen, undead, or an enderman. Even worse is the fact that they can fly, and can sense you through the storm. It\u0027s very likely that an Ice Elemental will see you before you see it.\n\nUnless you\u0027re well prepared, stay as far away from these icy horrors as you can.",
+      "x": 288,
+      "y": 133,
+      "icon": {
+        "id": "survive:ice_cube",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Try to kill an Ice Elemental.",
+          "mobs": [
+            {
+              "name": "Ice Elemental",
+              "icon": {
+                "id": "dannys_expansion:ice_elemental_spawn_egg",
+                "Count": 1
+              },
+              "mob": "dannys_expansion:ice_elemental",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b98398c-3cd5-465f-8c43-10c6354baa26"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "survive:warming"
+              }
+            ]
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "287f2107-7f10-4cb9-b61b-d259bb8858fb",
+      "name": "The Creepies",
+      "description": "While Creepers are only hostile to living things, their Creepies will explode on pretty much anything that they perceive as a threat... and they consider frozen mobs a threat. Any Stray, Frozen, Wraith or Elemental counts as a prime target for these young creepers, even more than the player.\n\nOf course, there is a way to weaponize these creepies against the frozen hordes.\n\nCreeper spores are dropped from creepers when they\u0027re blown up by another creeper\u0027s blast, and can be crafted from gunpowder and seeds. These spores, when thrown, produce a spore cloud just like that of the creeper, which starts forming little creepies, which are very eager to blow up the nearest frozen mob that they find.",
+      "x": 136,
+      "y": 53,
+      "icon": {
+        "id": "savageandravage:creeper_spores",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Get your hands on some Creeper Spores, potent natural weapons that can be used to combat or distract the frozen hordes.",
+          "items": [
+            {
+              "item": {
+                "id": "savageandravage:creeper_spores",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4ee4de92-a41b-4489-878f-8f17ceeaba99"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:creeper_head",
+          "Count": 1
+        },
+        {
+          "id": "savageandravage:griefer_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e0d0d2a0-f830-4311-8374-6c1978556e08",
+      "name": "The Dragon",
+      "description": "Legends say that the Dragons used to rule the world. Incredibly greedy and terrifyingly powerful, they often terrorized entire cities, demanding constant payment under the threat of razing the surrounding landscape.\n\nHowever... Those are just legends. Real dragons, while still terrifying, are still just beasts... albeit powerful ones.\n\nHowever, there aren\u0027t many left. Many dragons were killed by the Permafrost, leaving behind only those equipped to deal with the apocalyptic conditions.\n\nFrom the intense heat of the fire dragon, to the ice dragon\u0027s affinity to cold climates, and even to the lightning dragon\u0027s strange connection to all forms of storms... the dragons that remain in this land are survivors.",
+      "x": 113,
+      "y": 99,
+      "icon": {
+        "id": "iceandfire:dragon_skull_fire",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Slay a dragon, and plunder its valuable body parts... which make extremely strong gear.",
+          "advancements": [
+            {
+              "name": "Dragonslayer",
+              "icon": {
+                "id": "iceandfire:dragon_skull_fire",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aa3e7352-7cd1-413c-aed2-82983f871014"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:fire_dragon_blood",
+          "Count": 1
+        },
+        {
+          "id": "iceandfire:lightning_dragon_blood",
+          "Count": 1
+        },
+        {
+          "id": "iceandfire:ice_dragon_blood",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7e01914c-2855-4ecd-8792-29bac2a3c83d",
+      "name": "The Embody",
+      "description": "These things are new. There wasn\u0027t any documentation on them before the Storm...\n\nBut the Permafrost didn\u0027t hit the Nether. It makes you wonder what exactly these strange undead are, and why they only showed up after the storm hit.",
+      "x": 289,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:soul_soil",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill eight embodies, strange animated corpses that roam the soul valleys.",
+          "mobs": [
+            {
+              "name": "Embody",
+              "icon": {
+                "id": "minecraft:soul_soil",
+                "Count": 1
+              },
+              "mob": "infernalexp:embody",
+              "kills": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "quark:soul_bead",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "103b4eef-68c4-47c4-b7ff-ce932d0c9691",
+      "name": "The Wraith",
+      "description": "There are many types of spirits that inhabit the world. The Wraith is but one of these.\n\n These vengeful spirits thrive in the Permafrost, with their ability to chill you to your core and prevent you from regenerating health. Nobody knows exactly what kind of death makes a Wraith... but due to how common they became after the Permafrost struck, it\u0027s rather safe to assume.",
+      "x": 288,
+      "y": 184,
+      "icon": {
+        "id": "eidolon:tattered_cloth",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a Wraith Heart; the frigid, lifeless \"heart\" of a Wraith.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:wraith_heart",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b98398c-3cd5-465f-8c43-10c6354baa26"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:enchanted_ash",
+          "Count": 16
+        },
+        {
+          "id": "eidolon:lead_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8ba38fce-1b6a-4f2b-8399-0e5e231f9151",
+      "name": "Fighting Back",
+      "description": "You... killed one of them. That means that the ice elementals can be fought. That means they can be killed.\n\nWhy not shatter a few more, and show the Permafrost what you think of its accursed creations?",
+      "x": 288,
+      "y": 98,
+      "icon": {
+        "id": "minecraft:snowball",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Fight back against the cold, and kill eight Ice Elementals.",
+          "mobs": [
+            {
+              "name": "Ice Elemental",
+              "icon": {
+                "id": "dannys_expansion:ice_elemental_spawn_egg",
+                "Count": 1
+              },
+              "mob": "dannys_expansion:ice_elemental",
+              "kills": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc817a8d-150b-41ae-98fc-8de0dbf7ba9d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:moonstone",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "druidcraft:amber",
+          "Count": 2
+        },
+        {
+          "id": "create:andesite_alloy",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad64de7d-fabf-4372-9a19-bae1d0032209",
+      "name": "Forgotten Forging",
+      "description": "The knowledge of dragonsteel has long been lost to the ages. Legends used to tell of mighty warriors who held swords forged by the dragons themselves... but those were mostly regarded as fairy tales. Nonetheless, it might be interesting to look into, in order to see what you find.",
+      "x": 237,
+      "y": 99,
+      "icon": {
+        "id": "iceandfire:dragonsteel_fire_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Turn in 32 dragon scales of any color.",
+          "items": [
+            {
+              "item": {
+                "id": "iceandfire:dragonscales_red",
+                "Count": 32
+              },
+              "required": 32,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e0d0d2a0-f830-4311-8374-6c1978556e08"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "iceandfire:dragonsteel_fire_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:dragonsteel_ice_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "iceandfire:dragonsteel_lightning_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "988346dd-1b89-4888-8214-d7eeec3c0afe",
+      "name": "The Sentinel",
+      "description": "The Wither. The pinnacle of Golemancy. An undead sentinel made from souls and skulls, designed for the sole purpose of defense.\n\nBefore the Storm, Wither Skulls were highly sought after relics, renowned for their use in creating a powerful, reliable, and loyal guard.\n\nIf you\u0027re able to create a Wither of your own... you may never have to worry about the Chilled again.",
+      "x": 237,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Construct a Wither; A man-made undead sentinel designed to attack any and all threats to its creators.",
+          "advancements": [
+            {
+              "name": "Withering Heights",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "adv_name": "bozzes:wither/summoned_wither_adv"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2122f7d2-3909-4d50-8522-27b0052caab3",
+        "b7da7cb3-7ca7-4d04-a2a7-94e13e593f5a",
+        "7e01914c-2855-4ecd-8792-29bac2a3c83d",
+        "cc039223-f6bd-475e-906e-11b0ead25c37"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wither_rose",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85118da5-4952-4897-8988-f8f2cae0d682",
+      "name": "The Thrasher",
+      "description": "The Thrasher, while rather uncommon before the Permafrost, began to spread through the seas after the storm hit.\n\nThrashers are the apex predators of the oceans, thriving in deep and cold waters. They\u0027re completely blind, and rely on echolocation to track prey... as well as you. This means that you can sneak around them, if you\u0027re careful.\n\nOnce a thrasher catches you in its jaws, it\u0027ll shake you vigorously, dealing heavy, continuous damage. Escaping their jaws is nearly impossible, so you just have to outlast them if you\u0027re caught in its bite.",
+      "x": 24,
+      "y": 16,
+      "icon": {
+        "id": "upgrade_aquatic:thrasher_tooth",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Descend into the frigid ocean, and kill a thrasher.",
+          "mobs": [
+            {
+              "name": "Thrasher",
+              "icon": {
+                "id": "upgrade_aquatic:thrasher_spawn_egg",
+                "Count": 1
+              },
+              "mob": "upgrade_aquatic:thrasher",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:prismarine_shard",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "628355b8-086d-4130-9f59-2b2c285fd226",
+      "name": "The Dreadfish",
+      "description": "Dreadfish are... curious things. Despite their appearance being that of undead fish, they never actually were fish in the first place.\n\n The true dreadfish is actually the flickering flame that rests within. Soulfires are tiny spirits who animate bones to serve as a shell of sorts, protecting the little spirit inside.\n\nDreadfish are hostile, but wrecking the skeletal shell will sometimes leave the Soulfire behind, which is completely passive without its armor.  They also make a great light source, and can even be dyed.",
+      "x": 136,
+      "y": 182,
+      "icon": {
+        "id": "minecraft:bone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect a soulfire by destroying the skeletal armor of a dreadfish.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:purple_soulfire",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:orange_soulfire",
+          "Count": 2
+        },
+        {
+          "id": "druidcraft:pink_soulfire",
+          "Count": 2
+        },
+        {
+          "id": "druidcraft:blue_soulfire",
+          "Count": 2
+        },
+        {
+          "id": "druidcraft:white_soulfire",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f613714-58fc-45d6-8344-5b9939076a28",
+      "name": "The Mimic",
+      "description": "Deep underground lie creatures that have adapted to the ruins of civilization, disguising themselves as chests and lying in abandoned underground campsites.\n\nThese Mimics are ambush predators who have developed a very unique way to find prey. These beasts lie completely motionless for days on end, waiting for something to come close enough to consume. While they primarily prey on large spiders, a Mimic will not hesitate to attempt to consume any unlucky spelunkers that get too close.\n\nHowever, there is reason to seek out these beasts. Mimics tend to replace chests that they come across, keeping the contents of the past chest stored within its body. Upon dying, a mimic will often drop a useful bauble or trinket.",
+      "x": 61,
+      "y": 182,
+      "icon": {
+        "id": "minecraft:chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Delve deep into the caverns below, and kill a Mimic.",
+          "mobs": [
+            {
+              "name": "Mimic",
+              "icon": {
+                "id": "artifacts:mimic_spawn_egg",
+                "Count": 1
+              },
+              "mob": "artifacts:mimic",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "artifacts:shock_pendant",
+          "Count": 1
+        },
+        {
+          "id": "artifacts:flame_pendant",
+          "Count": 1
+        },
+        {
+          "id": "artifacts:thorn_pendant",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "17a5e745-c034-4f59-945d-78834fee310d",
+      "name": "The Endermen",
+      "description": "They\u0027re sentient. That much is clear. What isn\u0027t clear is where the Endermen come from. Appearing either alone or in small groups in both the overworld and the Nether, these strange people have... a thing with eye contact.\n\nYou think it might be part of their culture, eye contact being seen as some sort of threat or challenge. It\u0027s hard to tell... especially when you don\u0027t know a single word of their language.\n\nYou do know one thing, though. The Endermen are the creators of the Ender Pearls, and often carry one or two around with them. However... the make of the ender pearls are foreign. Certainly not made with anything from this world.",
+      "x": 99,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill an Enderman.",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:enderman_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c7b9eb9b-7a77-4b88-9796-031349269a28"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:moonstone",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a6fdccd6-ed6a-44ee-9185-ae037762d03e",
+      "name": "Dreadfishing",
+      "description": "Soulfires aren\u0027t all too easy to obtain. Dreadfish are rather uncommon, and they don\u0027t always drop their true forms upon destruction.\n\nHowever, it\u0027s possible to attract soulfires with a big enough pile of crushed up bones, and catch them before they assemble their shells.",
+      "x": 136,
+      "y": 145,
+      "icon": {
+        "id": "druidcraft:purple_soulfire",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bone_meal",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "628355b8-086d-4130-9f59-2b2c285fd226"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:purple_soulfire",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9b98398c-3cd5-465f-8c43-10c6354baa26",
+      "name": "The Chilled",
+      "description": "The Chilled. What\u0027s left of those who fell to the freezing temperatures of the Permafrost. Even in death, these frigid beasts stalk the land, their rotted minds warped by the cold.\n\nThe Chilled seek out sources of warmth and life, and attempt to snuff them out... often to terrifying effect. Heat is snuffed out, living things are slaughtered wholesale... and you are hunted down relentlessly. The Chilled will not stop until you are dead.",
+      "x": 237,
+      "y": 184,
+      "icon": {
+        "id": "endrem:cold_pearl",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a Wraith, a Frozen, and a Stray.\n\nThese \"Chilled\" mobs, for the most part, follow a different set of spawn rules. More specifically, they begin to build up around you, seeking you out, even spawning at lower rates during the day. Staying in one place for long enough lets them build up in high concentrations around you. Getting some base defenses is probably going to be a good idea.\n\nOh. Weirdly enough, Frozen Pigs also seem to seek out warmth, spawning in close proximity to you.",
+          "mobs": [
+            {
+              "name": "Frozen Zombie",
+              "icon": {
+                "id": "betterdefaultbiomes:frozen_zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "betterdefaultbiomes:frozen_zombie",
+              "kills": 1
+            },
+            {
+              "name": "Wraith",
+              "icon": {
+                "id": "eidolon:spawn_wraith",
+                "Count": 1
+              },
+              "mob": "eidolon:wraith",
+              "kills": 1
+            },
+            {
+              "name": "Stray",
+              "icon": {
+                "id": "minecraft:stray_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:stray",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a9606fe4-7de2-4356-ad4f-03e7f383537d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:mule_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:donkey_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:llama_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d038796-3b99-4b45-9f7d-9cc2c3cee940",
+      "name": "The Flare",
+      "description": "While phantoms are extremely dangerous, they can be utilized... much like most things in this wasteland.\n\nPhantoms have a strange, unexplained property related to insomnia. While phantoms don\u0027t need to sleep, inflicting a phantom with insomnia through the use of a splash potion or imbued arrow turns the phantom into a Flare, a neutral mob that attacks anything well rested. Flares can be extremely useful to folks with nowhere to sleep, as they can easily ward off and kill phantoms, along with anything else that doesn\u0027t have insomnia.",
+      "x": 24,
+      "y": 145,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "upgrade_aquatic:insomnia"
+        }
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Convert a phantom into a flare by splashing it with a potion of insomnia.",
+          "advancements": [
+            {
+              "name": "Sleepless Slave",
+              "icon": {
+                "id": "upgrade_aquatic:flare_spawn_egg",
+                "Count": 1
+              },
+              "adv_name": "upgrade_aquatic:nether/sleepless_slave"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "befc9450-df84-47b0-ad69-8a0caa4192b3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 16,
+          "tag": {
+            "Potion": "upgrade_aquatic:insomnia"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc039223-f6bd-475e-906e-11b0ead25c37",
+      "name": "The Straddler",
+      "description": "Striders are already strange enough as is. Requiring incredibly high amounts of heat to not freeze to death, they find themselves right at home in the dangerous lava pools of the Nether, something that most living things couldn\u0027t even hope to survive.\n\nHowever, they have a bigger cousin, which is much stranger... and much more dangerous.\n\n Native to the Basalt Deltas, Straddlers are large, basalt shelled variants of the strider, which are highly territorial. Anything wandering too close to a Straddler\u0027s territory will find itself being pelted by the straddler\u0027s own young, which it launches at high velocities to ward off intruders.\n\nHowever, one may find that Stradpoles, the juvenile form of the Straddler, are much less territorial than their adult forms... and, better yet, they can only mature under certain conditions. Before the Permafrost, Stradpoles were often sold as exotic pets, able to survive in both water and lava.",
+      "x": 237,
+      "y": 65,
+      "icon": {
+        "id": "alexsmobs:straddlite",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Take down a Straddler; a highly territorial cousin of the Strider.",
+          "mobs": [
+            {
+              "name": "Straddler",
+              "icon": {
+                "id": "alexsmobs:straddlite",
+                "Count": 1
+              },
+              "mob": "alexsmobs:straddler",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "alexsmobs:stradpole_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "78ce8e2e-8724-415e-bf98-be124187c1ae",
+      "name": "The Direbat",
+      "description": "Deep below the surface, life is thriving in its own, strange way. No creature shows this more clearly than the direbat. Direbats are bats that have grown to sizes previously thought to be impossible.\n\nThese massive bats were completely untouched by the Permafrost, and with the lack of competition or predators, they were able to achieve this size. It\u0027s... rather impressive.\n\nDirebats are neutral creatures, that quickly become hostile if they\u0027re caught in the light. In addition, they will also pick up items off the ground. If you were to die and destroy your totem of holding near a direbat, it\u0027ll pick up a random stack of items and hang around the spot where it found them. It\u0027s rather useful in niche situations to keep your stuff from disappearing.",
+      "x": 99,
+      "y": 182,
+      "icon": {
+        "id": "direbats:direbat_fang",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a direbat fang from a direbat, which can be used to create arrows that inflict blindness on their targets.",
+          "items": [
+            {
+              "item": {
+                "id": "direbats:direbat_fang",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "direbats:direbat_fang_arrow",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a900fca1-f5cd-41d4-8327-bd3bdaa0e63f",
+      "name": "The Sea Serpent",
+      "description": "Under the ice that covers the ocean lurk massive beasts. Not only the thrashers thrive, but the remaining sea serpents thrive without intervention from the surface.\n\nThese fearsome serpents are the bane of any and all who attempt to travel underwater.",
+      "x": 80,
+      "y": 53,
+      "icon": {
+        "id": "iceandfire:seaserpent_skull",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill a sea serpent, a massive aquatic reptile that used to rule the frozen seas.",
+          "mobs": [
+            {
+              "name": "Sea Serpent",
+              "icon": {
+                "id": "iceandfire:seaserpent_skull",
+                "Count": 1
+              },
+              "mob": "iceandfire:sea_serpent",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aa3e7352-7cd1-413c-aed2-82983f871014"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:seaserpent_skull",
+          "Count": 1
+        },
+        {
+          "id": "iceandfire:banner_pattern_sea_serpent",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f5f0c5c-17ee-4efb-845c-f1bbfeca6d07",
+      "name": "The Ghost",
+      "description": "Wraiths aren\u0027t the only wayward souls that wander the frozen world. Long before the Permafrost, there was a much more common form of hostile spirit: Ghosts.\n\nGhosts are the spirits of those who died in combat, bound to their place of burial or a significant place.\n\nThey\u0027re fiercely defensive of their homes, and are even more resiliant than their fellow undead. Though, they are especially weak to silver.\n\nInterestingly, ghosts can\u0027t be permanantly dispatched. When a ghost\u0027s form is destroyed, it\u0027s only a matter of time before it reforms and continues to haunt its burial ground... even if it\u0027s being carried around. However, these burial grounds can be moved around or replicated, allowing a single ghost to haunt many places at once.",
+      "x": 80,
+      "y": 145,
+      "icon": {
+        "id": "iceandfire:ectoplasm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "\"Kill\" a ghost; an ever-resurrecting spirit of someone who died in combat, bound to their burial ground.",
+          "mobs": [
+            {
+              "name": "Ghost",
+              "icon": {
+                "id": "iceandfire:ectoplasm",
+                "Count": 1
+              },
+              "mob": "iceandfire:ghost",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aa3e7352-7cd1-413c-aed2-82983f871014"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "iceandfire:graveyard_soil",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "As you\u0027ve already figured out, you aren\u0027t the only thing wandering the ruins of the world. Plenty of other things either managed to survive, or managed to thrive in the Permafrost. Not many of them are friendly."
+}

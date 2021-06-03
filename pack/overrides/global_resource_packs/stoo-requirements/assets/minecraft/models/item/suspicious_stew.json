@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/suspicious_stew"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 101}, "model": "minecraft:item/suspicious_stew/veggie" },
+    { "predicate": { "custom_model_data": 202}, "model": "minecraft:item/suspicious_stew/fishy" },
+    { "predicate": { "custom_model_data": 303}, "model": "minecraft:item/suspicious_stew/fruity" },
+    { "predicate": { "custom_model_data": 404}, "model": "minecraft:item/suspicious_stew/garnished" },
+    { "predicate": { "custom_model_data": 505}, "model": "minecraft:item/suspicious_stew/glistering" },
+    { "predicate": { "custom_model_data": 606}, "model": "minecraft:item/suspicious_stew/meatball" },
+    { "predicate": { "custom_model_data": 707}, "model": "minecraft:item/suspicious_stew/monster" },
+    { "predicate": { "custom_model_data": 808}, "model": "minecraft:item/suspicious_stew/egg" },
+    { "predicate": { "custom_model_data": 909}, "model": "minecraft:item/suspicious_stew/heavenly" }
+  ]
+}

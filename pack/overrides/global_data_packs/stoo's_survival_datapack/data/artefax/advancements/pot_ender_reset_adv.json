@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "player": {
+            "gamemode": "spectator",
+            "advancements": {
+              "artefax:pot_ender_adv": true
+            }
+          },
+          "effects": {
+            "minecraft:blindness": {
+              "amplifier": 0,
+              "visible": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "artefax:potion_ender/finished_ender_pot"
+  }
+}

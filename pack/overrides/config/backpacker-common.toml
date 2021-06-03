@@ -1,0 +1,12 @@
+
+[common]
+	#The amount of rows in the shulkerpack inventory. Each row is nine slots of storage.
+	#Range: 1 ~ 6
+	shulkerpackInventorySize = 6
+	#The amount of rows in the rucksack inventory. Each row is nine slots of storage.
+	#Range: 1 ~ 6
+	rucksackInventorySize = 1
+	#The amount of rows in the nethersack inventory. Each row is nine slots of storage.
+	#Range: 1 ~ 6
+	nethersackInventorySize = 3
+

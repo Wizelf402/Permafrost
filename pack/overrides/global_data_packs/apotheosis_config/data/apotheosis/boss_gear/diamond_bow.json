@@ -1,0 +1,63 @@
+{
+	"weight": 8,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:bow"
+			}
+		}
+	],
+	"offhands": [
+		{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "consecration:fire_arrow"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "direbats:direbat_fang_arrow"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:diamond_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:diamond_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:diamond_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:diamond_helmet"
+		}
+	}],
+	"tags": [
+		"skeleton"
+	]
+}

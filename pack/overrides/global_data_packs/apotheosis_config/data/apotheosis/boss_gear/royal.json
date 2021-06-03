@@ -1,0 +1,61 @@
+{
+	"weight": 5,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "betterendforge:golden_hammer"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 4,
+		"stack": {
+			"item": "minecraft:totem_of_undying"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "curios:crown"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_boots"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:warlock_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_helmet"
+		}
+	}],
+	"tags": [
+		"standard"
+	]
+}

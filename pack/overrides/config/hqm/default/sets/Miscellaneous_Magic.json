@@ -1,0 +1,699 @@
+{
+  "name": "Miscellaneous Magic",
+  "quests": [
+    {
+      "uuid": "26659673-ea85-4dd1-a859-e27d5ef75f11",
+      "name": "Stepping Stones",
+      "description": "Waystones are an incredible form of transport, utilizing the teleportation magic of the ender pearl in order to create long ranged personal networks of waystones, which can be teleported between at a moment\u0027s notice.",
+      "x": 60,
+      "y": 54,
+      "icon": {
+        "id": "waystones:waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a waystone, either by crafting it or by finding one in the world.",
+          "items": [
+            {
+              "item": {
+                "id": "waystones:waystone",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "49d1a7d7-d0fc-453a-8d84-7c23042a6ef4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:warp_scroll",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3f7bccb-6ad5-411d-b941-3bfc6d42d1ab",
+      "name": "Breakthrough!",
+      "description": "The rumors were true. Amber really is able to bring things back from the dead...\n\nWrapping some string around a Fel Pumpkin and imbuing the resulting cocoon with amber creates a magical thing called a Cocoon of Caprice... a cocoon that can hatch into one of the many species of animals that were wiped out by the Permafrost.",
+      "x": 135,
+      "y": 185,
+      "icon": {
+        "id": "botania:cocoon",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Use your newfound knowledge of the properties of amber to create a Cocoon of Caprice.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:cocoon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d30ea04-6c93-424d-a097-3baaaafafb11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:amber_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4316aa79-3138-4705-8c67-942be43f80a3",
+      "name": "Mountain Mining",
+      "description": "You remember tales of a legendary form of petrified wood called rockroot... found in mountainous stone, these hardy roots could be used to stimulate plant growth to levels impossible by any mundane means.\n\nFrom multiplying logs by infusing a single log with rockroot, to a magical item called the lamp of growth that caused nearby plants to grow at ridiculous speeds, rockroot was a highly sought after material.\n\nNow, after everything has died, it may be even more valuable... Better find somewhere high up to mine.",
+      "x": 88,
+      "y": 54,
+      "icon": {
+        "id": "druidcraft:growth_lamp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "longDescription": "Mine some rockroot, a precious form of petrified wood found more commonly at high altitudes.",
+          "blocks": [
+            {
+              "item": {
+                "id": "druidcraft:rockroot_ore",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Using this rockroot, craft a Lamp of Growth, a magical lamp that speeds up the growth-rate of certain nearby plants.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:growth_lamp",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d30ea04-6c93-424d-a097-3baaaafafb11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:rockroot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "betterdefaultbiomes:swamp_willow_log",
+          "Count": 4
+        },
+        {
+          "id": "betterdefaultbiomes:palm_log",
+          "Count": 4
+        },
+        {
+          "id": "upgrade_aquatic:driftwood_log",
+          "Count": 4
+        },
+        {
+          "id": "druidcraft:darkwood_log",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b64bb7d7-fffe-470a-ab5c-b14dae9c2206",
+      "name": "An Enchanting Experience",
+      "description": "Enchanting is a rather simplistic form of magic, one that most people can perform with a very simple setup. However, simplicity does not equate with power. Enchantment, the art of imbuing objects with passive magical effects, is an incredibly powerful art... one that you should start performing as soon as possible, if you are to face the Chilled.",
+      "x": 28,
+      "y": 124,
+      "icon": {
+        "id": "minecraft:enchanting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire an enchanting table.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fcf26f1f-d20c-49b3-8ebe-990d86e2c827"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:book",
+          "Count": 9
+        },
+        {
+          "id": "minecraft:experience_bottle",
+          "Count": 9
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "df55e22c-8068-4600-88dc-1e8882f4e352",
+      "name": "Shelving Situation",
+      "description": "Your enchanting setup is terrible, at the moment. With the setup that you have, your enchanting table will only give you mediocre enchantments at best... and mediocre doesn\u0027t cut it in the Permafrost.\n\nYou\u0027re gonna need a better setup... and for a better setup, you\u0027ll need bookshelves. ",
+      "x": 74,
+      "y": 78,
+      "icon": {
+        "id": "minecraft:book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Place at least 15 bookshelves around an enchanting table to increase its power.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bookshelf",
+                "Count": 15
+              },
+              "required": 15,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b64bb7d7-fffe-470a-ab5c-b14dae9c2206"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:book",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d86eb662-16bc-4797-a3d5-1fc3850d495a",
+      "name": "A Guiding Eye",
+      "description": "The Eyes beckon to you... the aura they exude is wholly unnatural... but something tells you that you may be able to recreate something like it on a smaller scale.\n\nYou\u0027ve occasionally seen these strange eyes frozen in the bodies of ice elementals... but you could likely recreate them, and utilize their strange pull to find other things.",
+      "x": 28,
+      "y": 78,
+      "icon": {
+        "id": "greater_eye:greater_eye",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Imbue an Eye of Ender with moonstone and transform it into a Greater Eye of Ender; an item that can be used to locate a variety of vanilla structures.",
+          "items": [
+            {
+              "item": {
+                "id": "greater_eye:greater_eye",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "49d1a7d7-d0fc-453a-8d84-7c23042a6ef4",
+        "35ecff97-1c28-4caa-b91b-fb98f883246b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:map",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:cartography_table",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:white_banner",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:skull_banner_pattern",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:mojang_banner_pattern",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:skull_banner_pattern",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:flower_banner_pattern",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e22c5eb2-439c-49ae-b6f0-59f44585d7ab",
+      "name": "Otherworldly Minerals",
+      "description": "Moonstone, simply put, isn\u0027t of this world. It\u0027s nothing like other minerals such as diamond and emerald, it spawns at higher altitudes for some reason... and it\u0027s rather cold... much like ice. Strange...\n\nMoonstone, in addition to its magical properties, acts as an alternative to Netherite, being able to upgrade diamond gear at a smithing table through the use of moonstone blocks. Moonstone has higher base stats than netherite, but none of netherite\u0027s additional benefits.",
+      "x": 88,
+      "y": 148,
+      "icon": {
+        "id": "druidcraft:moonstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect three moonstone crystals. These otherworldly gems can be used to upgrade diamond gear into moonstone gear, which has higher stats than netherite but no special properties. Moonstone armor, unlike Netherite, actually lowers your temperature instead of raising it.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:moonstone",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d30ea04-6c93-424d-a097-3baaaafafb11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:moonstone_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bc0cfb14-2320-48d7-bb70-a31cd0811dc4",
+      "name": "???",
+      "description": "What... what is this? Why did this... vision... appear to you? Are you going insane?\n\n You should... you don\u0027t know what you should do.",
+      "x": 89,
+      "y": 14,
+      "icon": {
+        "id": "eidolon:codex",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Combine a book with some rotten flesh to create the Ars Ecclesia... the guide to...... something?",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:codex",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b491ccef-a6e4-41c6-a08d-3617e32d0df9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:basic_ring",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "eidolon:basic_amulet",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:basic_belt",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a73e06d-7e5e-4290-bf7a-8035c4e4aed7",
+      "name": "Back to Square One",
+      "description": "Grindstones are one of the quintessential components of enchanting. With the ability to not only remove enchantments, but to also completely destroy an enchanted item to inscribe its enchantments into a book, it\u0027s an invaluable tool for any would-be enchanter.",
+      "x": 28,
+      "y": 185,
+      "icon": {
+        "id": "minecraft:grindstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire a grindstone.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:grindstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b64bb7d7-fffe-470a-ab5c-b14dae9c2206"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:wooden_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "Enchantments": [
+              {
+                "lvl": 1,
+                "id": "minecraft:mending"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wooden_hoe",
+          "Count": 1,
+          "tag": {
+            "RepairCost": 1,
+            "Damage": 0,
+            "Enchantments": [
+              {
+                "lvl": 1,
+                "id": "allurement:reforming"
+              }
+            ]
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a214cc6-c088-4b9b-b3dd-0a8a53adf6a0",
+      "name": "Back from the Dead",
+      "description": "Another use for amber is found in... well... bringing your companions back to life. If your beloved pet were to die, you could take their collar or feather with you. By infusing various items with gold and amber, you can create incredible items that can bring your pets right back from the dead.",
+      "x": 88,
+      "y": 185,
+      "icon": {
+        "id": "petrevive:golden_bone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft several gold and amber infused items, which can be used to revive certain types of pets.",
+          "items": [
+            {
+              "item": {
+                "id": "petrevive:golden_fish",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "petrevive:golden_bone",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "petrevive:golden_seeds",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3f7bccb-6ad5-411d-b941-3bfc6d42d1ab"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b491ccef-a6e4-41c6-a08d-3617e32d0df9",
+      "name": "Useless Metal",
+      "description": "Lead is completely useless. Why would you ever collect any?\n\n...\n\nThen again, you have this strange gut feeling telling you that you need it.",
+      "x": 135,
+      "y": 14,
+      "icon": {
+        "id": "eidolon:lead_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a few lead ingots, for... some reason.",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:lead_ingot",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c7b9eb9b-7a77-4b88-9796-031349269a28"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c7b9eb9b-7a77-4b88-9796-031349269a28",
+      "name": "Better than Coal",
+      "description": "Deep in the earth lies an extremely combustible material called fiery glass. It makes for an excellent fuel source, even better than coal.\n\nHowever... despite what its name may make you think, Fiery Glass doesn\u0027t give off any heat whatsoever, making it a subpar source of heat.",
+      "x": 135,
+      "y": 55,
+      "icon": {
+        "id": "druidcraft:fiery_glass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Turn in sixteen pieces of fiery glass.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:fiery_glass",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f58458c0-d1d0-4acf-ba38-8c604e274900"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84c1f3db-6e20-4ac2-9321-f9c7c9c1a488",
+      "name": "The Anvil",
+      "description": "The anvil is a wonderful invention, and yet another invaluable part of enchanting. With the ability to not only repair items, but to directly imbue them with enchantments, an anvil is a must-have for any would-be enchanter.",
+      "x": 74,
+      "y": 124,
+      "icon": {
+        "id": "minecraft:anvil",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain an anvil!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:anvil",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b64bb7d7-fffe-470a-ab5c-b14dae9c2206"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "corpsecomplex:soulbinding"
+              }
+            ]
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "49d1a7d7-d0fc-453a-8d84-7c23042a6ef4",
+      "name": "The Pearl",
+      "description": "At this point, the ender pearl has become a staple of magic. It\u0027s THE magical item.\n\n With the magic of the Endermen, one can teleport as far as they can throw it. It\u0027s also a potent source of magical energy, and a major component of certain, more complex forms of magic.",
+      "x": 28,
+      "y": 22,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Find an Ender Pearl.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f58458c0-d1d0-4acf-ba38-8c604e274900"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d30ea04-6c93-424d-a097-3baaaafafb11",
+      "name": "Pretty Rocks",
+      "description": "Amber is, er... well, it\u0027s not the most useful material. While it contains trace bits of magic within, nobody really knows how to use it.\n\nYou have heard rumors, though... Rumors of amber being able to bring things back from the dead. Maybe you could experiment with it...",
+      "x": 135,
+      "y": 101,
+      "icon": {
+        "id": "druidcraft:amber",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Find a piece of amber in the caverns.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:amber",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c7b9eb9b-7a77-4b88-9796-031349269a28"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:melon",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The world is full of magic. Even after the storm wiped your people out, the magic that they discovered in the world still remains. You\u0027ll need to make use of it if you wish to get anywhere."
+}

@@ -1,0 +1,383 @@
+
+#ElementalCraft config
+[elementalcraft]
+
+	#Instruments config
+	[elementalcraft.instruments]
+
+		[elementalcraft.instruments.purifier]
+			#The nember of tick for a Ore Purifier to procces one item.
+			#Range: 0 ~ 2400
+			purifierDuration = 100
+			#The base cost of a piurifier recipe.
+			#Range: 0 ~ 10000
+			purifierBaseCost = 2500
+			#The max amount of element consumed by the Ore Purifier per tick.
+			#Range: 0 ~ 1000
+			purifierTransferSpeed = 25
+			#The max amount of on an purifier.
+			#Range: 0 ~ 10
+			purifierMaxRunes = 3
+			#The ratio of each luck rune on a purifier.
+			#Range: 0.0 ~ 10.0
+			purifierLuckRatio = 3.0
+
+			[elementalcraft.instruments.purifier.pureOre]
+				#Set to false if you want to manualy manage processing of pure ore.
+				pureOreRecipeInjection = true
+				#The number of output pure ores by a purifier.
+				#Range: 1 ~ 20
+				pureOreMultiplier = 2
+				#Set to false if you want pure ore to not use smelting recipes.
+				pureOreSmeltingRecipe = true
+				#Set to false if you want pure ore to not use blasting recipes.
+				pureOreBlastingRecipe = true
+				#Set to false if you want pure ore to not use camp fire recipes.
+				pureOreCampFireRecipe = true
+
+		[elementalcraft.instruments.fireFurnace]
+			#The max amount of element consumed by the fire furnace per tick.
+			#Range: 0 ~ 1000
+			fireFurnaceTransferSpeed = 20
+			#The amount multiplied by the cooking time of the furnace recipe.
+			#Range: 0 ~ 1000
+			fireFurnaceElementAmount = 10
+			#The max amount of on a fire furnace.
+			#Range: 0 ~ 10
+			fireFurnaceMaxRunes = 1
+
+			[elementalcraft.instruments.fireFurnace.fireBlastFurnace]
+				#The amount multiplied by the cooking time of the blast furnace recipe.
+				#Range: 0 ~ 1000
+				fireBlastFurnaceElementAmount = 20
+				#The max amount of element consumed by the fire blast furnace per tick.
+				#Range: 0 ~ 1000
+				fireBlastFurnaceTransferSpeed = 40
+				#The max amount of on a fire blast furnace.
+				#Range: 0 ~ 10
+				fireBlastFurnaceMaxRunes = 2
+
+		[elementalcraft.instruments.elementPipe]
+			#The amount of element transferred by pipes.
+			#Range: 0 ~ 10000
+			pipeTransferAmount = 25
+			#The amount of element transferred by improved pipes.
+			#Range: 0 ~ 10000
+			improvedPipeTransferAmount = 100
+			#The amount of element transferred by impaired pipes.
+			#Range: 0 ~ 10000
+			impairedPipeTransferAmount = 5
+
+		[elementalcraft.instruments.sorter]
+			#The max amount of items an order sorter can filter.
+			#Range: 0 ~ 100
+			sorterMaxItem = 15
+			#The amount of tick between two ordered sorter item transpher.
+			#Range: 0 ~ 100
+			sorterCooldown = 10
+
+		[elementalcraft.instruments.inscriber]
+			#The max amount of on an inscriber.
+			#Range: 0 ~ 10
+			inscriberMaxRunes = 3
+			#The max amount of element consumed by the gem inscriber per tick.
+			#Range: 0 ~ 10000
+			inscriberTransferSpeed = 1000
+
+		[elementalcraft.instruments.crystallizer]
+			#The max amount of on an crystallizer.
+			#Range: 0 ~ 10
+			crystallizerMaxRunes = 3
+			#The max amount of element consumed by the gem crystallizer per tick.
+			#Range: 0 ~ 1000
+			crystallizerTransferSpeed = 25
+			#The ratio of each luck rune on a crystallizer.
+			#Range: 0.0 ~ 10.0
+			crystallizerLuckRatio = 3.0
+
+		[elementalcraft.instruments.evaporator]
+			#The amount of element extracted by an evaporator.
+			#Range: 0 ~ 100
+			evaporatorExtractionAmount = 1
+			#The max amount of on an evaporator.
+			#Range: 0 ~ 10
+			evaporatorMaxRunes = 1
+
+		[elementalcraft.instruments.extractor]
+			#The amount of element extracted by an improved extractor.
+			#Range: 0 ~ 500
+			improvedExtractorExtractionAmount = 25
+			#The amount of element extracted by an extractor.
+			#Range: 0 ~ 100
+			extractorExtractionAmount = 5
+			#The max amount of on an improved extracto.
+			#Range: 0 ~ 10
+			improvedExtractoMaxRunes = 3
+			#The max amount of on an extractor.
+			#Range: 0 ~ 10
+			extractorMaxRunes = 1
+
+		[elementalcraft.instruments.infuser]
+			#The base cost of a tool infusion recipe.
+			#Range: 0 ~ 10000
+			toolInfustionBaseCost = 1000
+			#The max amount of on an infuser.
+			#Range: 0 ~ 10
+			infuserMaxRunes = 1
+			#The max amount of element consumed by the infuser per tick.
+			#Range: 0 ~ 1000
+			infuserTransferSpeed = 10
+
+		[elementalcraft.instruments.tank]
+			#The element capacity of a element container.
+			#Range: 0 ~ 100000000
+			tankCapacity = 100000
+			#The element capacity of a small element container.
+			#Range: 0 ~ 100000000
+			tankSmallCapacity = 1000
+
+		[elementalcraft.instruments.binder]
+			#Define if or not binder recip require to be ordered.
+			binderRecipeMatchOrder = true
+			#The max amount of on an binder.
+			#Range: 0 ~ 10
+			binderMaxRunes = 2
+			#The max amount of element consumed by the binder per tick.
+			#Range: 0 ~ 1000
+			binderTransferSpeed = 25
+
+			[elementalcraft.instruments.binder.improved]
+				#The max amount of on an improved binder.
+				#Range: 0 ~ 10
+				improvedBinderMaxRunes = 3
+				#The max amount of element consumed by the improved binder per tick.
+				#Range: 0 ~ 1000
+				improvedBinderTransferSpeed = 50
+
+	[elementalcraft.infusion]
+		#The bonus to movement speed provided by the air infusion on leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsAirInfusionSpeedBonus = 0.01
+		#The dodge chance provided by the air infusion on chestplate.
+		#Range: 0.0 ~ 1.0
+		chestplateAirInfusionDodgeChance = 0.2
+		#The bonus to sword attack speed provided by the air infusion.
+		#Range: 0.0 ~ 10.0
+		swordAirInfusionSpeedBonus = 0.8
+
+	#Worldgen config
+	[elementalcraft.worldgen]
+		#Chance to add a source in world (the small the more frequante).
+		#Range: 1 ~ 10000
+		sourceSpawnChance = 100
+		#Disable all elementalcraft world gen.
+		disableWorldGen = false
+		#CSource Altar genreration distance setting.
+		#Range: 0 ~ 100
+		sourceAltarDistance = 16
+
+		[elementalcraft.worldgen.inertCrystal]
+			#Number of inert crystal vein.
+			#Range: 1 ~ 100
+			inertCrystalCount = 10
+			#Size of inert crystal vein.
+			#Range: 1 ~ 100
+			inertCrystalSize = 9
+			#Disable creation of inertCrystals.
+			disableInertCrystal = false
+			#max Y level of inert crystal.
+			#Range: 1 ~ 256
+			inertCrystalYMax = 64
+
+	#mod interaction config
+	[elementalcraft.interaction]
+
+		[elementalcraft.interaction.mekanism]
+			#Set to false if you want pure ore to not use mekanism crushing recipes.
+			mekanismPureOreCrushingRecipe = true
+			#Set to false if you want pure ore to not use mekanism purifying recipes.
+			mekanismPureOrePurifyingRecipe = true
+			#Set to false if you want pure ore to not use mekanism enriching recipes.
+			mekanismPureOreEnrichingRecipe = true
+			#Set to false if you want pure ore to not use mekanism injecting recipes.
+			mekanismPureOreInjectingRecipe = true
+			#Enable interaction with mekanism.
+			mekanismInteracionEnabled = true
+			#The dimishing amount multiplier when using pure ore in mekanism. it prevent an exploit.
+			#Range: 0.0 ~ 1.0
+			mekanismPureOreDimishingAmount = 0.8
+			#Set to false if you want pure ore to not use mekanism dissolution recipes.
+			mekanismPureOreDissolutionRecipe = true
+
+	#Pure Infusser and pedestals config
+	[elementalcraft.pureInfuser]
+		#The max amount of on a pure infuser.
+		#Range: 0 ~ 10
+		pureInfuserMaxRunes = 3
+		#The max amount of element consumed by the pure infuser per tick.
+		#Range: 0 ~ 1000
+		pureInfuserTransferSpeed = 100
+
+		[elementalcraft.pureInfuser.pedestals]
+			#The max amount of on a pedestal.
+			#Range: 0 ~ 10
+			pedestalMaxRunes = 1
+			#The element capacity of a pedestal.
+			#Range: 0 ~ 100000000
+			pedestalCapacity = 10000
+
+	#Shrines config
+	[elementalcraft.shrines]
+		#The element capacity of shrines.
+		#Range: 0 ~ 100000000
+		shrinesCapacity = 10000
+
+		[elementalcraft.shrines.growthShrine]
+			#The nember of tick betwenn two GFrowth Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			growthShrinePeriode = 20.0
+			#The amount of element consumed by the Growth Shrine.
+			#Range: 0 ~ 1000
+			growthShrineConsumeAmount = 50
+			#The range of the Growth Shrine.
+			#Range: 0 ~ 100
+			growthShrineRange = 4
+
+		[elementalcraft.shrines.vacuumShrine]
+			#The range of the Vacuum Shrine.
+			#Range: 0 ~ 100
+			vacuumShrineRange = 10
+			#The amount of element consumed by the Vacuum Shrine.
+			#Range: 0 ~ 100
+			vacuumShrineConsumeAmount = 1
+			#The pull speed of the Vacuum Shrine.
+			#Range: 0.0 ~ 5.0
+			vacuumShrinePullSpeed = 0.1
+
+		[elementalcraft.shrines.lavaShrine]
+			#The nember of tick betwenn two Lava Shrine activations.
+			#Range: 0.0 ~ 4800.0
+			lavaShrinePeriode = 1200.0
+			#The amount of element consumed by the Lava Shrine.
+			#Range: 0 ~ 100000
+			lavaShrineConsumeAmount = 5000
+			#The range of the Lava Shrine.
+			#Range: 0 ~ 100
+			lavaShrineRange = 1
+
+		[elementalcraft.shrines.firePylon]
+			#The amount of element consumed by the Fire Pylon.
+			#Range: 0 ~ 100
+			firePylonConsumeAmount = 5
+			#The range of the Fire Pylon.
+			#Range: 0 ~ 100
+			firePylonRange = 15
+			#The damage of the Fire Pylon.
+			#Range: 0.0 ~ 20.0
+			firePylonDamage = 4.0
+
+		[elementalcraft.shrines.groveShrine]
+			#The amount of element consumed by the wild grove Shrine.
+			#Range: 0 ~ 10000
+			groveShrineConsumeAmount = 500
+			#The range of the wild grove Shrine.
+			#Range: 0 ~ 100
+			groveShrineRange = 5
+			#The nember of tick betwenn two wild grove Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			groveShrinePeriode = 200.0
+
+		[elementalcraft.shrines.enderLock]
+			#The range of the Ender Lock Shrine.
+			#Range: 0 ~ 100
+			enderLockShrineRange = 10
+			#The amount of element consumed by the Ender Lock Shrine.
+			#Range: 0 ~ 10000
+			enderLockShrineConsumeAmount = 500
+
+		[elementalcraft.shrines.breedingShrine]
+			#The range of the breeding Shrine.
+			#Range: 0 ~ 100
+			breedingShrineRange = 10
+			#The nember of tick betwenn two breeding Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			breedingShrinePeriode = 200.0
+			#The amount of element consumed by the breeding Shrine.
+			#Range: 0 ~ 10000
+			breedingShrineConsumeAmount = 2000
+
+		[elementalcraft.shrines.sweetShrine]
+			#The saturation given by the sheet shrine.
+			#Range: 0.0 ~ 10.0
+			sweetShrineSaturation = 0.1
+			#The range of the Sweet Shrine.
+			#Range: 0 ~ 100
+			sweetShrineRange = 10
+			#The amount of element consumed by the Sweet Shrine.
+			#Range: 0 ~ 10000
+			sweetShrineConsumeAmount = 500
+			#The food given by the sheet shrine.
+			#Range: 1 ~ 10
+			sweetShrineFood = 1
+			#The nember of tick betwenn two Sweet Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			sweetShrinePeriode = 40.0
+
+		[elementalcraft.shrines.overloadShrine]
+			#The amount of element consumed by the overload Shrine.
+			#Range: 0 ~ 1000
+			overloadShrineConsumeAmount = 100
+			#The nember of tick betwenn two Overload Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			overloadShrinePeriode = 3.0
+
+		[elementalcraft.shrines.harvestShrine]
+			#The nember of tick betwenn two Harvest Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			harvestShrinePeriode = 20.0
+			#The range of the Harvest Shrine.
+			#Range: 0 ~ 100
+			harvestShrineRange = 4
+			#The amount of element consumed by the Harvest Shrine.
+			#Range: 0 ~ 1000
+			harvestShrineConsumeAmount = 100
+
+		[elementalcraft.shrines.oreShrine]
+			#The range of the Ore Shrine.
+			#Range: 0 ~ 100
+			oreShrineRange = 6
+			#The amount of element consumed by the Ore Shrine.
+			#Range: 0 ~ 10000
+			oreShrineConsumeAmount = 2000
+			#The nember of tick betwenn two Ore Shrine activations.
+			#Range: 0.0 ~ 2400.0
+			oreShrinePeriode = 200.0
+
+	#Items config
+	[elementalcraft.items]
+		#The max number of spells on a focus.
+		#Range: 1 ~ 20
+		focusMaxSpell = 5
+		#Players start the game with an elementopedia in their inventory.
+		playersSpawnWithBook = false
+		#Define if or not receptacles can be enchanted.
+		receptacleEnchantable = false
+		#The amount of element transfered by an element holder.
+		#Range: 0 ~ 1000
+		elementHolderTransferAmount = 25
+		#The max number of spells on an elementalist grimoire.
+		#Range: 1 ~ 1000
+		spellBookMaxSpell = 100
+		#Define source receptacle durablility (0 for unbreakable).
+		#Range: 0 ~ 1000
+		receptacleDurability = 20
+		#The amount of element contained in a single shard.
+		#Range: 0 ~ 1000
+		shardElementAmount = 100
+		#Define chisel durablility (0 for unbreakable).
+		#Range: 0 ~ 1000
+		chiselDurability = 250
+		#The element capacity of an element holder.
+		#Range: 0 ~ 100000000
+		elementHolderCapacity = 10000
+

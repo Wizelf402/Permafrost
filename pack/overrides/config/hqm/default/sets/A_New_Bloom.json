@@ -1,0 +1,1406 @@
+{
+  "name": "A New Bloom",
+  "quests": [
+    {
+      "uuid": "98340fba-e728-4203-87c1-4dfd824c2c15",
+      "name": "Mana Function",
+      "description": "Perhaps the most important use of mana is to power functional flowers; plants that can exert specific magical effects... at the cost of mana, of course.",
+      "x": 175,
+      "y": 94,
+      "icon": {
+        "id": "botania:bellethorn",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire a Bellethorne, and take your first step into the field of functional flowers.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:bellethorn",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "303ec8b1-81ec-452f-a175-0bb5b93a34b3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:rannuncarpus",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "303ec8b1-81ec-452f-a175-0bb5b93a34b3",
+      "name": "Mana Generation",
+      "description": "To begin siphoning mana from the earth, you\u0027ll need flowers. Not just any old flowers, though. Generating flowers.",
+      "x": 136,
+      "y": 55,
+      "icon": {
+        "id": "botania:hydroangeas",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Create an Endoflame.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:endoflame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7529b760-25b6-43c0-a05a-0abbde7b233a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:open_crate",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:hopper",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f0c3a00-6730-4891-a388-a4aa5ac5c580",
+      "name": "Elements Awoken",
+      "description": "Alfheim has long since been disconnected from the known world... but their materials still have well known uses.\n\nElementium, in particular, is known for its connection to fairies. Wearing pieces of Elementium armor allow for fairies to form when you\u0027re struck, which proceed to attack any nearby enemies before disappearing.",
+      "x": 248,
+      "y": 133,
+      "icon": {
+        "id": "botania:elementium_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a full set of Elementium Armor.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:elementium_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:elementium_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:elementium_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:elementium_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0b7003d4-fc63-434d-b67c-36ea4778950b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "efe8c514-f1e3-4150-9f74-18bf436dbfe3",
+      "name": "Fascinating Fungi",
+      "description": "Deep under the frozen surface, there is life. Strange life... but life nonetheless.\n\nAnd, according to the magic of Botany, life can be harnessed.\n\nThose glowing mushrooms... they exude some sort of magic. Sort of like the mystical flowers that used to thrive on the surface. Maybe you should collect a few...",
+      "x": 25,
+      "y": 94,
+      "icon": {
+        "id": "botania:pink_mushroom",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect some shimmering mushrooms; strange fungi that are able to be harnessed to perform botanical magic.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:white_mushroom",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fcf26f1f-d20c-49b3-8ebe-990d86e2c827"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:lexicon",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3b4fd94f-ab21-4684-bd1f-a65c0bd3ee3e",
+      "name": "The Botany Stick",
+      "description": "While Botanical Instruments can be placed into the world without tools, it\u0027s only with a wand of the forest that they can be manipulated.\n\nWith this tool, you\u0027ll be able to set up much more elaborate botanical setups.",
+      "x": 98,
+      "y": 20,
+      "icon": {
+        "id": "botania:twig_wand",
+        "Count": 1,
+        "tag": {
+          "color1": 13,
+          "color2": 13
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Wand of the Forest; an item that allows you to connect and configure various botanical structures.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:twig_wand",
+                "Count": 1,
+                "tag": {
+                  "color1": 13,
+                  "color2": 13
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56561ad7-cc8f-4cee-8fa7-74996798ab08"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56561ad7-cc8f-4cee-8fa7-74996798ab08",
+      "name": "A Fabricated Flower",
+      "description": "If you\u0027re going to get into Botany, you\u0027ll need a Pure Daisy.\n\nUsing this flower, you\u0027ll be able to transform wood and stone into livingwood and livingrock, respectively.",
+      "x": 63,
+      "y": 55,
+      "icon": {
+        "id": "botania:pure_daisy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a Pure Daisy in order to begin creating livingwood and livingrock.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pure_daisy",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Using the magical properties of the pure daisy, obtain a block of livingwood and a block of livingrock.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:livingrock",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:livingwood",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d30e7d5b-064c-4693-b350-0a349294900e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:pure_daisy",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "botania:purple_mushroom",
+          "Count": 8
+        },
+        {
+          "id": "botania:green_mushroom",
+          "Count": 8
+        },
+        {
+          "id": "botania:cyan_mushroom",
+          "Count": 8
+        },
+        {
+          "id": "botania:black_mushroom",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9fba95c-98a3-4253-989d-e49d09ab442e",
+      "name": "Let it Grow",
+      "description": "Finally...\n\nAfter everything... you\u0027ve found it. A large-scale way to bring life back to the wastes.\n\nThe pasture seed.",
+      "x": 210,
+      "y": 94,
+      "icon": {
+        "id": "botania:grass_seeds",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a pasture seed; a seed that can grow a decently sized field of grass in a matter of seconds.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:grass_seeds",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b0ec574f-18c5-40ab-908a-5b37ed705123"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:grass",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3377a7c5-d6a9-4941-a96b-280051a023c5",
+      "name": "The Elements",
+      "description": "Runes come in three \"tiers\", which really just denote how difficult the rune is to create. The first tier of runes is the elemental set, four runes that rely on the primal elements.",
+      "x": 136,
+      "y": 133,
+      "icon": {
+        "id": "botania:rune_fire",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire all four of the basic elemental runes.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune_water",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_fire",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_earth",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_air",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4d294881-f551-4e94-9e23-3765d6b8d40e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_pearl",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "38829a7f-0577-465f-a4ad-837a6624e9b2",
+      "name": "Neverending Armor",
+      "description": "Manasteel may not be tough... but it can most certainly last forever if used correctly. A full suit of Manasteel Armor can prove invaluable due to its self-repairing nature.",
+      "x": 217,
+      "y": 20,
+      "icon": {
+        "id": "botania:manasteel_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a full set of Manasteel Armor.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manasteel_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manasteel_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manasteel_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manasteel_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "00ffc38c-4099-404a-828f-f64437373f79"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_ring",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "botania:manaweave_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "botania:manaweave_chestplate",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "botania:manaweave_leggings",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "botania:manaweave_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2cdbc807-7f90-47ed-973b-b47c49098bf8",
+      "name": "Mystical Flora",
+      "description": "With floral fertilizer, you can finally move past scavenging for mushrooms underground.\n\nMystical Flowers are much easier to use and transport than mystical mushrooms, and they can be produced in abundance.\n\nWhile using the mushrooms themselves worked before, mystical flowers store their magical energy in their petals, allowing for more magical use out of a single flower.",
+      "x": 90,
+      "y": 160,
+      "icon": {
+        "id": "botania:pink_mystical_flower",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain every color of mystical flower.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:light_gray_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:cyan_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:purple_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:blue_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:brown_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:green_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:red_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:black_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:white_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:orange_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:magenta_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:light_blue_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:yellow_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:lime_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:pink_mystical_flower",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:gray_mystical_flower",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c90970e1-140a-4eb7-9e06-4cba30bea1f5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:fertilizer",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "botania:rune_spring",
+          "Count": 1
+        },
+        {
+          "id": "botania:rune_summer",
+          "Count": 1
+        },
+        {
+          "id": "botania:rune_autumn",
+          "Count": 1
+        },
+        {
+          "id": "botania:rune_winter",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00f9f4fd-9612-423e-8f01-f204871d086a",
+      "name": "Floral Efficiency",
+      "description": "As you\u0027ve already noticed, there are a great variety of mystical flowers... and it gets rather hard to carry them all around.\n\nMaybe you could create something to deal with that problem?",
+      "x": 106,
+      "y": 133,
+      "icon": {
+        "id": "botania:flower_bag",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a flower pouch; a bag that can hold a full stack of each type of mystical flower.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:flower_bag",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c90970e1-140a-4eb7-9e06-4cba30bea1f5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:livingwood",
+          "Count": 32
+        },
+        {
+          "id": "botania:livingrock",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4d294881-f551-4e94-9e23-3765d6b8d40e",
+      "name": "Runic Inscription",
+      "description": "What\u0027s a botanist without runes? While those two things may sound unrelated, runes are a staple of several forms of magic... including Botania.\n\nIn order to start assembling botanical runes, you\u0027ll need to build and set up a runic altar.",
+      "x": 97,
+      "y": 94,
+      "icon": {
+        "id": "botania:runic_altar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Set up a Runic Altar in order to start creating runes.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:runic_altar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "303ec8b1-81ec-452f-a175-0bb5b93a34b3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_powder",
+          "Count": 9
+        },
+        {
+          "id": "botania:manasteel_ingot",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7529b760-25b6-43c0-a05a-0abbde7b233a",
+      "name": "Mana Transmission",
+      "description": "At the very core of every botanical contraption is a pool full of mana.\n\nMana is, to put it simply, the essence of nature, drawn out through various flowers. Most botany is fuelled by mana, using its immense natural energy to do all sorts of things previously thought impossible.\n\nIf you want to become a botanist, you\u0027re going to need to harvest mana. And to harvest mana, you\u0027ll need a few tools.",
+      "x": 98,
+      "y": 55,
+      "icon": {
+        "id": "botania:mana_spreader",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a mana pool and a mana spreader.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_pool",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:mana_spreader",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56561ad7-cc8f-4cee-8fa7-74996798ab08"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_diamond",
+          "Count": 1
+        },
+        {
+          "id": "botania:mana_pool",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c90970e1-140a-4eb7-9e06-4cba30bea1f5",
+      "name": "Regrowth",
+      "description": "Most of the mystical flowers were wiped out by the Permafrost... much like many other things.",
+      "x": 63,
+      "y": 133,
+      "icon": {
+        "id": "botania:fertilizer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain floral fertilizer, a mystical mixture that, when planted in grass, causes several mystical flowers to sprout up immediately.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:fertilizer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d30e7d5b-064c-4693-b350-0a349294900e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:fertilizer",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9071a2ed-5586-4f77-93d5-941606b34cff",
+      "name": "Bejewelled in Jade",
+      "description": "This world has been lifeless for so long. Most of the mystical flowers were completely wiped out by the Permafrost... and up until now, you\u0027ve been relying on mushrooms and fertilizer to get anything done.\n\nHowever, that\u0027s all about to change.",
+      "x": 227,
+      "y": 185,
+      "icon": {
+        "id": "botania:jaded_amaranthus",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain a Jaded Amaranthus; a functional flower that uses mana to grow mystical flowers near itself.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:jaded_amaranthus",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6b913701-9887-4c64-a8aa-157b3865496e"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "botania:tornado_rod",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "botania:dirt_rod",
+          "Count": 1
+        },
+        {
+          "id": "botania:water_rod",
+          "Count": 1
+        },
+        {
+          "id": "botania:fire_rod",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "489d82a5-7a50-48d5-810e-7bb5970702e3",
+      "name": "The Outlier",
+      "description": "One rune in particular stands out among the rest for its unique nature.\n\nThe Rune of Mana is completely separate from the main three categories of runes, not really fitting into any of them.\n\nInstead of representing more vague concepts like the elements and seasons, this rune represents mana itself, the lifeblood of nature.",
+      "x": 136,
+      "y": 176,
+      "icon": {
+        "id": "botania:rune_mana",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Rune of Mana; a unique rune often used in the crafting of mana-manipulating items.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune_mana",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3377a7c5-d6a9-4941-a96b-280051a023c5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:mana_diamond",
+          "Count": 2
+        },
+        {
+          "id": "botania:mana_string",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0ec574f-18c5-40ab-908a-5b37ed705123",
+      "name": "Mana-Fuelled Metal",
+      "description": "Mana is a power source in every sense of the word, both powering various botanical machines... and empowering various items. One of the most well known examples of \"Mana Infusion\" lies in the creation of manasteel, a metal renowned for its ability to repair itself when exposed to mana.",
+      "x": 136,
+      "y": 20,
+      "icon": {
+        "id": "botania:manasteel_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain eight ingots of manasteel.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manasteel_ingot",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "303ec8b1-81ec-452f-a175-0bb5b93a34b3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:hopperhock",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "88ed5ed4-d9a4-4b9d-903d-1fdf04a10e20",
+      "name": "The Sins",
+      "description": "Lastly are the sinful runes. The origins and significance of their names are unknown, assumed to have come from the beliefs of early botanists.\n\nThese runes require mana diamonds to create, along with both elemental and seasonal runes as catalysts.",
+      "x": 210,
+      "y": 133,
+      "icon": {
+        "id": "botania:rune_wrath",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire all seven Sinful Runes, the most advanced set.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune_lust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_gluttony",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_greed",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_sloth",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_wrath",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_envy",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_pride",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6b913701-9887-4c64-a8aa-157b3865496e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:terrasteel_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00ffc38c-4099-404a-828f-f64437373f79",
+      "name": "Natural Batteries",
+      "description": "With all this shiny new mana-powered gear... you\u0027ll need a way to actually... y\u0027know... power it. That\u0027s where a mana tablet comes in. With a mana tablet, you can store a supply of mana on your person at all times, which supplies mana to any devices that may need it.",
+      "x": 177,
+      "y": 20,
+      "icon": {
+        "id": "botania:mana_tablet",
+        "Count": 1,
+        "tag": {
+          "mana": 500000,
+          "creative": 1
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Mana Tablet, a portable mana pool that can be drawn from by botanical equipment.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_tablet",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b0ec574f-18c5-40ab-908a-5b37ed705123"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:aura_ring",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5e44f42b-d14c-4bc5-90a1-a81e5e9cf4a2",
+      "name": "The Will to Live",
+      "description": "The World is determined to survive.\n\nThe World has always survived. It will see the end of this storm. It has seen every storm that came before.\n\nAnd now, the world wants to see if you share that same will to live. Can you live up to Gaia\u0027s Challenge?",
+      "x": 282,
+      "y": 91,
+      "bigicon": true,
+      "icon": {
+        "id": "botania:gaia_head",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Rise up to the World\u0027s challenge, and defeat the Guardian of Gaia.",
+          "advancements": [
+            {
+              "name": "The Guardian of Gaia",
+              "icon": {
+                "id": "botania:gaia_head",
+                "Count": 1
+              },
+              "adv_name": "botania:main/gaia_guardian_kill"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0b7003d4-fc63-434d-b67c-36ea4778950b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:dice",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "botania:record_gaia_1",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6b913701-9887-4c64-a8aa-157b3865496e",
+      "name": "The Seasons",
+      "description": "A step above the elemental runes are the seasonal runes, which represent, of course, the seasons.\n\nThese runes utilize the elemental runes as catalysts in their creation.",
+      "x": 175,
+      "y": 133,
+      "icon": {
+        "id": "botania:rune_spring",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Acquire all four of the Seasonal Runes, which are much more complex than the elemental set.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune_winter",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_spring",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_summer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune_autumn",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3377a7c5-d6a9-4941-a96b-280051a023c5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:manasteel_ingot",
+          "Count": 24
+        },
+        {
+          "id": "botania:manastar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "439c7e31-354f-46ba-9ed2-6aa3a2b53075",
+      "name": "Cacaphonous Clearing",
+      "description": "Shoveling snow is exhausting... especially when you have to shovel entire fields of constantly accumulating snow.\n\nHowever, a previously niche botanical tool, the horn of covering, provides a much more efficient way to plow snow.\n\nMaking one of those would most definitely be useful.",
+      "x": 210,
+      "y": 51,
+      "icon": {
+        "id": "botania:horn_snow",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Horn of the Covering; a musical instrument that clears snow in an area around you when blown into.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:horn_snow",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9fba95c-98a3-4253-989d-e49d09ab442e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:horn_leaves",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5cfba1eb-d51a-498c-8d8c-1734f6661f35",
+      "name": "Armor of the Earth",
+      "description": "Terrasteel is an interesting material. While lacking in the raw strength of other, similarly powerful armor sets, it comes with a set of boons of its own.\n\nBeing infused with the raw power of the earth itself has its perks.",
+      "x": 274,
+      "y": 25,
+      "icon": {
+        "id": "botania:terrasteel_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a full set of Terrasteel Armor.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terrasteel_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:terrasteel_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:terrasteel_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:terrasteel_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d74b9966-3c7e-4d01-9074-aaa4eb20bf59"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "botania:terra_pick",
+          "Count": 1,
+          "tag": {
+            "mana": 9999,
+            "Damage": 0
+          }
+        },
+        {
+          "id": "botania:terra_axe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "botania:thorn_chakram",
+          "Count": 6
+        },
+        {
+          "id": "botania:terraform_rod",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b7003d4-fc63-434d-b67c-36ea4778950b",
+      "name": "Alfheim",
+      "description": "Legends tell of another dimension, beyond the Nether. One full of mysterious people called \"Elves\".\n\nWell... not exactly legends. They\u0027re very much true. Problem is, it\u0027s impossible to cross through a portal to Alfheim. The only way of connecting with the land of the elves is by passing things through that portal.\n\nHopefully, the Permafrost didn\u0027t extend its reach to Alfheim...",
+      "x": 248,
+      "y": 94,
+      "icon": {
+        "id": "botania:dragonstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "longDescription": "Open a portal to Alfheim, in order to hopefully commune with the Elves.",
+          "advancements": [
+            {
+              "name": "World Calling",
+              "icon": {
+                "id": "botania:alfheim_portal",
+                "Count": 1
+              },
+              "adv_name": "botania:recipes/botania/alfheim_portal"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d74b9966-3c7e-4d01-9074-aaa4eb20bf59"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:dragonstone",
+          "Count": 1
+        },
+        {
+          "id": "botania:elementium_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d30e7d5b-064c-4693-b350-0a349294900e",
+      "name": "Apothecary Magic",
+      "description": "The first step of any would-be botanist\u0027s journey is a simple one. Crafting a Petal Apothecary. This botanical apparatus harnesses the magic in natural objects, using it to create, well... flowers. Magical flowers. These flowers are the heart and soul of botanical magic.\n\nMaybe, with their power... you\u0027ll be able to fight back against the storm.",
+      "x": 63,
+      "y": 94,
+      "icon": {
+        "id": "botania:apothecary_default",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a Petal Apothecary.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:apothecary_default",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "efe8c514-f1e3-4150-9f74-18bf436dbfe3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:white_mushroom",
+          "Count": 2
+        },
+        {
+          "id": "botania:red_mushroom",
+          "Count": 8
+        },
+        {
+          "id": "botania:blue_mushroom",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d74b9966-3c7e-4d01-9074-aaa4eb20bf59",
+      "name": "Dancing in the Dark",
+      "description": "Botania is a powerful art... but it could be even more powerful. The world refuses to die... so what if you used that? What if you created a metal that represent\u0027s the world\u0027s will to live?\n\nWhat if you created Terrasteel?",
+      "x": 248,
+      "y": 51,
+      "icon": {
+        "id": "botania:terrasteel_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Using the power of mana, conjure a terrasteel ingot.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terrasteel_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "38829a7f-0577-465f-a4ad-837a6624e9b2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:blacker_lotus",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Most plant life in this world has been wiped out by the Permafrost. There\u0027s very little left to work with...\n\nBut the druidic art of Botany doesn\u0027t care. Nature never dies.\n\nBotania is a self-fulfilling form of magic, with botanical magic giving birth to more botanical magic, in an endless cycle of regrowth. Botanical magic emphasizes nature\u0027s ability to bounce back from even the greatest disaster. Maybe, a brave enough botanist could replicate this new bloom on a wider scale."
+}

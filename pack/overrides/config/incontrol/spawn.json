@@ -1,0 +1,86 @@
+[
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "iceandfire:hippocampus",
+        "random": 0.5,
+        "result": "deny"
+    },
+    {
+        "mob": "dannys_expansion:ice_elemental",
+        "result": "default",
+        "damagemultiply": 1.25,
+        "continue": true
+    },
+    {
+        "mob": "direbats:direbat",
+        "minheight": 50,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": ["minecraft:stray","betterdefaultbiomes:frozen_zombie","eidolon:wraith"],
+        "incontrol": true,
+        "mintime": 1000,
+        "maxtime": 13000,
+        "random": 0.99,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": ["minecraft:stray","betterdefaultbiomes:frozen_zombie","eidolon:wraith"],
+        "incontrol": true,
+        "mintime": 1000,
+        "maxtime": 13000,
+        "minheight": 60,
+        "mincount": {
+            "amount": 30,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": ["minecraft:stray","betterdefaultbiomes:frozen_zombie"],
+        "incontrol": true,
+        "seesky": false,
+        "mintime": 1000,
+        "maxtime": 13000,
+        "result": "deny"
+    },
+    {
+        "mob": "upgrade_aquatic:thrasher",
+        "incontrol": true,
+        "mincount": {
+            "amount": 3,
+            "mob": "upgrade_aquatic:thrasher",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "result": "default",
+        "damagemultiply": 1.5,
+        "speedmultiply": 1.05
+    },
+    {
+        "mob": "betterdefaultbiomes:frozen_zombie",
+        "result": "default",
+        "healthmultiply": 1.5
+    },
+    {
+        "mob": "minecraft:wither",
+        "result": "default",
+        "speedmultiply": 0.5
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "druidcraft:lunar_moth",
+        "mincount": {
+            "amount": 25,
+            "mob": "druidcraft:lunar_moth"
+        },
+        "result": "deny"
+    }
+]

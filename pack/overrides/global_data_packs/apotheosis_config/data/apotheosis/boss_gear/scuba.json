@@ -1,0 +1,73 @@
+{
+	"weight": 15,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:trident"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 4,
+		"stack": {
+			"item": "minecraft:nautilus_shell"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:fishing_rod"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:trident"
+		}
+	}],
+	"boots": [{
+		"weight": 10,
+		"stack": {
+			"item": "scuba_gear:scuba_boots"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "alexsmobs:roadrunner_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "scuba_gear:scuba_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 10,
+		"stack": {
+			"item": "scuba_gear:scuba_chestplate"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "alexsmobs:crocodile_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 6,
+		"stack": {
+			"item": "scuba_gear:scuba_helmet"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "iceandfire:earplugs"
+		}
+	}],
+	"tags": [
+		"drowned"
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"weight": 5,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "botania:manasteel_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "botania:manasteel_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "botania:manasteel_shovel"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:mana_tablet"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "quark:seed_pouch"
+		}
+	},
+	{
+		"weight": 4,
+		"stack": {
+			"item": "botania:horn_snow"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "botania:livingwood_bow"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:manasteel_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:manasteel_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:manasteel_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "botania:manasteel_helmet"
+		}
+	}],
+	"tags": [
+		"standard", "mage"
+	]
+}

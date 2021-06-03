@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "killed_wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bozzes:wither/defeated_wither"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "rewards": {
+    "function": "bozzes:dragon/dragon_fight_start"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    }
+  }
+}

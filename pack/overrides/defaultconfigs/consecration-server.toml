@@ -1,0 +1,48 @@
+
+[dimension]
+	#Set which dimensions are blacklisted or whitelisted for affected undead
+	dimensions = []
+	#Set whether the dimension configuration is blacklisted or whitelisted
+	#Allowed Values: BLACKLIST, WHITELIST
+	dimensionPermission = "BLACKLIST"
+
+[holy]
+	#The amount of time, in seconds, that smiting from fire lasts
+	#Range: 0 ~ 100
+	fireSmiteDuration = 15
+	#The amount of time, in seconds, that smiting from holy sources lasts
+	#Range: 0 ~ 100
+	holySmiteDuration = 15
+	#A list of entities that will be able to damage and smite undead
+	holyEntities = ["minecraft:fireball"]
+	#A list of potion effects that will be able to damage and smite undead
+	holyEffects = ["minecraft:instant_health", "consecration:holy"]
+	#A list of items that will be able to damage and smite undead
+	holyItems = ["elementalcraft:fireite_ingot"]
+	#A list of enchantments that will be able to damage and smite undead
+	holyEnchantments = ["minecraft:flame", "minecraft:fire_aspect", "minecraft:smite"]
+	#A list of damage types that will be able to damage and smite undead
+	holyDamage = ["fire", "holy", "explosion", "player.explosion"]
+	#A list of materials that will be able to damage and smite undead
+	holyMaterial = ["silver", "pewter"]
+
+[undying]
+	#Set to true to give default undead the undying trait
+	defaultUndead = true
+	#A list of mobs that to classify as undead.
+	#Format: 'modid:name'
+	#Optionally, add ';unholy' or ';absolute' to the end.
+	#Unholy mobs will not be smote by fire and absolute mobs will not be smote by anything.
+	undeadList = ["dannys_expansion:ice_elemental", "infernalexp:embody", "eidolon:wraith", "minecraft:stray", "betterdefaultbiomes:frozen_zombie"]
+	#Set undead natural damage reduction, in percent, against all non-holy damage
+	#Range: 0.0 ~ 1.0
+	damageReduction = 0.6
+	#Set undead natural health regen, in half-hearts per second
+	#Range: 0 ~ 1000
+	healthRegen = 1
+	#Set undead natural bonus speed modifier
+	#Range: 0.0 ~ 100.0
+	speedModifier = 0.01
+	#Set to true to have undead reduce damage against non-player non-holy entities
+	bystanderNerf = false
+

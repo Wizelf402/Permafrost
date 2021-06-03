@@ -1,0 +1,28 @@
+
+[settings]
+	#The amount of Fragile Glass obtained by boiling one Sugar Block
+	#Range: 1 ~ 64
+	glassproduced = 16
+	#If true, enable successful load message on login
+	showstatus = false
+
+[thinice]
+	#If true, thin ice patches will generate on frozen bodies of water
+	enable = true
+	#Average patch diameter
+	#Range: 1 ~ 14
+	avgPatchSize = 5
+	#1 in x chance of patch appearing
+	#Range: 1 ~ 5
+	genChance = 3
+
+[weakstone]
+	#If true, weak stone patches will generate on cave ceilings. Expect falls into lava!
+	enable = false
+	#Average patch diameter
+	#Range: 1 ~ 14
+	avgPatchSize = 5
+	#1 in x chance of patch appearing
+	#Range: 1 ~ 5
+	genChance = 3
+

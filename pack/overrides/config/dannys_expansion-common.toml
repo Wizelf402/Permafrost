@@ -1,0 +1,143 @@
+
+[General]
+	#Sporers should only spawn in rain?
+	sporerOnlySpawnInRain = true
+	#Allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
+	modIDs = []
+
+["Cursed Skull spawn parameters"]
+	cursedSkullBiomeDictionaries = ["OVERWORLD"]
+	#Range: 0 ~ 32
+	cursedSkullMinGroupSize = 1
+	#Range: 0 ~ 32
+	cursedSkullMaxGroupSize = 1
+	#Range: 0 ~ 500
+	cursedSkullWeight = 0
+
+["Ender Beast spawn parameters"]
+	#Range: 0 ~ 32
+	enderBeastMinGroupSize = 1
+	#Range: 0 ~ 32
+	enderBeastMaxGroupSize = 1
+	#Range: 0 ~ 500
+	enderBeastWeight = 0
+	enderBeastBiomeDictionaries = ["END"]
+
+["Grand Rammer spawn parameters"]
+	#Range: 0 ~ 500
+	grandRammerWeight = 0
+	grandRammerBiomeDictionaries = ["OVERWORLD"]
+	#Range: 0 ~ 32
+	grandRammerMinGroupSize = 1
+	#Range: 0 ~ 32
+	grandRammerMaxGroupSize = 1
+
+["Ghoul spawn parameters"]
+	#Range: 0 ~ 32
+	ghoulMaxGroupSize = 1
+	#Range: 0 ~ 32
+	ghoulMinGroupSize = 1
+	#Range: 0 ~ 500
+	ghoulWeight = 0
+	ghoulBiomeDictionaries = ["OVERWORLD"]
+
+["Ice Elemental spawn parameters"]
+	#Range: 0 ~ 32
+	iceElementalMaxGroupSize = 1
+	iceElementalBiomeDictionaries = ["OVERWORLD"]
+	#Range: 0 ~ 500
+	iceElementalWeight = 2
+	#Range: 0 ~ 32
+	iceElementalMinGroupSize = 1
+
+["Jungle Golem spawn parameters"]
+	#Range: 0 ~ 32
+	jungleGolemMinGroupSize = 1
+	jungleGolemBiomeDictionaries = ["JUNGLE"]
+	#Range: 0 ~ 32
+	jungleGolemMaxGroupSize = 1
+	#Range: 0 ~ 500
+	jungleGolemWeight = 0
+
+["Magma Gulper spawn parameters"]
+	#Range: 0 ~ 500
+	magmaGulperWeight = 0
+	magmaGulperBiomeDictionaries = ["NETHER"]
+	#Range: 0 ~ 32
+	magmaGulperMaxGroupSize = 1
+	#Range: 0 ~ 32
+	magmaGulperMinGroupSize = 1
+
+["Magma Slime spawn parameters"]
+	magmaSlimeBiomeDictionaries = ["NETHER"]
+	#Range: 0 ~ 32
+	magmaSlimeMinGroupSize = 1
+	#Range: 0 ~ 500
+	magmaSlimeWeight = 0
+	#Range: 0 ~ 32
+	magmaSlimeMaxGroupSize = 1
+
+["Manhunter spawn parameters"]
+	#Range: 0 ~ 32
+	manhunterMinGroupSize = 1
+	#Range: 0 ~ 32
+	manhunterMaxGroupSize = 1
+	#Range: 0 ~ 500
+	manhunterWeight = 0
+	manhunterBiomeDictionaries = ["OVERWORLD"]
+
+["Mummy spawn parameters"]
+	#Range: 0 ~ 32
+	mummyMinGroupSize = 1
+	#Range: 0 ~ 500
+	mummyWeight = 0
+	#Range: 0 ~ 32
+	mummyMaxGroupSize = 1
+	mummyBiomeDictionaries = ["SANDY"]
+
+["Mundane Slime spawn parameters"]
+	mundaneSlimeBiomeDictionaries = ["FOREST", "PLAINS"]
+	#Range: 0 ~ 32
+	mundaneSlimeMaxGroupSize = 1
+	#Range: 0 ~ 32
+	mundaneSlimeMinGroupSize = 1
+	#Range: 0 ~ 500
+	mundaneSlimeWeight = 0
+
+["Nyctoid spawn parameters"]
+	nyctoidBiomeDictionaries = ["OVERWORLD"]
+	#Range: 0 ~ 32
+	nyctoidMaxGroupSize = 1
+	#Range: 0 ~ 32
+	nyctoidMinGroupSize = 1
+	#Range: 0 ~ 500
+	nyctoidWeight = 0
+
+["Possessed Armor spawn parameters"]
+	#Range: 0 ~ 500
+	possessedArmorWeight = 0
+	#Range: 0 ~ 32
+	possessedArmorMinGroupSize = 1
+	possessedArmorBiomeDictionaries = ["OVERWORLD"]
+	#Range: 0 ~ 32
+	possessedArmorMaxGroupSize = 1
+
+["Rammer spawn parameters"]
+	#Range: 0 ~ 32
+	rammerMinGroupSize = 1
+	#Range: 0 ~ 500
+	rammerWeight = 0
+	rammerBiomeDictionaries = ["FOREST", "PLAINS"]
+	#Range: 0 ~ 32
+	rammerMaxGroupSize = 1
+
+["Sporer spawn parameters"]
+	#Range: 0 ~ 32
+	sporerMaxGroupSize = 1
+	sporerBiomeDictionaries = ["OVERWORLD"]
+	#sporer only spawns when it's raining
+	#Range: 0 ~ 32
+	sporerMinGroupSize = 1
+	#Range: 0 ~ 500
+	sporerWeight = 0
+

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "text": "Long Gone"
+    },
+    "description": {
+      "text": "Discover the abandoned remains of a village."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 400
+  },
+  "criteria": {
+    "minecraft:village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "village"
+        }
+      }
+    }
+  }
+}

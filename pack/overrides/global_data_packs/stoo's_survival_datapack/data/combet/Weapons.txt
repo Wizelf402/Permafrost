@@ -1,0 +1,5 @@
+-> Tick function
+	-> Predicates. Is holding tool to modify?
+		-> Ran as players a sorting tree function
+			-> Player holding sword, hoe, etc, runs function
+				-> Function applies item modifier to mainhand

@@ -1,0 +1,370 @@
+[C]§f============
+[C]§b§lPermafrost
+[C]§f============
+
+§7Created by
+§f          Xander MacIver - Wizelf402
+
+
+§7Technically, this was a single person project… but we all know that so much more went into all of this. I couldn't have made Permafrost without the help of… well, everyone listed here. Helping me when I couldn't figure things out, showing me the ropes, responding when I contacted them, playtesting, supporting me, even creating things for the modpack itself.
+§7I'm so incredibly thankful for everyone who helped me bring this little passion project of mine to life. From the creators of the mods that I used, to the wonderful Minecraft modding community, to the hundreds of people who showed interest in Permafrost… I couldn't have done this without them. I couldn't have done this without YOU.
+§7So… yeah. Thank you. For helping me bring this stupid little dream of mine to life.
+
+[C]§f=====================
+
+§7Music
+§f          The End at Hand - Solunary
+§f          Ancient Robot - Pharloom's Musician
+§f          Flake - c418
+§f          Equinox - c418
+§f          Excuses - c418
+§f          Chris - c418
+§f          Eleven - c418
+§f          Ki - c418
+
+§7Main Menu
+§f          Versed
+
+§7Smart Folks
+§f          Dinsorsoos
+§f          As7rum_07
+§f          eaglesemanation
+§f          Sarah.
+§f          Squ
+§f          BACE
+§f          Grim
+
+§7Playtesters
+§f          Nerdest Nerd
+§f          the_froggie
+§f          Shoop160
+§f          !    JRU
+§f          Archaic Beef Slime
+
+§7Datapacks
+§f          Suspicious Stoo
+§f          thggs
+§f          Solda9
+
+
+[C]§f============
+[C]§lMods
+[C]§f============
+
+§7YUNGNICKYOUNG
+§f          YUNG's API 
+§f          YUNG's Better Caves
+§f          YUNG's Better Mineshafts 
+
+§7way2muchnoise
+§f          Just Enough Resources
+
+§7uraneptus
+§f          Snow Pig
+
+§7Stereowalker
+§f          Survive 
+§f          UnionLib 
+
+§7someaddon
+§f          Performant 
+
+§7Snownee_
+§f          Snow! Real Magic!
+§f          Kiwi
+
+§7Sirttas
+§f          DataPack Anvil
+§f          ElementalCraft
+
+§7mezz
+§f          Just Enough Items 
+
+§7Keksuccino
+§f          FancyMenu
+§f          Konkrete 
+
+§7Jaredlll08
+§f          CraftTweaker
+§f          JEITweaker
+§f          Controlling
+
+§7Hunternif
+§f          Antique Atlas 
+
+§7HorribleNerd
+§f          Antique Waystones
+
+§7GoryMoon
+§f          Global GameRules
+
+§7ElenaiDev
+§f          Elenai Dodge 2 
+
+§7andantet
+§f          Direbats
+
+§7YaLTeR
+§f          Mouse Tweaks
+
+§7Xratedjunior
+§f          BetterDefaultBiomes
+
+§7XIROC1337
+§f          Dungeon Crawl
+
+§7VulpTheHorseDog
+§f          Druidcraft
+
+§7Vazkii
+§f          AutoRegLib
+§f          Botania
+§f          Patchouli
+§f          Quark 
+§f          Quark Oddities
+
+§7ValhelsiaTeam
+§f          Valhelsia Structures
+
+§7tterrag1098
+§f          ConnectedTexturesMod
+
+§7ToMe250
+§f          Botania Additions
+
+§7itsminiLInk
+§f          Extractures
+
+§7TheRandomLabs
+§f          RandomPatches 
+
+§7TheIllusiveC4
+§f          Curios API
+§f          Champions
+§f          Cherished Worlds
+§f          Consecration
+§f          Polymorph 
+
+§7TheCyberBrick
+§f          Spiders 2.0 
+
+§7TheAdubbz
+§f          Serene Seasons
+
+§7tfarecnim
+§f          Overloaded Armor Bar
+
+§7TechnicianLP
+§f          ReAuth 
+
+§7TeamAbnormals
+§f          Abnormals Core
+§f          Berry Good
+§f          Savage & Ravage
+§f          Upgrade Aquatic
+
+§7svenjhol
+§f          Charm Reforged
+
+§7stohun
+§f          Decorative Blocks
+
+§7squeek502
+§f          AppleSkin
+
+§7SnowShock35
+§f          JEI Integration
+
+§7simibubi
+§f          Create 
+
+§7shedaniel
+§f          Cloth Config v4 API
+§f          No Potion Offset
+§f          Rare Ice
+
+§7Shadows_of_Fire
+§f          FastFurnace
+§f          Placebo 
+
+§7Serilum
+§f          Collective
+§f          Configurable Mob Potion Effects
+§f          Grass Seeds
+§f          Set World Spawn Point
+§f          Snowballs Freeze Mobs
+§f          Starter Kit
+
+§7SciWhiz12
+§f          Snowy Weaponry
+
+§7QueenOfMissiles
+§f          AI-Improvements
+
+§7OreCruncher
+§f          Dynamic Surroundings
+
+§7olafskii
+§f          FastLeafDecay
+
+§7ochotonida
+§f          Artifacts
+
+§7Noobanidus
+§f          Traverse Reforged
+
+§7ninnih_
+§f          Frozen Up
+
+§7MrCrayfish
+§f          Backpacked
+§f          Backpacker 
+
+§7Mrbysco
+§f          Angry Mobs
+
+§7ModdingLegacy
+§f          Structure Gel API
+§f          Dungeons Plus 
+§f          Lava Monster 
+§f          Scuba Gear
+§f          Miner's Helmet 
+
+§7McJty
+§f          In Control! 
+§f          The Lost Cities
+
+§7MattDahEpic
+§f          MattDahEpic Core
+§f          Auto Ore Dictionary Converter 
+
+§7MacTso
+§f          Spawner Bug Fix 
+
+§7LordDusk
+§f          Hardcore Questing Mode
+
+§7lilypuree
+§f          Decorative Winter
+
+§7LainMI
+§f          Cosmetic Armor Reworked
+
+§7kwpugh
+§f          Greater Eye of Ender
+
+§7Kevun2
+§f          Spice of Life: Potato Edition
+
+§7JTK222
+§f          Global Data- & Resourcepacks
+
+§7jarkonian
+§f          Pet Revival 
+
+§7jack_bagel
+§f          End Remastered 3.6
+
+§7InfernalStudios
+§f          Infernal Expansion
+
+§7guet1440
+§f          Extra food recipes
+
+§7gleep_orange
+§f          Oreganized 
+
+§7FredTargaryen
+§f          Fragile Glass and Thin Ice
+
+§7elucent_
+§f          Eidolon 
+
+§7DarkHaxDev
+§f          Bookshelf
+§f          Better Burning
+§f          Enchantment Descriptions 
+
+§7Corgi_Taco
+§f          Shutup Experimental Settings! 
+
+§7CommodoreThrawn
+§f          Straw Golem Reborn
+
+§7Coldspell_Games
+§f          Colds: Grappler & Ropes
+
+§7CodenameRevy
+§f          Flesh2Leather
+
+§7Chaosyr
+§f          Nature's Compass
+
+§7bottomtextdanny
+§f          Danny's Expansion 
+
+§7bobmowzie
+§f          Mowzie's Mobs
+
+§7BlayTheNinth
+§f          Default Options
+§f          TrashSlot 
+§f          Waystones
+
+§7Blackgear27
+§f          Caves & Cliffs Backport
+
+§7bl4ckscor3
+§f          Snow Under Trees
+
+§7alex1the1666
+§f          Alex's Mobs 
+§f          Citadel
+§f          Ice and Fire
+
+§7AlcatrazEscapee
+§f          Chocolate 
+§f          Primal Winter 
+
+[C]§7=================
+[C]§lSpecial Thanks To...
+[C]§7=================
+
+§7Modders
+§f          Elucent
+§f          AlcatrazEscapee
+§f          The End Remastered Team
+§f          McJty
+§f          Keksuccino
+§f          Blackgear27
+
+§7These folks all responded to and worked with me while I was creating this project of mine. I had so many questions and this was all so new to me... but they tolerated me. They answered my questions, despite me probably getting a tad bit annoying. And, well… Without them, I wouldn't've been able to finish this thing.
+
+§7My Wonderful Friends
+§f          Jay Phung
+§f          Trent Naclerio
+§f          Thomas Macdougal
+§f          Thomas Jenks
+§f          Eliza Mariano
+§f          Evan Hiemenz
+
+§7These guys, gals, and pals all helped me SO much in getting this thing made, just by being there for me. Thanks, y'all.
+
+§7Big Cringe Applesauce Baby
+§f          Limboglass
+
+§7Others
+§f          r/feedthebeast
+§f          The official Permafrost Discord
+§f          My wonderful family
+§f          The incredible Minecraft modding community
+
+§7And, of course…
+§f          You.
+
+
+
+
+
+[C]§fEven in the face of hopelessness, you can find hope. Find something to fight for, and if you can't fight for anything, fight for yourself. Fight just to keep on fighting. Eventually, you'll stumble upon the hope that you'd been missing.
+[C]§7 - Unknown

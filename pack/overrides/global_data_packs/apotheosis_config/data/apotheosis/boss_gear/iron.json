@@ -1,0 +1,91 @@
+{
+	"weight": 15,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:shield"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:iron_shovel"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:iron_boots"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:chainmail_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:iron_leggings"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:chainmail_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:iron_chestplate"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "minecraft:chainmail_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 30,
+		"stack": {
+			"item": "minecraft:iron_helmet"
+		}
+	},
+	{
+		"weight": 20,
+		"stack": {
+			"item": "minecraft:chainmail_helmet"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "alexsmobs:sombrero"
+		}
+	}],
+	"tags": [
+		"standard", "mage"
+	]
+}

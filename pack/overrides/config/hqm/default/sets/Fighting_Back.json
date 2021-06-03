@@ -1,0 +1,139 @@
+{
+  "name": "Fighting Back",
+  "quests": [
+    {
+      "uuid": "8ba38fce-1b6a-4f2b-8399-0e5e231f9151",
+      "name": "Fighting Back",
+      "description": "You... killed one of them. That means that the ice elementals can be fought.\n\nWhy not shatter a few more, and show the Permafrost what you think of its accursed magic?",
+      "x": 207,
+      "y": 18,
+      "icon": {
+        "id": "survive:ice_cube",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Ice Elemental",
+              "icon": {
+                "id": "dannys_expansion:ice_elemental_spawn_egg",
+                "Count": 1
+              },
+              "mob": "dannys_expansion:ice_elemental",
+              "kills": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc817a8d-150b-41ae-98fc-8de0dbf7ba9d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "druidcraft:amber",
+          "Count": 2
+        },
+        {
+          "id": "create:andesite_alloy",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "103b4eef-68c4-47c4-b7ff-ce932d0c9691",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 175,
+      "y": 84,
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abcfbe8e-f7e1-4f2b-8f49-c1520e912b19",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 175,
+      "y": 51,
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "628355b8-086d-4130-9f59-2b2c285fd226",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 175,
+      "y": 118,
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc817a8d-150b-41ae-98fc-8de0dbf7ba9d",
+      "name": "The Ice Elemental",
+      "description": "The ice elemental. The terror of the storm. Destroyer of worlds. You\u0027d have to be either very well prepared or completely insane to try and take down just one... and they tend to come in groups.\n\nThese horrors, sculpted of ice, began to manifest when the Permafrost struck. It\u0027s unknown whether the Permafrost made them, or if they caused the Permafrost.\n\n Either way, one thing\u0027s for sure. You don\u0027t want to be anywhere near these things.",
+      "x": 175,
+      "y": 18,
+      "icon": {
+        "id": "dannys_expansion:ice_elemental_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Ice Elemental",
+              "icon": {
+                "id": "dannys_expansion:ice_elemental_spawn_egg",
+                "Count": 1
+              },
+              "mob": "dannys_expansion:ice_elemental",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ce34fc15-49f7-4d02-8931-023446d30150"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "survive:adjusted_warming"
+              }
+            ]
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,61 @@
+{
+	"weight": 5,
+	"mainhands": [{
+			"weight": 4,
+			"stack": {
+				"item": "consecration:fire_stick"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:flint_and_steel"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "antiqueatlas:empty_antique_atlas"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:campfire"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "survive:canteen"
+		}
+	}],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "survive:wool_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "survive:wool_pants"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "survive:wool_jacket"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "survive:wool_hat"
+		}
+	}],
+	"tags": [
+		"standard", "skeleton"
+	]
+}

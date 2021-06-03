@@ -1,0 +1,7 @@
+Example mob mass addition file.  Add mobs with the pattern below and rename file to MassAdditionMobs.csv
+Line, Category*, Class**, Namespace:Mob, Weight, Mingroup , Maxgroup
+
+
+
+* A, O, N, E for All, Overworld, Nether, The End
+** MONSTER,CREATURE,AMBIENT

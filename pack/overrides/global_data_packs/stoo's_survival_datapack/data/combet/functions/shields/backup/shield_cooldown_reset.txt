@@ -1,0 +1,55 @@
+# Ran by clock
+
+### GOAL: Reset the shield's attribute modifiers and model
+### PROCEDURE: Modify the value of shields found in either the player's mainhand or offhand
+
+# CHECK ITEM ENTITIES (order is important)
+execute as @e[type=item, nbt={Item:{id:"minecraft:shield",tag:{CustomModelData:1001}}},limit=1] run data remove entity @s Item.tag.AttributeModifiers 
+execute as @e[type=item, nbt={Item:{id:"minecraft:shield",tag:{CustomModelData:1001}}},limit=1] run data remove entity @s Item.tag.CustomModelData 
+
+# CHECK OFFHAND: (Slot -106)
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:-106b}]}] weapon.offhand modify combet:shields/off_cooldown
+
+# CHECK HOTBAR: (Slots 0-8)
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:0b,tag:{CustomModelData:1001}}]}] hotbar.0 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:1b,tag:{CustomModelData:1001}}]}] hotbar.1 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:2b,tag:{CustomModelData:1001}}]}] hotbar.2 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:3b,tag:{CustomModelData:1001}}]}] hotbar.3 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:4b,tag:{CustomModelData:1001}}]}] hotbar.4 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:5b,tag:{CustomModelData:1001}}]}] hotbar.5 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:6b,tag:{CustomModelData:1001}}]}] hotbar.6 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:7b,tag:{CustomModelData:1001}}]}] hotbar.7 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:8b,tag:{CustomModelData:1001}}]}] hotbar.8 modify combet:shields/off_cooldown
+
+# CHECK INVENTORY: (Slots 9-35)
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:9b}]}] inventory.0 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:10b}]}] inventory.1 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:11b}]}] inventory.2 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:12b}]}] inventory.3 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:13b}]}] inventory.4 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:14b}]}] inventory.5 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:15b}]}] inventory.6 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:16b}]}] inventory.7 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:17b}]}] inventory.8 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:18b}]}] inventory.9 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:19b}]}] inventory.10 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:20b}]}] inventory.11 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:21b}]}] inventory.12 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:22b}]}] inventory.13 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:23b}]}] inventory.14 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:24b}]}] inventory.15 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:25b}]}] inventory.16 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:26b}]}] inventory.17 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:27b}]}] inventory.18 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:28b}]}] inventory.19 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:29b}]}] inventory.20 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:30b}]}] inventory.21 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:31b}]}] inventory.22 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:32b}]}] inventory.23 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:33b}]}] inventory.24 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:34b}]}] inventory.25 modify combet:shields/off_cooldown
+item entity @a[scores={StooShields=0},nbt={Inventory:[{id:"minecraft:shield",Slot:35b}]}] inventory.26 modify combet:shields/off_cooldown
+
+# SCOREBOARD: Resets cooldown score
+scoreboard players reset @a[scores={StooShields=0}] StooShields
+
