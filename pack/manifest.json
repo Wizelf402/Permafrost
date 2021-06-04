@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Permafrost",
-  "version": "1.1.5",
-  "author": "",
+  "version": "1.1.6-pre1",
+  "author": "Team EotS",
   "files": [
     {
       "projectID": 441706,
@@ -162,6 +162,11 @@
     {
       "projectID": 442962,
       "fileID": 3265170,
+      "required": true
+    },
+    {
+      "projectID": 406201,
+      "fileID": 3336374,
       "required": true
     },
     {
@@ -480,13 +485,13 @@
       "required": true
     },
     {
-      "projectID": 232131,
-      "fileID": 3066044,
+      "projectID": 237701,
+      "fileID": 3105779,
       "required": true
     },
     {
-      "projectID": 237701,
-      "fileID": 3105779,
+      "projectID": 232131,
+      "fileID": 3066044,
       "required": true
     },
     {
@@ -512,11 +517,6 @@
     {
       "projectID": 312353,
       "fileID": 3276108,
-      "required": true
-    },
-    {
-      "projectID": 354143,
-      "fileID": 3303624,
       "required": true
     },
     {
