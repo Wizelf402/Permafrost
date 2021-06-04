@@ -12,8 +12,10 @@ Main contributors are as follows:
 
 **How to use this repo:**
 
-The contained files are the *uncompressed* version of the `permafrost-[VERSION NUMBER].zip` file for that release, which will likely also be avalibe (starting with 1.1.5) as releases in the Releases tab.
+The contained files are the *uncompressed* version of the `permafrost-[VERSION NUMBER].zip` file for that release, which will likely also be available (starting with 1.1.5) as releases in the Releases tab.
 
 To update mod versions, use the Curseforge/GDLauncher programs to modify the `manifest.json` and `modlist.html` files **indirectly**, as modifying them by hand isn't intuitive, sadly.
 
 For the other files (all of which are in the `overrides` folder, copy-paste them into your working install of the pack, and modify them there; or dynlink the files from your local repo to the install of the pack, it's up to you.
+
+Version naming follows the system "majorcontent.minorcontent.bugfix".
