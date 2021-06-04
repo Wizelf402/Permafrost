@@ -18,4 +18,4 @@ To update mod versions, use the Curseforge/GDLauncher programs to modify the `ma
 
 For the other files (all of which are in the `overrides` folder, copy-paste them into your working install of the pack, and modify them there; or dynlink the files from your local repo to the install of the pack, it's up to you.
 
-Version naming follows the system "majorcontent.minorcontent.bugfix".
+Version naming follows the system `majorcontent.minorcontent.bugfix`.
