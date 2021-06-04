@@ -42,44 +42,40 @@
       "commandrewards": []
     },
     {
-      "uuid": "b7da7cb3-7ca7-4d04-a2a7-94e13e593f5a",
-      "name": "The Foxhound",
-      "description": "Foxhounds are curious little beasts. Highly territorial, and willing to fight most outsiders who dare to enter their territory... it\u0027s a bit of a surprise that these nether-wolves make good pets.\n\nHowever, convincing them that you\u0027re a friend is an ordeal in itself. You\u0027ll need a fire resistance potion, along with plenty of coal.",
-      "x": 186,
-      "y": 15,
+      "uuid": "4ee4de92-a41b-4489-878f-8f17ceeaba99",
+      "name": "The Creeper",
+      "description": "Creepers. It\u0027s a wonder how these living plants manage to thrive in this frozen wasteland. By all means, they should have been completely wiped out, by now. Somehow, they weren\u0027t.\n\nCreepers are animate plants, whose forms are loaded to the brim with explosive spores and a strange substance that had been dubbed \"gunpowder\". Creepers reproduce by literally exploding, spreading their spores... which give birth to infant creepers. However, these \"creepies\" lack self preservation instincts... and if the creeper\u0027s target survived the explosion, the creepies will often just blow themselves up on them.",
+      "x": 136,
+      "y": 16,
       "icon": {
-        "id": "minecraft:coal",
+        "id": "minecraft:gunpowder",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "TAME",
-          "longDescription": "Tame a foxhound; a territorial wolf-like animal native to the Nether.",
-          "tame": [
+          "type": "KILL",
+          "longDescription": "Kill at least 8 Creepies, which spawn from the spores of Creepers.",
+          "mobs": [
             {
-              "name": "Foxhound",
+              "name": "Creepies",
               "icon": {
-                "id": "minecraft:coal",
+                "id": "savageandravage:creeper_spores",
                 "Count": 1
               },
-              "tame": "quark:foxhound",
-              "tames": 1
+              "mob": "savageandravage:creepie",
+              "kills": 8
             }
           ]
         }
       ],
       "prerequisites": [
-        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
+        "4381b5ca-45ec-49ed-82cd-ba21d0eec785"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:name_tag",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:furnace",
-          "Count": 1
+          "id": "minecraft:gunpowder",
+          "Count": 32
         }
       ],
       "rewardchoice": [],
@@ -141,40 +137,44 @@
       "commandrewards": []
     },
     {
-      "uuid": "4ee4de92-a41b-4489-878f-8f17ceeaba99",
-      "name": "The Creeper",
-      "description": "Creepers. It\u0027s a wonder how these living plants manage to thrive in this frozen wasteland. By all means, they should have been completely wiped out, by now. Somehow, they weren\u0027t.\n\nCreepers are animate plants, whose forms are loaded to the brim with explosive spores and a strange substance that had been dubbed \"gunpowder\". Creepers reproduce by literally exploding, spreading their spores... which give birth to infant creepers. However, these \"creepies\" lack self preservation instincts... and if the creeper\u0027s target survived the explosion, the creepies will often just blow themselves up on them.",
-      "x": 136,
-      "y": 16,
+      "uuid": "b7da7cb3-7ca7-4d04-a2a7-94e13e593f5a",
+      "name": "The Foxhound",
+      "description": "Foxhounds are curious little beasts. Highly territorial, and willing to fight most outsiders who dare to enter their territory... it\u0027s a bit of a surprise that these nether-wolves make good pets.\n\nHowever, convincing them that you\u0027re a friend is an ordeal in itself. You\u0027ll need a fire resistance potion, along with plenty of coal.",
+      "x": 186,
+      "y": 15,
       "icon": {
-        "id": "minecraft:gunpowder",
+        "id": "minecraft:coal",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "KILL",
-          "longDescription": "Kill at least 8 Creepies, which spawn from the spores of Creepers.",
-          "mobs": [
+          "type": "TAME",
+          "longDescription": "Tame a foxhound; a territorial wolf-like animal native to the Nether.",
+          "tame": [
             {
-              "name": "Creepies",
+              "name": "Foxhound",
               "icon": {
-                "id": "savageandravage:creeper_spores",
+                "id": "minecraft:coal",
                 "Count": 1
               },
-              "mob": "savageandravage:creepie",
-              "kills": 8
+              "tame": "quark:foxhound",
+              "tames": 1
             }
           ]
         }
       ],
       "prerequisites": [
-        "4381b5ca-45ec-49ed-82cd-ba21d0eec785"
+        "3e89b7ad-f9f8-448f-9924-b420ef6da7ca"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:gunpowder",
-          "Count": 32
+          "id": "minecraft:name_tag",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:furnace",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -290,6 +290,46 @@
       "commandrewards": []
     },
     {
+      "uuid": "abcfbe8e-f7e1-4f2b-8f49-c1520e912b19",
+      "name": "The Frozen",
+      "description": "It\u0027s no surprise that the Permafrost was able to freeze these poor souls solid.\n\n The Frozen are zombies that have been chilled to their very cores. While not much stronger than regular zombies in terms of raw power, these frigid beasts are much more threatening.\n\nFrozen zombies regularly emit blasts of cold air from their bodies, which can freeze you in your tracks. That, along with their chilling bites, make them terrifying foes.",
+      "x": 186,
+      "y": 133,
+      "icon": {
+        "id": "betterdefaultbiomes:frozen_flesh",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Seek out and kill at least 16 Frozen Zombies. ",
+          "mobs": [
+            {
+              "name": "Frozen",
+              "icon": {
+                "id": "betterdefaultbiomes:frozen_zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "betterdefaultbiomes:frozen_zombie",
+              "kills": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b98398c-3cd5-465f-8c43-10c6354baa26"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:truffle_cake",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "aa3e7352-7cd1-413c-aed2-82983f871014",
       "name": "Forgotten Fragments",
       "description": "So much has been lost to the Storm.\n\nThe mythical beasts that used to roam this land have nearly been wiped out... and with their disappearance, the world lost so much knowledge.\n\nHowever, some of this knowledge still remains, in scraps of old history books. Long outdated secrets, ancient knowledge, forgotten fragments. While many of the practices and beasts detailed in these texts have been lost to time, you may still be able to get some use out of them.",
@@ -337,46 +377,6 @@
         {
           "id": "iceandfire:manuscript",
           "Count": 10
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "abcfbe8e-f7e1-4f2b-8f49-c1520e912b19",
-      "name": "The Frozen",
-      "description": "It\u0027s no surprise that the Permafrost was able to freeze these poor souls solid.\n\n The Frozen are zombies that have been chilled to their very cores. While not much stronger than regular zombies in terms of raw power, these frigid beasts are much more threatening.\n\nFrozen zombies regularly emit blasts of cold air from their bodies, which can freeze you in your tracks. That, along with their chilling bites, make them terrifying foes.",
-      "x": 186,
-      "y": 133,
-      "icon": {
-        "id": "betterdefaultbiomes:frozen_flesh",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "longDescription": "Seek out and kill at least 16 Frozen Zombies. ",
-          "mobs": [
-            {
-              "name": "Frozen",
-              "icon": {
-                "id": "betterdefaultbiomes:frozen_zombie_spawn_egg",
-                "Count": 1
-              },
-              "mob": "betterdefaultbiomes:frozen_zombie",
-              "kills": 16
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9b98398c-3cd5-465f-8c43-10c6354baa26"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "frozenup:truffle_cake",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -615,8 +615,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -670,8 +670,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 3,
-        "hours": 0
+        "days": 0,
+        "hours": 3
       },
       "tasks": [
         {
@@ -951,8 +951,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 8,
-        "hours": 0
+        "days": 0,
+        "hours": 8
       },
       "tasks": [
         {
@@ -997,7 +997,7 @@
       "tasks": [
         {
           "type": "KILL",
-          "longDescription": "Kill a Wraith, a Frozen, and a Stray.\n\nThese \"Chilled\" mobs, for the most part, follow a different set of spawn rules. More specifically, they begin to build up around you, seeking you out, even spawning at lower rates during the day. Staying in one place for long enough lets them build up in high concentrations around you. Getting some base defenses is probably going to be a good idea.\n\nOh. Weirdly enough, Frozen Pigs also seem to seek out warmth, spawning in close proximity to you.",
+          "longDescription": "Kill a Wraith, a Frozen, and a Stray.\n\nThese \"Chilled\" mobs, for the most part, follow a different set of spawn rules. More specifically, they begin to build up around you, seeking you out, even spawning at lower rates during the day. Staying in one place for long enough lets them build up in high concentrations around you. Getting some base defenses is probably going to be a good idea.",
           "mobs": [
             {
               "name": "Frozen Zombie",

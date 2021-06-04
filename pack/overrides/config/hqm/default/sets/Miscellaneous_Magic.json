@@ -228,6 +228,92 @@
       "commandrewards": []
     },
     {
+      "uuid": "bc0cfb14-2320-48d7-bb70-a31cd0811dc4",
+      "name": "???",
+      "description": "What... what is this? Why did this... vision... appear to you? Are you going insane?\n\n You should... you don\u0027t know what you should do.",
+      "x": 89,
+      "y": 14,
+      "icon": {
+        "id": "eidolon:codex",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Combine a book with some rotten flesh to create the Ars Ecclesia... the guide to...... something?",
+          "items": [
+            {
+              "item": {
+                "id": "eidolon:codex",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b491ccef-a6e4-41c6-a08d-3617e32d0df9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "eidolon:basic_ring",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "eidolon:basic_amulet",
+          "Count": 1
+        },
+        {
+          "id": "eidolon:basic_belt",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e22c5eb2-439c-49ae-b6f0-59f44585d7ab",
+      "name": "Otherworldly Minerals",
+      "description": "Moonstone, simply put, isn\u0027t of this world. It\u0027s nothing like other minerals such as diamond and emerald, it spawns at higher altitudes for some reason... and it\u0027s rather cold... much like ice. Strange...\n\nMoonstone, in addition to its magical properties, acts as an alternative to Netherite, being able to upgrade diamond gear at a smithing table through the use of moonstone blocks. Moonstone has higher base stats than netherite, but none of netherite\u0027s additional benefits.",
+      "x": 88,
+      "y": 148,
+      "icon": {
+        "id": "druidcraft:moonstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect three moonstone crystals. These otherworldly gems can be used to upgrade diamond gear into moonstone gear, which has higher stats than netherite but no special properties. Moonstone armor, unlike Netherite, actually lowers your temperature instead of raising it.",
+          "items": [
+            {
+              "item": {
+                "id": "druidcraft:moonstone",
+                "Count": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d30ea04-6c93-424d-a097-3baaaafafb11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "druidcraft:moonstone_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d86eb662-16bc-4797-a3d5-1fc3850d495a",
       "name": "A Guiding Eye",
       "description": "The Eyes beckon to you... the aura they exude is wholly unnatural... but something tells you that you may be able to recreate something like it on a smaller scale.\n\nYou\u0027ve occasionally seen these strange eyes frozen in the bodies of ice elementals... but you could likely recreate them, and utilize their strange pull to find other things.",
@@ -285,92 +371,6 @@
         },
         {
           "id": "minecraft:flower_banner_pattern",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e22c5eb2-439c-49ae-b6f0-59f44585d7ab",
-      "name": "Otherworldly Minerals",
-      "description": "Moonstone, simply put, isn\u0027t of this world. It\u0027s nothing like other minerals such as diamond and emerald, it spawns at higher altitudes for some reason... and it\u0027s rather cold... much like ice. Strange...\n\nMoonstone, in addition to its magical properties, acts as an alternative to Netherite, being able to upgrade diamond gear at a smithing table through the use of moonstone blocks. Moonstone has higher base stats than netherite, but none of netherite\u0027s additional benefits.",
-      "x": 88,
-      "y": 148,
-      "icon": {
-        "id": "druidcraft:moonstone",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Collect three moonstone crystals. These otherworldly gems can be used to upgrade diamond gear into moonstone gear, which has higher stats than netherite but no special properties. Moonstone armor, unlike Netherite, actually lowers your temperature instead of raising it.",
-          "items": [
-            {
-              "item": {
-                "id": "druidcraft:moonstone",
-                "Count": 3
-              },
-              "required": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6d30ea04-6c93-424d-a097-3baaaafafb11"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "druidcraft:moonstone_block",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "bc0cfb14-2320-48d7-bb70-a31cd0811dc4",
-      "name": "???",
-      "description": "What... what is this? Why did this... vision... appear to you? Are you going insane?\n\n You should... you don\u0027t know what you should do.",
-      "x": 89,
-      "y": 14,
-      "icon": {
-        "id": "eidolon:codex",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "longDescription": "Combine a book with some rotten flesh to create the Ars Ecclesia... the guide to...... something?",
-          "items": [
-            {
-              "item": {
-                "id": "eidolon:codex",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b491ccef-a6e4-41c6-a08d-3617e32d0df9"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "eidolon:basic_ring",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "eidolon:basic_amulet",
-          "Count": 1
-        },
-        {
-          "id": "eidolon:basic_belt",
           "Count": 1
         }
       ],

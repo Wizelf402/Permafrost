@@ -1,5 +1,0 @@
-
-scoreboard players set fasterWeapons StooSettings 1
-scoreboard players set slowerWeapons StooSettings 0
-
-tellraw @s ["",{"text":"Tools & Weapon","bold":true,"color":"#729dd3"},{"text":" have been succesfully set to be remastered! Hold the item in your mainhaind to update its stats.","color":"#729dd3"}]

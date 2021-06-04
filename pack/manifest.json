@@ -11,7 +11,6 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Permafrost",
-  "version": "1.1.5",
   "author": "",
   "files": [
     {
@@ -52,6 +51,11 @@
     {
       "projectID": 359289,
       "fileID": 3139471,
+      "required": true
+    },
+    {
+      "projectID": 227838,
+      "fileID": 3320566,
       "required": true
     },
     {
@@ -512,11 +516,6 @@
     {
       "projectID": 312353,
       "fileID": 3276108,
-      "required": true
-    },
-    {
-      "projectID": 354143,
-      "fileID": 3303624,
       "required": true
     },
     {

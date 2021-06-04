@@ -92,6 +92,49 @@
       "commandrewards": []
     },
     {
+      "uuid": "7245cac9-d855-470d-84a6-e284545208e1",
+      "name": "Positively Parched",
+      "description": "Food and heat aren\u0027t the only things you\u0027ll need to manage if you\u0027re to survive in this frigid wasteland.\nYou\u0027ll also need water. While it\u0027s rather easy to just crack through the ice of a nearby pond and drink from there, you won\u0027t always have a lake nearby. You\u0027ll need portable storage. Go get some water bottles.",
+      "x": 53,
+      "y": 94,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": {
+          "Potion": "minecraft:water"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Get a bottle of water.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": {
+                  "Potion": "minecraft:water"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fa4ab970-d343-4a7a-857d-8b882f3e0eb1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bucket",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d9ad52e2-d3ca-4fb7-851c-270d09f0ae16",
       "name": "Weary Woes",
       "description": "Your eyes are getting tired... You need somewhere to sleep... and something to sleep on... Problem is, you can\u0027t exactly craft a bed in these conditions...",
@@ -155,49 +198,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7245cac9-d855-470d-84a6-e284545208e1",
-      "name": "Positively Parched",
-      "description": "Food and heat aren\u0027t the only things you\u0027ll need to manage if you\u0027re to survive in this frigid wasteland.\nYou\u0027ll also need water. While it\u0027s rather easy to just crack through the ice of a nearby pond and drink from there, you won\u0027t always have a lake nearby. You\u0027ll need portable storage. Go get some water bottles.",
-      "x": 53,
-      "y": 94,
-      "icon": {
-        "id": "minecraft:potion",
-        "Count": 1,
-        "tag": {
-          "Potion": "minecraft:water"
-        }
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Get a bottle of water.",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": {
-                  "Potion": "minecraft:water"
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "fa4ab970-d343-4a7a-857d-8b882f3e0eb1"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:bucket",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "7a30c46d-3e83-4750-96dd-45545d487b88",
       "name": "Crunching on Ice",
       "description": "Water bottles are... a little hard to carry around. You can only take so many of them with you.\n\nHowever, ice cubes are a lot less hard to carry. While they restore very little thirst, in addition to being rather unclean and cold... they can be stacked, which is nice.",
@@ -237,61 +237,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6f89362a-80dd-4912-b689-09f4789d6585",
-      "name": "A Chocolatey Delight",
-      "description": "With these truffles that you acquired, you can create a mug of truffle hot chocolate, a wonderful item that both warms you up and quenches your thirst.",
-      "x": 289,
-      "y": 68,
-      "icon": {
-        "id": "frozenup:mug_of_truffle_hot_chocolate",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 20,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "longDescription": "Submit a mug of truffle hot chocolate.",
-          "items": [
-            {
-              "item": {
-                "id": "frozenup:mug_of_truffle_hot_chocolate",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c373e75e-2c98-4fc3-93e2-d95cb47141e7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "frozenup:empty_mug",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:cocoa_beans",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:jungle_sapling",
-          "Count": 1
-        },
-        {
-          "id": "frozenup:frozen_truffle",
-          "Count": 2
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -366,6 +311,61 @@
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f89362a-80dd-4912-b689-09f4789d6585",
+      "name": "A Chocolatey Delight",
+      "description": "With these truffles that you acquired, you can create a mug of truffle hot chocolate, a wonderful item that both warms you up and quenches your thirst.",
+      "x": 289,
+      "y": 68,
+      "icon": {
+        "id": "frozenup:mug_of_truffle_hot_chocolate",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 20
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Submit a mug of truffle hot chocolate.",
+          "items": [
+            {
+              "item": {
+                "id": "frozenup:mug_of_truffle_hot_chocolate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c373e75e-2c98-4fc3-93e2-d95cb47141e7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "frozenup:empty_mug",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:cocoa_beans",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:jungle_sapling",
+          "Count": 1
+        },
+        {
+          "id": "frozenup:frozen_truffle",
+          "Count": 2
+        }
+      ],
       "commandrewards": []
     },
     {

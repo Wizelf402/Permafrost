@@ -80,6 +80,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "efe8c514-f1e3-4150-9f74-18bf436dbfe3",
+      "name": "Fascinating Fungi",
+      "description": "Deep under the frozen surface, there is life. Strange life... but life nonetheless.\n\nAnd, according to the magic of Botany, life can be harnessed.\n\nThose glowing mushrooms... they exude some sort of magic. Sort of like the mystical flowers that used to thrive on the surface. Maybe you should collect a few...",
+      "x": 25,
+      "y": 94,
+      "icon": {
+        "id": "botania:pink_mushroom",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect some shimmering mushrooms; strange fungi that are able to be harnessed to perform botanical magic.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:white_mushroom",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fcf26f1f-d20c-49b3-8ebe-990d86e2c827"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:lexicon",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "2f0c3a00-6730-4891-a388-a4aa5ac5c580",
       "name": "Elements Awoken",
       "description": "Alfheim has long since been disconnected from the known world... but their materials still have well known uses.\n\nElementium, in particular, is known for its connection to fairies. Wearing pieces of Elementium armor allow for fairies to form when you\u0027re struck, which proceed to attack any nearby enemies before disappearing.",
@@ -139,44 +177,6 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "efe8c514-f1e3-4150-9f74-18bf436dbfe3",
-      "name": "Fascinating Fungi",
-      "description": "Deep under the frozen surface, there is life. Strange life... but life nonetheless.\n\nAnd, according to the magic of Botany, life can be harnessed.\n\nThose glowing mushrooms... they exude some sort of magic. Sort of like the mystical flowers that used to thrive on the surface. Maybe you should collect a few...",
-      "x": 25,
-      "y": 94,
-      "icon": {
-        "id": "botania:pink_mushroom",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Collect some shimmering mushrooms; strange fungi that are able to be harnessed to perform botanical magic.",
-          "items": [
-            {
-              "item": {
-                "id": "botania:white_mushroom",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "fcf26f1f-d20c-49b3-8ebe-990d86e2c827"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "botania:lexicon",
-          "Count": 1
-        }
-      ],
       "rewardchoice": [],
       "commandrewards": []
     },

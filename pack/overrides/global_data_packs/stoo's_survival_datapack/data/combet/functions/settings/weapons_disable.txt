@@ -1,6 +1,0 @@
-
-scoreboard players set slowerWeapons StooSettings 1
-scoreboard players set fasterWeapons StooSettings 0
-
-
-tellraw @s ["",{"text":"Tools & Weapon","bold":true,"color":"#729dd3"},{"text":" have been succesfully reset to vanilla. Hold the item in your mainhaind to update its stats.","color":"#729dd3"}]

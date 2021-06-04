@@ -29,7 +29,7 @@
 #Campfires no longer damage mobs.
 "CampfiresNoDamage enabled" = false
 #Candles are made from beeswax and have a lower ambient light than torches.
-"Candles enabled" = true
+"Candles enabled" = false
 #Cave spiders have a chance to drop cobwebs.
 "CaveSpidersDropCobwebs enabled" = true
 #Chickens randomly drop feathers.
@@ -148,7 +148,7 @@
 #A witch has a chance to drop a Potion of Luck when killed by a player.
 "WitchesDropLuck enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
-"Woodcutters enabled" = true
+"Woodcutters enabled" = false
 
 [AnvilImprovements]
 	#If true, an enchanted book with a level higher than the maximum enchantment level may be applied to an item.
@@ -158,7 +158,7 @@
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
 	"Remove Too Expensive" = true
 	#If true, anvils are 50% less likely to take damage when used.
-	"Stronger anvils" = true
+	"Stronger anvils" = false
 
 [Atlas]
 	#Allow opening the atlas while it is in the off hand

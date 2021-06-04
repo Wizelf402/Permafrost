@@ -941,8 +941,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 8
+        "days": 8,
+        "hours": 0
       },
       "tasks": [
         {

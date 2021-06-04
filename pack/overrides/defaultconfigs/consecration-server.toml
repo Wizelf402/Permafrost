@@ -20,7 +20,7 @@
 	#A list of items that will be able to damage and smite undead
 	holyItems = ["elementalcraft:fireite_ingot"]
 	#A list of enchantments that will be able to damage and smite undead
-	holyEnchantments = ["minecraft:flame", "minecraft:fire_aspect", "minecraft:smite"]
+	holyEnchantments = ["minecraft:flame", "minecraft:fire_aspect"]
 	#A list of damage types that will be able to damage and smite undead
 	holyDamage = ["fire", "holy", "explosion", "player.explosion"]
 	#A list of materials that will be able to damage and smite undead

@@ -1,8 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:pillager",
-    "nbt": "{PatrolLeader:1b}"
-  }
-}

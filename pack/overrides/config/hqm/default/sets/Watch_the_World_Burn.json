@@ -154,7 +154,7 @@
     {
       "uuid": "aba3a4c3-8ca8-4141-a948-668871b296e9",
       "name": "A Fiery Barrage",
-      "description": "Fire sticks aren\u0027t the only source of fire that you can craft. In addition to the short-lasting melee weapons that are fire sticks, one can craft flaming arrows with coal and torches, to burn your frigid foes from afar.",
+      "description": "Fire sticks aren\u0027t the only source of fire that you can craft. In addition to the short-lasting melee weapons that are fire sticks, one can craft flaming arrows with coal and arrows, to burn your frigid foes from afar.",
       "x": 24,
       "y": 18,
       "icon": {
@@ -369,43 +369,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "2c827d04-5ea3-4bea-b674-01f8ec114308",
-      "name": "Crystallization",
-      "description": "Diamonds are powerful little things. Incredibly durable, and with some rather impressive magical conductivity, these crystals are oft used in both simple and complex forms of magic.\n\nElementalists, for example, use diamonds in the creation of all sorts of elemental crystals through the use of a crystallizer, an instrument that infuses diamonds with elemental magic.",
-      "x": 130,
-      "y": 188,
-      "icon": {
-        "id": "minecraft:diamond",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Craft a crystallizer: a device used to make various elemental gemstones... of varying quality.",
-          "items": [
-            {
-              "item": {
-                "id": "elementalcraft:crystallizer",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "83eae9ac-59de-4477-9e22-b2256277d7f4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:diamond",
-          "Count": 6
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "811588a2-3a6f-4667-9e27-f51758b1b9a4",
       "name": "Serious Firepower",
       "description": "The Chilled are relentless. They\u0027ve plagued you since the first moments of the storm, and they\u0027ll plague you until the bitter end. It sure would be nice if you could make something to defend your base against them...\n\nAs always, the solution is fire magic. More specifically, a fire pylon. With a few of these pylons, you\u0027ll be able to completely ward an area against the Chilled, as well as anything else that attempts to break into your home.",
@@ -454,6 +417,43 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c827d04-5ea3-4bea-b674-01f8ec114308",
+      "name": "Crystallization",
+      "description": "Diamonds are powerful little things. Incredibly durable, and with some rather impressive magical conductivity, these crystals are oft used in both simple and complex forms of magic.\n\nElementalists, for example, use diamonds in the creation of all sorts of elemental crystals through the use of a crystallizer, an instrument that infuses diamonds with elemental magic.",
+      "x": 130,
+      "y": 188,
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Craft a crystallizer: a device used to make various elemental gemstones... of varying quality.",
+          "items": [
+            {
+              "item": {
+                "id": "elementalcraft:crystallizer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "83eae9ac-59de-4477-9e22-b2256277d7f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
