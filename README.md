@@ -1,4 +1,4 @@
-# Permafrost (Part of the Eyes of the Storm pack series)
+# Permafrost (Eyes of the Storm)
 
 Permafrost is a modpack by Wizelf402, maintained with assistance from the community in the Eyes of the Storm Discord: 
 https://discord.gg/4KZ7x5zqg2
