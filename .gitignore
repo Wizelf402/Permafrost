@@ -1,2 +1,6 @@
 .DS_Store
 pack/overrides/config/fancymenu/*
+
+# IDE
+
+.idea
